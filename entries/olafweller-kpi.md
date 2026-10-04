@@ -1,6 +1,6 @@
 # Privacy initiative (KPI): olafweller/kaspa-privacy-initiative
 
-**Chip:** `experiment` (catalog). Third-party community research. **Not Kaspa core, not a KIP, not a privacy pool.**
+**Chip:** `experiment`. Third-party community research. **Not Kaspa core, not a KIP, not a privacy pool.**
 **Last checked:** 4 Oct 2026 (repo GETs ~19:05 CEST; chain facts 18:01 and 18:18 CEST on the desk's own synced Testnet-10 node).
 
 ## Who
@@ -63,7 +63,7 @@ Read 4 Oct ~17:58–18:05 CEST, read-only: 63 of his posts, 19 kept (code, techn
 - **A0.5 live result** ([2106458391107236016](https://x.com/WellerOlaf/status/2106458391107236016), 3 Oct 20:56): test KAS released only after a real ZK proof verified; "no privacy protocol yet, no notes/nullifiers". Checked on chain above.
 - **A1 progress** ([2106519428741341529](https://x.com/WellerOlaf/status/2106519428741341529), [2106532082352873797](https://x.com/WellerOlaf/status/2106532082352873797), [2106700072159256895](https://x.com/WellerOlaf/status/2106700072159256895), 4 Oct 00:59–12:56): partial release with the remainder in a successor reserve, tested locally. Next: independent-machine recovery, then a live A1 run. Source is draft PR #22.
 - **Architecture sketch** ([2106773440338247750](https://x.com/WellerOlaf/status/2106773440338247750), [2106770656452829663](https://x.com/WellerOlaf/status/2106770656452829663), [2106774728690065588](https://x.com/WellerOlaf/status/2106774728690065588), 4 Oct 17:37–17:53): notes, nullifier root, commitment root, relayer, batcher, untrusted indexer. He says "This is not a final design". **Design only;** none of it is in the code.
-- **Post-quantum criterion** ([2106346055864352923](https://x.com/WellerOlaf/status/2106346055864352923), 3 Oct 13:30): a Groth16 wrap trades away PQ security; tracked as repo issue #19.
+- **Post-quantum criterion** ([2106346055864352923](https://x.com/WellerOlaf/status/2106346055864352923), 3 Oct 13:30, reply to @aglovale0x [2106177235208020281](https://x.com/aglovale0x/status/2106177235208020281), who wrote that a Groth16 wrap trades future quantum resistance for proof/verifier costs): quantum resistance should be an explicit criterion when comparing proof systems, and he would not trade it away for efficiency without saying so. The repo tracks this as issue #19; A0/A1 use BN254 Groth16, which is not post-quantum.
 - **Scope** ([2106341386127638831](https://x.com/WellerOlaf/status/2106341386127638831), [2106339130007285802](https://x.com/WellerOlaf/status/2106339130007285802), 3 Oct 13:02–13:11): native KAS first without blocking KCC-20 later; proving cost via a per-operation fee or a prover market (research option).
 - **Launch** ([2106031612945199511](https://x.com/WellerOlaf/status/2106031612945199511), 2 Oct 16:40): community-led, no new token, no custodian, no fixed architecture. He folded three directions from core dev @Max143672 ([2105992874458235122](https://x.com/Max143672/status/2105992874458235122), 2 Oct 14:06) into the repo as candidates: Groth16 or RISC Zero user proofs, native UTXO scripts (shared-UTXO contention), or the vProgs route.
 - The STP-KAS daily X sweep reads his original posts only (`-is:reply`), so it misses his technical replies.

@@ -4,8 +4,11 @@ Rules for bots and agents working in this repo. Humans: the same rules apply.
 
 ## Scope
 
-- This repo holds **third-party Kaspa builders, community people, projects and ideas**.
-- Kaspa core, kaspanet code, KIPs, credible sources and history belong in [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file), not here. If an entry turns into a kaspanet object (a merged KIP, a kaspanet PR or release), the master gets the kaspanet part, and this repo keeps a pointer.
+- The split follows the master's rule (AGENTS.md of [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file), section "What belongs in the master (since 4 Oct 2026)").
+- This repo holds: third-party wallets, indexers, name services, apps, pools, payment rails, research repos and essays; products built with kaspanet crates or SilverScript (name services, indexers, swap channels, payment rails, DNS seeders), even when a core contributor writes them; community X accounts; a core contributor's side projects that do not build on kaspanet code; stp's own apps and experiments (1984, KUSDT, AgenC); and desk tests of third-party projects, which go on that project's entry.
+- The master keeps kaspanet repos and their PRs, issues and releases; KIPs and KCCs, plus a reference implementation that a KIP or KCC merged on main names in a status gate or waits on; core contributors' statements about kaspanet code or the protocol and their own repos that extend kaspanet code itself (kdapp, vprog-tictactoe, kaspa-xmss, Argent); credible source lists; network history; and stp's desk results on kaspanet code, KIPs or KCCs.
+- Technical reasoning from a project here that explains Kaspa itself (protocol, consensus, covenants, SilverScript, KIP/KCC behaviour) also stays in the master as a short sourced line with a pointer to this repo. Each entry says what the master keeps ("The master keeps:").
+- If an entry turns into a kaspanet object (a merged KIP, a kaspanet PR or release), the master gets the kaspanet part, and this repo keeps a pointer. Nothing leaves the master without landing here.
 
 ## Sourcing
 
@@ -28,8 +31,11 @@ Rules for bots and agents working in this repo. Humans: the same rules apply.
 ## Files
 
 - `README.md`: purpose, rules, and the index table (entry | what | status chip | key sources | last checked).
-- `entries/<slug>.md`: one page per person or project.
-- `builders.json`: a machine copy of the index. Fields per entry: `name`, `url`, `chip`, `note`, `sources`, `checked`. Valid UTF-8, indent 2, `ensure_ascii=False` (no `\u` escapes), trailing newline. Keep it in sync with the README table.
+- `entries/<slug>.md`: one page per person or project. Slugs use handles or project names, never display names.
+- `builders.json`: a machine copy of the index. Fields per entry: `name`, `url`, `page` (the entry's path, `entries/<slug>.md`), `chip`, `note`, `sources`, `checked`. Valid UTF-8, indent 2, `ensure_ascii=False` (no `\u` escapes), trailing newline. Keep it in sync with the README table.
+- `people.md` / `people.json`: community X accounts, chip `community`. Fields per entry: `name`, `url`, `chip`, `note`, `sources`, `checked` (null when the master gave no date), `moved_from`.
+- `do-not-weld.md`: third-party claims not to weld together.
+- `docs/`: desk notes that moved with an entry, linked from that entry.
 - `SNAPSHOT-HISTORY.md`: one row per change, **newest first**.
 
 ## Branches and merges

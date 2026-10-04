@@ -1,0 +1,58 @@
+[
+  {
+    "name": "@kaspaunchained",
+    "url": "https://x.com/kaspaunchained",
+    "chip": "community",
+    "note": "Kaspa Unchained. Display name Kaspa, id 1459142382381932549, joined Nov 2021, ~237k followers. Bio: non-representative community account. Confirmed 28 Sep 2026; on the daily watch. 17 Sep covenants/SS/Argent thread + docs pointer. Not a KIP.",
+    "sources": [
+      "https://x.com/kaspaunchained"
+    ],
+    "checked": "2026-09-28",
+    "moved_from": "kaspa-master-file master.json section x (chip community), main cf10a0f"
+  },
+  {
+    "name": "@KASPAglobal",
+    "url": "https://x.com/KASPAglobal",
+    "chip": "community",
+    "note": "Kaspa Global. Display name Kaspa, id 1933551356910186501, joined Jun 2025, ~2k followers. Bio: (un)official community fan account. Confirmed 28 Sep 2026; on the daily watch. 3 Sep 2026: Toccata live, not coming soon.",
+    "sources": [
+      "https://x.com/KASPAglobal"
+    ],
+    "checked": "2026-09-28",
+    "moved_from": "kaspa-master-file master.json section x (chip community), main cf10a0f"
+  },
+  {
+    "name": "@Kaspa_Commons",
+    "url": "https://x.com/Kaspa_Commons",
+    "chip": "community",
+    "note": "Relays Discord. Not core.",
+    "sources": [
+      "https://x.com/Kaspa_Commons"
+    ],
+    "checked": null,
+    "moved_from": "kaspa-master-file master.json section x (chip community), main cf10a0f"
+  },
+  {
+    "name": "@BankQuote",
+    "url": "https://x.com/BankQuote",
+    "chip": "community",
+    "note": "Educator. GitHub trillskillz (OpenSilver). Long-form Toccata/covenant essays. Not core. Tweet is not a KIP.",
+    "sources": [
+      "https://x.com/BankQuote"
+    ],
+    "checked": null,
+    "moved_from": "kaspa-master-file master.json section x (chip community), main cf10a0f"
+  },
+  {
+    "name": "@KaspaScopio",
+    "url": "https://x.com/KaspaScopio",
+    "chip": "community",
+    "note": "Display name vertex. Bio: If you think this is about hype, you didn't read the code. 24 Sep https://x.com/KaspaScopio/status/2103178176058859798: Daniel, reads release notes and public code, links evidence. Same handle as GitHub KaspaScopio (silverscript #249/#250/#251). The bio does not say so. Not core.",
+    "sources": [
+      "https://x.com/KaspaScopio",
+      "https://x.com/KaspaScopio/status/2103178176058859798"
+    ],
+    "checked": "2026-09-24",
+    "moved_from": "kaspa-master-file master.json section x (chip community), main cf10a0f"
+  }
+]
