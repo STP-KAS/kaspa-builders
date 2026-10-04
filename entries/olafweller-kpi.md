@@ -45,7 +45,7 @@ Rust 1.91.0, rusty-kaspa at `01b532e8` (v2.1.0). From the desk's own run logs; t
 
 - A0 at `98aa99fa`: 7/7 Rust tests. Harness: 30 cases as documented: `valid_terminal_release` accepted, `exact_replay_stateless_boundary` accepted (stateless, as the repo documents), 28 invalid variants rejected.
 - 13/13 Node tests on Node 22. On Node 20 the SDK test file fails to load; the repo and its CI pin Node 22.
-- A1 (PR #22 head `2590e392`): 20/20 Rust tests (19 unit + 1 transport). The 46 Python tests and G2–G5 generators were not run.
+- A1 (PR #22 head [`2590e392`](https://github.com/olafweller/kaspa-privacy-initiative/tree/2590e392ef97af6ea81aa8fc177a3996a7fa93a7)): 20/20 Rust tests passed in the desk's run (log `19 passed` + `1 passed`, [challenge note `43a3c64`](https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md) G4; build targets since deleted). At that head the crate has 19 `#[test]` functions in its library modules and 1 in `src/main.rs` (`mod transport_tests`), and `scripts/test_a1_*.py` holds 46 Python test functions (counted from the public source). By the desk's own run note, the Python tests and the G2–G5 evidence generators were not run; that is not independently verifiable.
 
 ## Limits (read these first)
 

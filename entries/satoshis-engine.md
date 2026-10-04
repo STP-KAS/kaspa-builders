@@ -5,6 +5,8 @@
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
+**The master keeps:** its copy of `SATOSHIS-ENGINE.md` as a receipt; no row.
+
 ## What
 
 Moose.kas's 89-page essay on proof-of-work mining economics, hosted on kaspaexplained.com. It names no network and makes no Kaspa protocol claim; its main claim is reasoned, not measured. Being on a credible site does not make it a source.

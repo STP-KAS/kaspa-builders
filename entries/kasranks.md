@@ -5,6 +5,8 @@
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
+**The master keeps:** its copy of `KASRANKS.md` as a receipt; no row.
+
 ## What
 
 GitHub user KASRANKS: four browser apps (KASSWORD six-branch P2SH locker, Kasgenesiszero payload media, KasProof, KRC-721 gallery). Desk code read 28 Sep (notes moved with it). External.

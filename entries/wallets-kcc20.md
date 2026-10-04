@@ -5,6 +5,8 @@
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
+**The master keeps:** nothing; the whole row moved.
+
 ## What
 
 Third-party wallet work on KCC-20: forbole/kastle KCC-20 UI merged into a feature branch, #372 into main still open (head `ddfaf373`); Kaspire KCC-20 swaps on TN10 Android and release v0.11.46 (extension 0.5.5). Not verified: swaps in the extension. No mainnet KCC-20 swap claimed.
