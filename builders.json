@@ -1,0 +1,51 @@
+{
+  "repo": "STP-KAS/kaspa-builders",
+  "companion": "https://github.com/STP-KAS/kaspa-master-file",
+  "updated": "2026-10-04",
+  "scope": "Third-party Kaspa builders, projects and community research. Not Kaspa core, not KIPs, not endorsements.",
+  "chips": {
+    "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
+    "catalog": "Tracked and sourced, not desk-tested.",
+    "claim": "Only the author's word so far: no public code, repo or tx id."
+  },
+  "entries": [
+    {
+      "name": "Privacy initiative (KPI)",
+      "url": "https://github.com/olafweller/kaspa-privacy-initiative",
+      "page": "entries/olaf-weller-kpi.md",
+      "chip": "experiment",
+      "note": "Community research by @WellerOlaf on optional privacy for native KAS. Not Kaspa core, not a KIP. main 98aa99fa (4 Oct 11:24:38Z), Apache-2.0, created 2 Oct, 11 commits, one author, code written with AI agents, unaudited. A0.5 on Testnet 10: a 10.2 tKAS P2SH reserve paid out once through a Groth16 BN254 proof checked by OpZkPrecompile (0xa6, Groth16 tag 0x20; KIP-16), plus introspection from KIP-10 (input/output count, amounts, output script), KIP-17 (outpoint txid/index, OpCat/OpSubstr/OpNum2Bin) and KIP-20 (OpOutputAuthorizingInput 0xd6, only to require an unbound payout). No KIP-20 covenant id (covenant=None). Release tx 29d875bb…b554 in chain block c38a5439 (3 Oct 17:56:48Z), accepted by c8dc02dd; spends 67aab5bf…:0 (1,020,000,000 sompi); fee 0.2 tKAS; BLAKE2b-256 of the 576-byte redeem equals the P2SH hash; checked on the desk's synced TN10 node 4 Oct 18:01 and 18:18 CEST. Desk build (log-based): 7/7 Rust, 28 invalid variants rejected, 13/13 Node on Node 22; draft PR #22 (A1) 20/20 Rust, unfunded, G5 open, G6 not run. Single-party trusted setup per claim. Not a privacy pool: no notes, nullifiers, private transfers or anonymity yet. His 4 Oct architecture post is design only. X backfill 6 Sep to 4 Oct: 6 to 30 Sep searched by keyword only.",
+      "sources": [
+        "https://github.com/olafweller/kaspa-privacy-initiative/commit/98aa99fa8230f5eb490e0af4e3da0291260581d6",
+        "https://github.com/olafweller/kaspa-privacy-initiative/commit/3a1efa8db9672025f5282970703cb7256428c1be",
+        "https://github.com/olafweller/kaspa-privacy-initiative/pull/22",
+        "tn10:tx:29d875bbdf31cb14205b6f429d63c475b9ad85e558e932b1c70ff1dbc0e2b554",
+        "tn10:block:c38a5439db59c5768e62a37d162f19cd04c4802a8a2e33a35a80050fa3c76210",
+        "tn10:block:c8dc02dd15e6451ff328eb3708d00a1b638bd004e5ad98a2405a76a2de431a6f",
+        "https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md",
+        "https://github.com/STP-KAS/kaspa-master-file/commit/25c96e40f989cee2bbe5c4f97f32a15a838f7793",
+        "https://x.com/WellerOlaf/status/2106458391107236016",
+        "https://x.com/WellerOlaf/status/2106773440338247750",
+        "https://x.com/WellerOlaf/status/2106523383844229492"
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "name": "KasperoLabs: SilverScript Studio",
+      "url": "https://github.com/kasperolabs/silverscript-studio",
+      "page": "entries/kasperolabs-silverscript-studio.md",
+      "chip": "catalog",
+      "note": "@KasperoLabs says SilverScript Studio is live on mainnet (25 Sep 19:18Z): write a covenant by hand, with a wizard, or by describing it to a SilverScript-only AI; deposit and withdraw with Kasware, Kasla or Kastle (Kastle deposit only, signing coming). Relay: vertex 2103759384694185988 (26 Sep 08:11Z). Source kasperolabs/silverscript-studio: MIT, created 28 Sep 21:28:34Z, tip e27a7c4e (3 Oct 22:39:10Z). The 3 Oct KasDash page (silverscriptstudio.com/kasdash.html) is a demo, not an L1 product. rusty-kaspa #1140 (kasperolabs, 30 Sep, SDK v2.1.0 findings from mainnet) open, no comments; the master keeps that line. KCC-20 gas-tank idea is an idea only (not filed on kccs). Third-party. Not desk-tested. AI contract code needs review before real KAS.",
+      "sources": [
+        "https://x.com/KasperoLabs/status/2103564787686793710",
+        "https://x.com/KaspaScopio/status/2103759384694185988",
+        "https://github.com/kasperolabs/silverscript-studio/commit/e27a7c4ec91d5b33eed8c51c9dfef8fbb45f6f0b",
+        "https://silverscriptstudio.com/kasdash.html",
+        "https://x.com/KasperoLabs/status/2106350037680988279",
+        "https://github.com/kaspanet/rusty-kaspa/issues/1140",
+        "https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b"
+      ],
+      "checked": "2026-10-04"
+    }
+  ]
+}

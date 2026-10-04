@@ -1,0 +1,7 @@
+# SNAPSHOT-HISTORY
+
+One row per change, newest first. Times are Europe/Brussels (CEST).
+
+| When (CEST) | Commit | What we did |
+| --- | --- | --- |
+| 2026-10-04 19:05 | seed (first commit on `main`) | Repo created on stp's OK (4 Oct 19:03 CEST). The seed went straight to `main` because the repo was new. Two entries moved here from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) on stp's instruction (19:01 CEST): **Privacy initiative (KPI)** (row from [`25c96e4`](https://github.com/STP-KAS/kaspa-master-file/commit/25c96e40f989cee2bbe5c4f97f32a15a838f7793), challenger pass [`43a3c64`](https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md); removed from the master in [`220fa36`](https://github.com/STP-KAS/kaspa-master-file/commit/220fa36b1fad7143ebd8ee28a4858b26ad60e7c1)) and **KasperoLabs: SilverScript Studio** (text from the master's *Third-party 26 Sep* row, removed in [`b567a48`](https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b); the master keeps rusty-kaspa #1140). The KasperoLabs page adds the 3 Oct X backfill items. The KPI page uses the challenger's KIP-10/16/17/20 wording. Repo pins, PR #22 and rusty-kaspa #1140 were re-read via the GitHub API at ~19:05 CEST and are unchanged. Left out: PhantomPool, the KASperiencexyz shielded-pool claim, the teoscure simnet numbers, and the X spend figure. No public reaction on any source repo. |
