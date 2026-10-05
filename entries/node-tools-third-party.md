@@ -23,7 +23,7 @@ supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept al
 
 ## 5 Oct 2026 sweep (not desk-checked)
 
-- **KasNodes.** elldeeone [2106703706003808697](https://x.com/elldeeone/status/2106703706003808697) (4 Oct 11:11Z): "kasnodes.com is back". [kasnodes.com](https://kasnodes.com/) (read 5 Oct ~07:50 CEST, HTTP 200) titles itself "KasNodes — the Kaspa network, live" and describes itself as a map of every public Kaspa node (where they are, how well they run, who runs them). Its homepage then showed 290 public and 81 private nodes in 40 countries. The site's own counts, not recounted by the desk. Who runs the site is not stated in that read. Third-party crawler; not a kaspanet object.
+- **KasNodes.** elldeeone [2106703706003808697](https://x.com/elldeeone/status/2106703706003808697) (4 Oct 11:11Z): "https://t.co/XrEyPp2T17 is back" (link resolves to kasnodes.com). [kasnodes.com](https://kasnodes.com/) (read 5 Oct ~07:50 CEST, HTTP 200) titles itself "KasNodes — the Kaspa network, live" and describes itself as a map of every public Kaspa node (where they are, how well they run, who runs them). Its homepage then showed 290 public and 81 private nodes in 40 countries. The site's own counts, not recounted by the desk. Who runs the site is not stated in that read. Third-party crawler; not a kaspanet object.
 
 ## Sources (every link in the moved text)
 

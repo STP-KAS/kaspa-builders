@@ -24,7 +24,7 @@ elldeeone/openminer-reference, first commit ca5cee59 (2026-10-01T11:25:42Z), CC-
 ## 5 Oct 2026 sweep (X posts only; not desk-checked)
 
 - Repo still at first commit `ca5cee59` (GitHub GET ~07:50 CEST).
-- elldeeone [2106910323668393999](https://x.com/elldeeone/status/2106910323668393999) (5 Oct 00:52Z): "this is a goldshell KA box - i'm just probing it". [2106928517384667439](https://x.com/elldeeone/status/2106928517384667439) (5 Oct 02:04Z): "my goal is to reverse engineer our miners", quoting his [2106572967622967606](https://x.com/elldeeone/status/2106572967622967606). Posts only: no Goldshell chip notes are in the repo yet.
+- elldeeone [2106910323668393999](https://x.com/elldeeone/status/2106910323668393999) (5 Oct 00:52Z): "@mhieechoii no this is a goldshell KA box - i'm just probing it". [2106928517384667439](https://x.com/elldeeone/status/2106928517384667439) (5 Oct 02:04Z): "my goal is to reverse engineer our miners", quoting his [2106572967622967606](https://x.com/elldeeone/status/2106572967622967606). Posts only: no Goldshell chip notes are in the repo yet.
 
 ## Sources (every link in the moved text)
 

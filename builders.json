@@ -350,7 +350,7 @@
       "url": "https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6",
       "page": "entries/node-tools-third-party.md",
       "chip": "catalog",
-      "note": "supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept alive by gossip alone; not kaspanet/dnsseeder (https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6). getumbrel/umbrel-apps#6120 (elldeeone, 26 Sep 09:35Z) updates the Umbrel rusty-kaspad app to v2.1.0, open (https://github.com/getumbrel/umbrel-apps/pull/6120). 5 Oct: kasnodes.com (KasNodes, a public-node crawler and map) is back per elldeeone https://x.com/elldeeone/status/2106703706003808697 (4 Oct 11:11Z); the site's counts are not recounted.",
+      "note": "supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept alive by gossip alone; not kaspanet/dnsseeder (https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6). getumbrel/umbrel-apps#6120 (elldeeone, 26 Sep 09:35Z) updates the Umbrel rusty-kaspad app to v2.1.0, open (https://github.com/getumbrel/umbrel-apps/pull/6120). 5 Oct: elldeeone https://x.com/elldeeone/status/2106703706003808697 (4 Oct 11:11Z): \"https://t.co/XrEyPp2T17 is back\" (link resolves to kasnodes.com); KasNodes is a public-node crawler and map; the site's counts are not recounted.",
       "sources": [
         "https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6",
         "https://github.com/getumbrel/umbrel-apps/pull/6120",
