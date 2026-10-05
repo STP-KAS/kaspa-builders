@@ -1,7 +1,7 @@
 # Name services: DOTK, KaChat, name-service PoC, KNS review
 
 **Chip:** `experiment`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-04 (the latest dated read in the moved text).
+**Last checked:** 2026-10-05 (KaChat tip and the Kastle DOTK pulls only; the rest is the latest dated read in the moved text, 4 Oct).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -56,6 +56,11 @@ Kurncy 26 Sep 14:34Z https://x.com/KurncySolutions/status/2103855652493725743: d
 ## Desk notes moved with it
 
 - [`docs/GROK-47-KNS-REVIEW.md`](../docs/GROK-47-KNS-REVIEW.md) (copy of the master's [`GROK-47-KNS-REVIEW.md`](https://github.com/STP-KAS/kaspa-master-file/blob/cf10a0f53dc98279f12cd523be008879efff00fd/GROK-47-KNS-REVIEW.md); the master keeps its copy as a receipt).
+
+## 5 Oct 2026 sweep (GitHub reads ~07:45 CEST; not desk-checked)
+
+- **KaChat.** main tip [`7227d69a`](https://github.com/vsmirn0v/KaChat/commit/7227d69a70f67f472a5d3fd2e5f8825d23f1a852) (4 Oct 20:41Z), "`.kachat` UI and identity on mainnet too (registry still testnet-only)". The commit message says `KachatNamesService` splits into `isEnabled` (UI and identity, everywhere) and `isLaunched` (a live registry, Testnet 10 only), and that mainnet never reads or writes a registry; mainnet profile saves stay off until `.kachat` launches there. Author's commit message; the desk did not build it.
+- **DOTK in Kastle.** forbole/kastle opened two DOTK pulls on 4 Oct: [#378](https://github.com/forbole/kastle/pull/378) head `be88c8c6` (Phase 0 + 1, read-only `.k` resolve, names list and detail; one resolver routing `.kas` → KNS, `.k` → DOTK; base `main`, `blocked`) and [#379](https://github.com/forbole/kastle/pull/379) head `eb581482` (Phase 2, `.k` transfer through `@dotk/sdk-tx`; base `feat/dotk/read-only`, not `main`). Both open. Not merged into any release.
 
 ## Sources (every link in the moved text)
 

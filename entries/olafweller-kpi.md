@@ -1,7 +1,7 @@
 # Privacy initiative (KPI): olafweller/kaspa-privacy-initiative
 
 **Chip:** `experiment`. Third-party community research. **Not Kaspa core, not a KIP, not a privacy pool.**
-**Last checked:** 4 Oct 2026 (repo GETs ~19:05 CEST; chain facts 18:01 and 18:18 CEST on the desk's own synced Testnet-10 node).
+**Last checked:** 5 Oct 2026 (GitHub GETs ~07:45 CEST; the chain facts below are still the 4 Oct 18:01 and 18:18 CEST reads on the desk's own synced Testnet-10 node).
 
 ## Who
 
@@ -71,6 +71,13 @@ Read 4 Oct ~17:58–18:05 CEST, read-only: 63 of his posts, 19 kept (code, techn
 ## Left out on purpose
 
 Third-party claims with no public code, repo or tx id: PhantomPool, the KASperiencexyz shielded-pool claim and the teoscure simnet proving numbers.
+
+## 5 Oct 2026 sweep (GitHub reads ~07:45 CEST; not desk-checked)
+
+- Draft [PR #22](https://github.com/olafweller/kaspa-privacy-initiative/pull/22) head moved to [`f4a4ddc5`](https://github.com/olafweller/kaspa-privacy-initiative/commit/f4a4ddc50a41aa5c640e0b43ff0962c9ed49e718) (commit 4 Oct 20:22Z, "docs(a1): record failed live G5 attempt and separate terminal exit"). Still open and draft. The desk's 20/20 Rust run above was at `2590e392`, not at this head.
+- The author's [live attempt 1 record](https://github.com/olafweller/kaspa-privacy-initiative/blob/f4a4ddc50a41aa5c640e0b43ff0962c9ed49e718/docs/poc-a1-live-attempt-1.md) (4 Oct, Testnet 10 test KAS) says: S0 funding (txid `c0968d6206fe0f2f5c9f96bae6d13a9d4a4ae8078a50c9401cba56bc50f323bb`, 10.7 test KAS) and the S0 → S1 continuation (txid `5027a249234a139807657454055578f2c84ed31be85d027a0e2f4254f341d294`) passed; the boundary receipt failed, recovery machine B never armed, and independent recovery was not run. S1 was later exited by a separately authorized terminal tx (`c3e155010dacbdc5a367db183170a96df0ddf80efa34d1c73cbad4e08d2b8483`). Overall G5 attempt: **FAILED** (fail-closed, funds safe, per the author). Author's record; the desk did not check these txids on its node.
+- New open issue [#23](https://github.com/olafweller/kaspa-privacy-initiative/issues/23) (4 Oct 07:56Z): A1's fixed branch fees can cost an owner practical exit liveness if relay or inclusion cost rises; the author calls it an open production-design blocker.
+- X: his 4 Oct posts in the 5 Oct community read (2106773440338247750, 2106523383844229492) are at or below the per-account backfill marker, so they were already covered by the 4 Oct backfill.
 
 ## Provenance
 
