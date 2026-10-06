@@ -1,7 +1,7 @@
 # Name services: DOTK, KaChat, name-service PoC, KNS review
 
 **Chip:** `experiment`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-05 (KaChat tip and the Kastle DOTK pulls only; the rest is the latest dated read in the moved text, 4 Oct).
+**Last checked:** 2026-10-06 (KaChat tip and the Kastle DOTK pulls only; the rest is the latest dated read in the moved text, 4 Oct).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -61,6 +61,11 @@ Kurncy 26 Sep 14:34Z https://x.com/KurncySolutions/status/2103855652493725743: d
 
 - **KaChat.** main tip [`7227d69a`](https://github.com/vsmirn0v/KaChat/commit/7227d69a70f67f472a5d3fd2e5f8825d23f1a852) (4 Oct 20:41Z), "`.kachat` UI and identity on mainnet too (registry still testnet-only)". The commit message says `KachatNamesService` splits into `isEnabled` (UI and identity, everywhere) and `isLaunched` (a live registry, Testnet 10 only), and that mainnet never reads or writes a registry; mainnet profile saves stay off until `.kachat` launches there. Author's commit message; the desk did not build it.
 - **DOTK in Kastle.** forbole/kastle opened two DOTK pulls on 4 Oct: [#378](https://github.com/forbole/kastle/pull/378) head `be88c8c6` (Phase 0 + 1, read-only `.k` resolve, names list and detail; one resolver routing `.kas` → KNS, `.k` → DOTK; base `main`, `blocked`) and [#379](https://github.com/forbole/kastle/pull/379) head `eb581482` (Phase 2, `.k` transfer through `@dotk/sdk-tx`; base `feat/dotk/read-only`, not `main`). Both open. Not merged into any release.
+
+## 6 Oct 2026 sweep (GitHub reads ~07:45 CEST; not desk-checked)
+
+- **KaChat `.kachat` registry v3 (Testnet 10).** [`e1e34556`](https://github.com/vsmirn0v/KaChat/commit/e1e345561c351bd05ab2146e95a731bd317b5f8f) (5 Oct 21:18Z) ports the pure core (codec, manifest, builder) to registry v3: a price record split into price shards, `periodMs`, offers bound to the seller, and a decline action; only `registryVersion` 3 is accepted. Per the commit message, the v3 test vectors hold 38 txs and the core test replays the 35 the app builds byte for byte. Main tip [`49c0baa8`](https://github.com/vsmirn0v/KaChat/commit/49c0baa8e15f755b464c1f4584ba3d798e1e3a0b) (21:38Z) wires it into the app: register, extend and renew read a live price shard; offers go to the current owner, capped at 7 days, and the owner can decline; the period is 10 minutes on testnet and a year on mainnet; an indexer is used only when its status matches both covenant ids. The author's commit messages; the desk did not build or recompute v3 ids. Registry still Testnet 10 only.
+- **DOTK in Kastle.** [#378](https://github.com/forbole/kastle/pull/378) and [#379](https://github.com/forbole/kastle/pull/379) were closed unmerged on 5 Oct 08:51Z, "Superseded by the consolidated dotK integration PR #381". [#381](https://github.com/forbole/kastle/pull/381) (head `08aeac1c`, base `main`, open, `blocked`) carries read-only `.k` resolve plus transfer through `@dotk/sdk-tx`. Its own "before merge" list says the live Testnet-10 transfer round-trip is still unproven on-chain, and `@dotk/sdk` wants Node >= 22.12 while the repo runs Node 20.
 
 ## Sources (every link in the moved text)
 

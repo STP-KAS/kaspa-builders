@@ -1,7 +1,7 @@
 # Wallets and KCC-20 (Kastle, Kaspire)
 
 **Chip:** `catalog`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-05 (kastle #372 state only; the rest is the latest dated read in the moved text, 4 Oct).
+**Last checked:** 2026-10-06 (kastle #372, #387, #388 and release v2.61.0 only; the rest is the latest dated read in the moved text, 4 Oct).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -24,6 +24,13 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 ## 5 Oct 2026 sweep
 
 - kastle [#372](https://github.com/forbole/kastle/pull/372) still open at head `ddfaf373` (`blocked`, GET ~07:45 CEST). Kastle's new DOTK pulls #378/#379 (4 Oct) are on the [name-services](name-services.md) entry.
+
+## 6 Oct 2026 sweep (GitHub reads ~07:45 CEST; not desk-checked)
+
+- kastle [#372](https://github.com/forbole/kastle/pull/372) (KCC20-Integration, Stage 0) still open, head now `84ebe285` (5 Oct 16:27Z), `blocked`.
+- [#387](https://github.com/forbole/kastle/pull/387) (open, head `3f5ab29b`, 5 Oct 19:49Z, base `KCC20-Integration`): KCC-20 transfers (Stage 1) through `@kronsdk/kron-sdk` 0.18.2; ADDRESS-owned pieces only, 3 token inputs per send, Ledger gated. The PR says a live mainnet transfer is still owed before merge.
+- [#388](https://github.com/forbole/kastle/pull/388) (open, head `3a51a07b`, 5 Oct 22:05Z, stacked on #387): KCC-20 swaps (Stage 2) through the KRON bonding curve as a third swap provider, with a 0.75% Kastle fee (`KASTLE_SWAP_FEE_BPS`).
+- Release [v2.61.0](https://github.com/forbole/kastle/releases/tag/v2.61.0) (5 Oct 16:22Z) ships swap + bridge (mobile parity) and gates Swap and Bridge for Ledger accounts; no KCC-20 code (#372, #387 and #388 are all unmerged).
 
 ## Sources (every link in the moved text)
 
