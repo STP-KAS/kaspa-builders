@@ -1,7 +1,7 @@
 # Third-party node tools (26 Sep)
 
 **Chip:** `catalog`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-06 (Magma / Lava Kaspa spec only; KasNodes 5 Oct; the 26 Sep items were not re-read).
+**Last checked:** 2026-10-08 (lava-specs#181 merge time only; Magma / Lava spec 6 Oct; KasNodes 5 Oct; the 26 Sep items were not re-read).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 

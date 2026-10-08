@@ -1,7 +1,7 @@
 # kaspa-core (Flux)
 
 **Chip:** `catalog`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-09-27 (the latest dated read in the moved text).
+**Last checked:** 2026-10-08 (main head and release only; the rest is the latest dated read in the moved text, 27 Sep).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -20,6 +20,11 @@ RunOnFlux/kaspa-core: a pure-TypeScript Kaspa transaction library for Flux's SSP
 ### master.json now row "kaspa-core (Flux)" (whole row; url https://github.com/RunOnFlux/kaspa-core; chip catalog)
 
 RunOnFlux/kaspa-core (Flux, author TheTrunk). Pure-TypeScript Kaspa transaction library for Flux's SSP and ZelCore wallets: addresses, M-of-N P2SH multisig, sighash, BIP340 signing, KIP-9 mass and fees, input selection, KRC-20 and Igra entry builders, REST and JSON-wRPC clients. No WASM. MIT. Not a rusty-kaspa fork and not a node: GitHub fork false, one commit 4cf8f35b (25 Sep 13:58Z), tag and release v1.0.0 (14:10Z) https://github.com/RunOnFlux/kaspa-core/releases/tag/v1.0.0 , npm @runonflux/kaspa-core 1.0.0. Dev-only oracle links rusty-kaspa crates at 01b532e8 (v2.1.0). No open issues or pulls on 27 Sep. No Dockerfile. wRPC client takes networkId testnet-10 (kaspatest:) and fixed URLs, so it can point at a TN10 kaspad with --utxoindex --rpclisten-json (testnet JSON port 18210); live tests are mainnet only. Mainnet-proof claims are the author's (AUDIT.md). Not desk-tested. Catalog.
+
+## 8 Oct 2026 sweep (GitHub reads 8 Oct ~17:50 to 18:15 CEST; not desk-checked unless stated)
+
+- `main` still [`4cf8f35b`](https://github.com/RunOnFlux/kaspa-core/commit/4cf8f35be6e3bec696e784f4b3656d9feaa15bf6), release still v1.0.0 (7 and 8 Oct reads).
+- Zelcore [2107391084615893260](https://x.com/zelcore_io/status/2107391084615893260) (6 Oct 08:42Z, reply to KaspaScopio): "The library is MIT licensed, pure TypeScript, and runs without WASM or a Rust toolchain. It's verified against rusty-kaspa. Keys sign on the device"; "Zelcore plans to build on it too. That switch isn't shipped yet." This matches this repo's README (MIT, no WASM, rusty-kaspa oracle), so it **likely** means RunOnFlux/kaspa-core, but the post names no repo. Not verified.
 
 ## Sources (every link in the moved text)
 

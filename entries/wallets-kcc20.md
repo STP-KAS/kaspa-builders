@@ -1,7 +1,7 @@
 # Wallets and KCC-20 (Kastle, Kaspire)
 
 **Chip:** `catalog`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-06 (kastle #372, #387, #388 and release v2.61.0 only; the rest is the latest dated read in the moved text, 4 Oct).
+**Last checked:** 2026-10-08 (kastle #372, #387, #388, #389 and releases only; the rest is the latest dated read in the moved text, 4 Oct).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -28,9 +28,16 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 ## 6 Oct 2026 sweep (GitHub reads ~07:45 CEST; not desk-checked)
 
 - kastle [#372](https://github.com/forbole/kastle/pull/372) (KCC20-Integration, Stage 0) still open, head now `84ebe285` (5 Oct 16:27Z), `blocked`.
-- [#387](https://github.com/forbole/kastle/pull/387) (open, head `3f5ab29b`, 5 Oct 19:49Z, base `KCC20-Integration`): KCC-20 transfers (Stage 1) through `@kronsdk/kron-sdk` 0.18.2; ADDRESS-owned pieces only, 3 token inputs per send, Ledger gated. The PR says a live mainnet transfer is still owed before merge.
-- [#388](https://github.com/forbole/kastle/pull/388) (open, head `3a51a07b`, 5 Oct 22:05Z, stacked on #387): KCC-20 swaps (Stage 2) through the KRON bonding curve as a third swap provider, with a 0.75% Kastle fee (`KASTLE_SWAP_FEE_BPS`).
+- [#387](https://github.com/forbole/kastle/pull/387) (open, head `3f5ab29b`, PR opened 5 Oct 19:49Z, base `KCC20-Integration`): KCC-20 transfers (Stage 1) through `@kronsdk/kron-sdk` 0.18.2; ADDRESS-owned pieces only, 3 token inputs per send, Ledger gated. The PR says a live mainnet transfer is still owed before merge.
+- [#388](https://github.com/forbole/kastle/pull/388) (open, head `3a51a07b`, PR opened 5 Oct 22:05Z, stacked on #387): KCC-20 swaps (Stage 2) through the KRON bonding curve as a third swap provider, with a 0.75% Kastle fee (`KASTLE_SWAP_FEE_BPS`).
 - Release [v2.61.0](https://github.com/forbole/kastle/releases/tag/v2.61.0) (5 Oct 16:22Z) ships swap + bridge (mobile parity) and gates Swap and Bridge for Ledger accounts; no KCC-20 code (#372, #387 and #388 are all unmerged).
+
+## 8 Oct 2026 sweep (GitHub reads 8 Oct ~17:50 to 18:15 CEST; not desk-checked unless stated)
+
+- **Correction to the 6 Oct notes:** the 19:49Z and 22:05Z times next to #387 and #388 are the PR open times, not head-commit times (now labelled so).
+- [#372](https://github.com/forbole/kastle/pull/372), [#387](https://github.com/forbole/kastle/pull/387) and [#388](https://github.com/forbole/kastle/pull/388) were **closed unmerged** on 6 Oct at 07:21:22Z, 07:21:25Z and 07:21:29Z (heads `84ebe285`, `3f5ab29b`, `3a51a07b`). The 6 Oct reads (~05:45Z) were before that.
+- They are replaced by [#389](https://github.com/forbole/kastle/pull/389) (opened 6 Oct 07:21:11Z, base `main`, open, head `fc7b6497`, 4 commits, 35 files): the whole KCC-20 feature in one PR, Stage 0 display, Stage 1 transfers through `@kronsdk/kron-sdk` (signs only the wallet's funding inputs) and Stage 2 KRON bonding-curve swaps with the 0.75% fee. The PR says Stage 1 and 2 passed review by "Fable" after fix rounds. Not merged; not in a release.
+- Latest release still [v2.61.0](https://github.com/forbole/kastle/releases/tag/v2.61.0) (5 Oct). Kastle's dotK integration #381 merged on 7 Oct; see [name-services](name-services.md).
 
 ## Sources (every link in the moved text)
 
