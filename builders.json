@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-10-06",
+  "updated": "2026-10-08",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -10,6 +10,22 @@
     "community": "A community X account in the people list (people.json); not a project and not an endorsement."
   },
   "entries": [
+    {
+      "name": "DagitUser69",
+      "url": "https://github.com/DagitUser69",
+      "page": "entries/dagituser69.md",
+      "chip": "catalog",
+      "note": "GitHub DagitUser69, id 24513981, created 2016-12-12T00:44:41Z. Profile name field amacbuilds. User lookup amacbuilds returned 404 on 8 Oct 2026. No bio, blog, company, location, email, or X handle. No orgs. Two public repos, both forks. Following list empty. Followers list is STP-KAS. Opened kaspanet/silverscript#258 at 2026-10-07T13:57:55Z, still open, no comments. The master keeps that issue and the desk silverc check on kaspa-master-file 4a466ea (branch build/silverscript-258-2026-10-07, not on master main). The issue job-escrow jobSpec sentence is a claim; that covenant is not in the two public repos. Fork DagitUser69/warda event 2026-10-07T19:48:48Z; tip 7beecde96d349c282c9822cadb3def2d584f2473 is the ArtyKOMarkets/warda parent tip by mystic108 (2026-09-26T14:35:12Z), not a DagitUser69 commit. Parent README claims a Toccata grant covenant, experimental, unaudited, nothing on mainnet, and names two TN10 tx ids. Not desk-built and those ids were not read on a node. MIT. Homepage https://wardamcp.vercel.app. spectre-project/rusty-spectre#13 (opened 2024-08-06T17:09:29Z, still open) is a Spectre wallet sweep panic, not Kaspa. MagicPlugins tip dabc5f215d97ca935577bf13374906b3992bc70e is nhubbard, 2016-05-02, Magic Mirror 2 plugins, not Kaspa. Not an endorsement.",
+      "sources": [
+        "https://github.com/DagitUser69",
+        "https://github.com/kaspanet/silverscript/issues/258",
+        "https://github.com/STP-KAS/kaspa-master-file/commit/4a466ea8bd247dbb96a820bb541317fa635a79a4",
+        "https://github.com/ArtyKOMarkets/warda/commit/7beecde96d349c282c9822cadb3def2d584f2473",
+        "https://github.com/spectre-project/rusty-spectre/issues/13",
+        "https://github.com/DagitUser69/MagicPlugins/commit/dabc5f215d97ca935577bf13374906b3992bc70e"
+      ],
+      "checked": "2026-10-08"
+    },
     {
       "name": "Privacy initiative (KPI)",
       "url": "https://github.com/olafweller/kaspa-privacy-initiative",
