@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-10-06",
+  "updated": "2026-10-08",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -10,6 +10,20 @@
     "community": "A community X account in the people list (people.json); not a project and not an endorsement."
   },
   "entries": [
+    {
+      "name": "ArtyKOMarkets/warda",
+      "url": "https://github.com/ArtyKOMarkets/warda",
+      "page": "entries/warda.md",
+      "chip": "catalog",
+      "note": "Third-party agent-grant protocol. Owner user ArtyKOMarkets, created 2026-06-01, one public repo. Tip 7beecde96d349c282c9822cadb3def2d584f2473 (2026-09-26T14:35:12Z, mystic108). MIT. @warda_protocol/core 0.3.2. covenant/warda_grant.sil is 30361 bytes, pragma silverscript ^0.1.0, header says v0.1 DRAFT and NOT YET COMPILE-VERIFIED. warda_grant_v5.sil is 40151 bytes, v5 WORKING DRAFT, and names fingerprint b3e5eeefacf2021f for the other file; that string is not in warda_grant.sil. deploy Cargo.toml pins silverscript 84eb797abdae (2026-08-24), 14 commits behind v1.0.0 tag 3ed9733, and rusty-kaspa a41a333b0884 (2026-08-02). DEPLOYED.md claims testnet-10, node v2.0.1, a 3036-byte covenant, and three tx ids. Desk read 8 Oct: local TN10 node server 2.1.0, synced, virtual DAA 591380221, grant address balance 0 and 0 UTXOs, getMempoolEntry not found for the four ids. No accepted-tx lookup, so inclusion was not shown. DagitUser69/warda is an identical fork. Not an endorsement.",
+      "sources": [
+        "https://github.com/ArtyKOMarkets/warda/commit/7beecde96d349c282c9822cadb3def2d584f2473",
+        "https://github.com/ArtyKOMarkets/warda/blob/7beecde96d349c282c9822cadb3def2d584f2473/DEPLOYED.md",
+        "https://github.com/ArtyKOMarkets/warda/blob/7beecde96d349c282c9822cadb3def2d584f2473/covenant/warda_grant.sil",
+        "https://github.com/kaspanet/silverscript/commit/3ed973335b59269293564805cc2c58a14595ec03"
+      ],
+      "checked": "2026-10-08"
+    },
     {
       "name": "Privacy initiative (KPI)",
       "url": "https://github.com/olafweller/kaspa-privacy-initiative",
