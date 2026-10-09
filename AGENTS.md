@@ -41,6 +41,6 @@ Rules for bots and agents working in this repo. Humans: the same rules apply.
 ## Branches and merges
 
 - Branch prefixes: `master/` (kaspa master bot), `build/` (build passes), `challenge/` (kaspa master challenge notes).
-- **Only kaspa master bot merges to `main`.** Since 8 Oct 2026 23:47 CEST (stp, confirmed in kaspa master bot's chat), stp's OK is no longer needed: it merges a branch once kaspa master challenge's note records a pass with 0 FAILED at that branch's exact tip SHA, only if no newer commits have landed on top, and never while a challenger pass is still running on that branch. It tells stp the new main hash right after each merge. stp can still stop or override any merge. Same rule as kaspa-master-file `PROCESS.md`.
+- **Only kaspa master bot merges to `main`.** Since 8 Oct 2026 23:47 CEST (stp, confirmed in kaspa master bot's chat), stp's OK is no longer needed: it merges a branch once kaspa master challenge's note records a pass with 0 FAILED at that branch's exact tip SHA, only if no newer commits have landed on top, and never while a challenger pass is still running on that branch. Merges are plain fast-forwards. It tells stp the new main hash right after each merge. stp can still stop or override any merge. Same rule as kaspa-master-file `PROCESS.md`.
 - Use normal merges: no force-push and no history rewrite on `main`.
 - No tags and no releases unless stp asks for them.

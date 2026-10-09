@@ -3,7 +3,7 @@
 **Chip:** `catalog`. Third-party. **Caveat: third-party, not audited, demo, not desk-tested.** Everything below is Ross Ku's own account and his own figures. Nothing here was compiled, measured or run by the desk. **Not Kaspa core. Not a KIP. Not an endorsement.**
 **Last checked:** 2026-10-09 (GitHub reads 9 Oct ~08:37 CEST and again ~08:40 CEST; the 8 Oct Telegram replies were read in the thread on 8 Oct and not re-read).
 
-**The master keeps:** one sentence in its Argent cell, tied to [argent#69](https://github.com/argent-lang/argent/pull/69) (with an artifact import the interface fingerprint excludes the handle; his item 12 pin is open #69), with a pointer to this page. Argent itself (argent-lang/argent, its PRs and issues) stays in the master. This page holds the rest of his 8 Oct material, trimmed from the master's `build/ross-ku-argent-2026-10-08` branch on 9 Oct.
+**The master keeps:** one sentence in its Argent cell, tied to [argent#69](https://github.com/argent-lang/argent/pull/69) (with an artifact import the interface fingerprint excludes the handle; his item 12 pin is open #69); it does not link to this page. Argent itself (argent-lang/argent, its PRs and issues) stays in the master. This page holds the rest of his 8 Oct material, trimmed from the master's `build/ross-ku-argent-2026-10-08` branch on 9 Oct.
 
 ## Who and where
 
