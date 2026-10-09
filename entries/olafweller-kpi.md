@@ -1,7 +1,7 @@
 # Privacy initiative (KPI): olafweller/kaspa-privacy-initiative
 
 **Chip:** `experiment`. Third-party community research. **Not Kaspa core, not a KIP, not a privacy pool.**
-**Last checked:** 8 Oct 2026 (GitHub GETs ~17:50 to 18:15 CEST for #22, #25, #26 and the A1 trial record; the chain facts below are still the 4 Oct 18:01 and 18:18 CEST reads on the desk's own synced Testnet-10 node).
+**Last checked:** 9 Oct 2026 (#22 merge and main only; 8 Oct GitHub GETs ~17:50 to 18:15 CEST for #22, #25, #26 and the A1 trial record; the chain facts below are still the 4 Oct 18:01 and 18:18 CEST reads on the desk's own synced Testnet-10 node).
 
 ## Who
 
@@ -84,6 +84,13 @@ Third-party claims with no public code, repo or tx id: PhantomPool, the KASperie
 - **A1 official trial (author's record).** [docs/poc-a1-official-trial-2026-10-08.md at `fb8a5017`](https://github.com/olafweller/kaspa-privacy-initiative/blob/fb8a501782f5a07c6f9c797893e3b8896ddcd414/docs/poc-a1-official-trial-2026-10-08.md) (draft [#22](https://github.com/olafweller/kaspa-privacy-initiative/pull/22), head `fb8a5017`, 22 commits): "PASS for the scoped scenario" on TN10, 8 Oct. After machine A was switched off, machine B started only after independent machine C saw A's routes disappear, rediscovered the S1 reserve from chain history, made a fresh Groth16 proof and paid out 8.1 test KAS. Txids in the record: funding `158a06aa…6623f`, S0 → S1 `52073b12…d7186`, terminal `085f8fa5…0ff83`. The record itself says this closes the S1 autonomous-recovery scenario, **not** the full G5/G6 gates, and the fees are fixed experimental values (issue #23). The desk did not check these txids on a node.
 - X: [2108098976742260999](https://x.com/WellerOlaf/status/2108098976742260999) (8 Oct 07:35Z) announces it ("Not a shielded pool yet, not audited, and more A1 tests remain"). His poll [2107930834040758765](https://x.com/WellerOlaf/status/2107930834040758765) is community chatter, not a fact.
 - `main` is now `5435113d` (8 Oct 10:36Z): [#25](https://github.com/olafweller/kaspa-privacy-initiative/pull/25) "research: evaluate Kaspa-native post-quantum experiments" (merged 10:31Z) and [#26](https://github.com/olafweller/kaspa-privacy-initiative/pull/26) "docs(agents): testnet trial practice" (10:36Z). Docs only; not read in depth.
+
+## 9 Oct 2026 sweep (GitHub reads 9 Oct ~08:40 CEST; not desk-checked)
+
+**Caveat: third-party, not audited, demo, not desk-tested.**
+
+- **A1 merged.** [#22](https://github.com/olafweller/kaspa-privacy-initiative/pull/22) "PoC A1: authenticated successor reserve and independent recovery" (no longer a draft, head `52256d7e`) merged 8 Oct 18:22:45Z as [`e4a10390`](https://github.com/olafweller/kaspa-privacy-initiative/commit/e4a10390fbbd3df523f5eb5871e4dc1d0eb1501d). The A1 trial facts above stay the author's record; txids not desk-checked.
+- `main` is now [`ccbdfbc7`](https://github.com/olafweller/kaspa-privacy-initiative/commit/ccbdfbc7) (8 Oct 19:52:31Z) after docs and research merges #27 (roadmap and RFC-0001 evidence after A1), #28 (Phase 1 source review) and #29 (RFC-0001 comparison). Docs only; not read in depth.
 
 ## Provenance
 

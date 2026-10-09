@@ -1,7 +1,7 @@
 # Wallets and KCC-20 (Kastle, Kaspire)
 
 **Chip:** `catalog`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-08 (kastle #372, #387, #388, #389 and releases only; the rest is the latest dated read in the moved text, 4 Oct).
+**Last checked:** 2026-10-09 (the 7 Oct P2SH wallet-support posts only; 8 Oct: kastle #372, #387, #388, #389 and releases; the rest is the latest dated read in the moved text, 4 Oct).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -38,6 +38,15 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 - [#372](https://github.com/forbole/kastle/pull/372), [#387](https://github.com/forbole/kastle/pull/387) and [#388](https://github.com/forbole/kastle/pull/388) were **closed unmerged** on 6 Oct at 07:21:22Z, 07:21:25Z and 07:21:29Z (heads `84ebe285`, `3f5ab29b`, `3a51a07b`). The 6 Oct reads (~05:45Z) were before that.
 - They are replaced by [#389](https://github.com/forbole/kastle/pull/389) (opened 6 Oct 07:21:11Z, base `main`, open, head `fc7b6497`, 4 commits, 35 files): the whole KCC-20 feature in one PR, Stage 0 display, Stage 1 transfers through `@kronsdk/kron-sdk` (signs only the wallet's funding inputs) and Stage 2 KRON bonding-curve swaps with the 0.75% fee. The PR says Stage 1 and 2 passed review by "Fable" after fix rounds. Not merged; not in a release.
 - Latest release still [v2.61.0](https://github.com/forbole/kastle/releases/tag/v2.61.0) (5 Oct). Kastle's dotK integration #381 merged on 7 Oct; see [name-services](name-services.md).
+
+## 9 Oct 2026 sweep: P2SH wallet-support talk (talk only)
+
+**Caveat: third-party, not audited, demo, not desk-tested. Talk only: no PR, no wallet release.** X posts of 7 Oct 17:22Z to 18:47Z, read by the desk on 8 Oct (no new X calls on 9 Oct).
+
+- Michael Sutton [2107884393364595048](https://x.com/michaelsuttonil/status/2107884393364595048) (17:22:56Z): P2SH addresses are "very easy to implement in kaspa", the challenge is wide wallet support; KCC-20 has built-in support for hashed addresses (via KCC-2). [2107888723543146881](https://x.com/michaelsuttonil/status/2107888723543146881) (17:40:09Z): asks whether simple P2SH with hashed Schnorr addresses can go into kasvault, calling it "a 2-line silverscript contract".
+- coderofstuff [2107890810205446625](https://x.com/coderofstuff_/status/2107890810205446625) (17:48:26Z): kasvault is only a web app; the real work is in the Ledger `app-kaspa` embedded app and would need work, maintenance and a security audit (per policy). [2107905753000652944](https://x.com/coderofstuff_/status/2107905753000652944) (18:47:49Z): it has to be implemented on the Ledger app itself before kasvault, Ledger Live or other clients can expose it, so it goes through a full feature process.
+- Sutton [2107898108113809644](https://x.com/michaelsuttonil/status/2107898108113809644) (18:17:26Z) offers to put together a handoff for the task; [2107901954668249139](https://x.com/michaelsuttonil/status/2107901954668249139) (18:32:43Z) says the wallet section on kaspa.org should have this feature as a criterion.
+- No PR, no code and no wallet release seen. Talk only.
 
 ## Sources (every link in the moved text)
 
