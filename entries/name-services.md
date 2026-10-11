@@ -1,7 +1,7 @@
 # Name services: DOTK, KaChat, name-service PoC, KNS review
 
 **Chip:** `experiment`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-09 (KaChat tip and the dotk-indexer v1.1.1 quote only; 8 Oct: dotk-covenants, dotk-indexer v1.1.1, KaChat tip, Kastle #381 and kns-kasware-tn10-test visibility; the rest is the latest dated read in the moved text, 4 Oct).
+**Last checked:** 2026-10-11 (KaChat tip `4155ee8c`; prior 9 Oct text kept). Was 2026-10-09 (KaChat tip and the dotk-indexer v1.1.1 quote only; 8 Oct: dotk-covenants, dotk-indexer v1.1.1, KaChat tip, Kastle #381 and kns-kasware-tn10-test visibility; the rest is the latest dated read in the moved text, 4 Oct).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -81,6 +81,11 @@ Kurncy 26 Sep 14:34Z https://x.com/KurncySolutions/status/2103855652493725743: d
 
 - **KaChat.** main tip is now [`a632f81f`](https://github.com/vsmirn0v/KaChat/commit/a632f81f) (9 Oct 04:24:12Z, "Docs: the names indexer handoff and KACHAT_NAMES rows describe registry v4"), after a run of 9 Oct fixes tagged with review ids (bounded `.kachat` fees, refusing UTXO answers above the Kaspa supply, an Address Book limited to the active network, and others). Commit messages only; the desk did not build it. Registry still Testnet 10 only.
 - **dotk-indexer wording fix.** The v1.1.1 quote in the 8 Oct notes is now credited to commit `26548583`, not to the release text.
+
+
+## 11 Oct 2026 (watch sweep)
+
+- **KaChat tip** [`4155ee8c`](https://github.com/vsmirn0v/KaChat/commit/4155ee8c) (10 Oct 14:21:53Z): "Build numbers: local archives continue Cloud's (202607032579); About shows the last 4 digits". One commit since the 10 Oct carry-over tip `d1217159` (IOS fixes / mainnet countdown notes). Third-party app; not desk-tested; not a KIP.
 
 ## Sources (every link in the moved text)
 
