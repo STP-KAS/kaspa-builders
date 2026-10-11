@@ -444,6 +444,22 @@
         "https://github.com/argent-lang/argent/commit/03d670217b7139ee452e1c50d109f600ed85d94d"
       ],
       "checked": "2026-10-09"
+    },
+    {
+      "name": "KRC-20 mechanics, next to KCC-20 (11 Oct)",
+      "url": "https://docs.kasware.xyz/wallet/developer-documentation/kaspa/kaspa-krc20",
+      "page": "entries/krc20-mechanics.md",
+      "chip": "catalog",
+      "note": "Third-party. KRC-20 mint rules live in inscription JSON inside a P2SH script (KasWare docs; protocol id kasplex) and are enforced by the indexer, not consensus; status by reveal id and opAccept (codecustard TN10 example 272e8ebf). Two transactions per operation, commit then reveal. Kasplex mint docs not readable on 11 Oct, so their cap rule is not verified. 2024 mainnet beta (kaspa-ng f23dc374, third-party): 0.2 KAS outputs, about 25,000 grams per tx, about 20 per block, backlog about 37,000, 1 KAS fee, about 4000 sompi/gram. stp's KNS TN10 runs (kns-tn10-testing 32735044): a losing reveal still pays; about 0.035 tKAS network fee per name. KRC-20 past the cap: untested. The master keeps the KCC-20 side in KCC20 reference.",
+      "sources": [
+        "https://docs.kasware.xyz/wallet/developer-documentation/kaspa/kaspa-krc20",
+        "https://github.com/codecustard/kaspa/blob/272e8ebfb8b89c803d3d790eb664b082748668be/examples/krc20_example/README.md",
+        "https://github.com/kaspa-ng/kaspa-ecosystem-updates/blob/f23dc374088c85ac15a9b65837e6c645e83d42c3/README.md#krc20-beta-in-the-past",
+        "https://github.com/STP-KAS/kns-tn10-testing/blob/327350442fbef38fcf554c61b8eaa37df1494d29/README.md#L21",
+        "https://github.com/STP-KAS/kns-tn10-testing/blob/327350442fbef38fcf554c61b8eaa37df1494d29/docs/runs/R1.md#L23",
+        "https://github.com/STP-KAS/tn10-storm-plan-mint-rush/blob/262d1bccd57aa739342fa04272a2570900e96bab/docs/KCC20-VS-KRC20.md"
+      ],
+      "checked": "2026-10-11"
     }
   ]
 }
