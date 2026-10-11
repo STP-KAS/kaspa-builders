@@ -85,7 +85,7 @@ Kurncy 26 Sep 14:34Z https://x.com/KurncySolutions/status/2103855652493725743: d
 
 ## 11 Oct 2026 (watch sweep)
 
-- **KaChat tip** [`4155ee8c`](https://github.com/vsmirn0v/KaChat/commit/4155ee8c) (10 Oct 14:21:53Z): "Build numbers: local archives continue Cloud's (202607032579); About shows the last 4 digits". One commit since the 10 Oct carry-over tip `d1217159` (IOS fixes / mainnet countdown notes). Third-party app; not desk-tested; not a KIP.
+- **KaChat tip** [`4155ee8c`](https://github.com/vsmirn0v/KaChat/commit/4155ee8c) (10 Oct 14:21:53Z): "Build numbers: local archives continue Cloud's (202607032579); About shows the last 4 digits". 29 commits since the last recorded tip `a632f81f` (compare API, ahead 29, behind 0), including, per commit messages only: testnet-10 registry v5 bundled ([`fbfa5a6f`](https://github.com/vsmirn0v/KaChat/commit/fbfa5a6f), 9 Oct 10:38Z), ".kachat on mainnet (mainnet v1, registry 348bd2c8)" ([`ef6b21e9`](https://github.com/vsmirn0v/KaChat/commit/ef6b21e9), 9 Oct 20:54Z) and "Docs: .kachat mainnet v1 is live in the app" ([`5e4ec64c`](https://github.com/vsmirn0v/KaChat/commit/5e4ec64c), 20:57Z), and a countdown to a public opening on 16 Oct ([`c6ebf747`](https://github.com/vsmirn0v/KaChat/commit/c6ebf747), 10 Oct 01:01Z). Third-party app; not desk-tested; not a KIP.
 
 ## Sources (every link in the moved text)
 
