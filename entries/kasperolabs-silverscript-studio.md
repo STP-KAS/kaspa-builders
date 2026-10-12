@@ -1,7 +1,7 @@
 # KasperoLabs: SilverScript Studio
 
 **Chip:** `catalog`. Third-party builder. **Not desk-tested. AI contract code needs review before real KAS.**
-**Last checked:** 4 Oct 2026 ~19:05 CEST (repo, issue and demo page GETs). The X items come from the 3 Oct backfill (read ~19:20 CEST).
+**Last checked:** 12 Oct 2026 ~07:45 CEST (two X posts of 11 Oct only). Repo, issue and demo page GETs: 4 Oct 2026 ~19:05 CEST. The backfill X items come from the 3 Oct backfill (read ~19:20 CEST).
 
 ## Who
 
@@ -27,6 +27,13 @@ Full timeline, replies included: 24 posts, one page, no `next_token`. There were
 - **"Describe to AI" walkthrough** ([2103811612079800547](https://x.com/KasperoLabs/status/2103811612079800547), 26 Sep 11:39): video of an Employer/Employee contract with arbitration, compiled, deployed, funded and released with 2 signatures.
 - **Freelancer contract demo** ([2104543100634886578](https://x.com/KasperoLabs/status/2104543100634886578), [2104554999015694827](https://x.com/KasperoLabs/status/2104554999015694827), [2105805703776477569](https://x.com/KasperoLabs/status/2105805703776477569); 28 Sep 12:05 / 12:53, 1 Oct 23:42): pays on a schedule or on milestone delivery, with the delivery notarized on chain, and the client deposits up front. The posts do not state the network.
 - **KCC-20 "gas tank" idea** ([2104917837257339059](https://x.com/KasperoLabs/status/2104917837257339059), [2104936671674605775](https://x.com/KasperoLabs/status/2104936671674605775), [2104941680344657993](https://x.com/KasperoLabs/status/2104941680344657993); 29 Sep 12:54–14:29): a small KAS reserve that travels with the token and pays its transfer fees. **Idea only:** a GitHub search of kaspanet/kccs for "gas tank" found 0 hits on 3 Oct, and the account's only kaspanet issue is rusty-kaspa #1140.
+
+## 11 Oct 2026 posts (X, read in the 12 Oct sweep, ~07:45 CEST)
+
+Both are the author's own posts. Each ends with a media link (`t.co`) that was not opened. Neither post gives a txid, a repo, a commit or a program image id, so **nothing here is desk-checked**.
+
+- **ZK covenant on mainnet, claim** ([2109422238277493065](https://x.com/KasperoLabs/status/2109422238277493065), 11 Oct 23:13:47Z): "Opened a Kaspa mainnet covenant with a ZK proof from my own RISC Zero program. The covenant pins the program’s image id; the proof says ‘this melody is in C major’ and never reveals the melody. Same proof with one bit of the public input flipped: rejected by the node." asaefstroem replied in the same conversation ([2109513092463747119](https://x.com/asaefstroem/status/2109513092463747119), 12 Oct 05:14:48Z): "Cool that you like it!" That reply answers a KasperoLabs post in the thread (2109422940911468746) that this sweep did not read.
+- **KCC-20 launchpad with a miner covenant, announcement** ([2109291008584540535](https://x.com/KasperoLabs/status/2109291008584540535), 11 Oct 14:32:19Z): "KCC-20 launchpad with a built-in miner covenant. Pays Kaspa miners on an emission schedule, and you can pledge above the minimum to show your token backs the network from day one. The pledge is in the genesis itself: no metadata, nothing to fake." and, as a separate paragraph, "Opens when KCC-20 goes final." Not live: KCC-20 is still Last Call, not Final. elldeeone replied ([2109483421944963099](https://x.com/elldeeone/status/2109483421944963099), 12 Oct 03:16:54Z): "love the idea, this is seriously cool"
 
 ## Limits
 

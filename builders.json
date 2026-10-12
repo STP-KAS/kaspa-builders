@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -42,7 +42,7 @@
       "url": "https://github.com/kasperolabs/silverscript-studio",
       "page": "entries/kasperolabs-silverscript-studio.md",
       "chip": "catalog",
-      "note": "@KasperoLabs says SilverScript Studio is live on mainnet (25 Sep 19:18Z): write a covenant by hand, with a wizard, or by describing it to a SilverScript-only AI; deposit and withdraw with Kasware, Kasla or Kastle (Kastle deposit only, signing coming). Relay: vertex 2103759384694185988 (26 Sep 08:11Z). Source kasperolabs/silverscript-studio: MIT, created 28 Sep 21:28:34Z, tip e27a7c4e (3 Oct 22:39:10Z). The 3 Oct KasDash page (silverscriptstudio.com/kasdash.html) is a demo, not an L1 product. rusty-kaspa #1140 (kasperolabs, 30 Sep, SDK v2.1.0 findings from mainnet) open, no comments; the master keeps that line. KCC-20 gas-tank idea is an idea only (not filed on kccs). Third-party. Not desk-tested. AI contract code needs review before real KAS.",
+      "note": "@KasperoLabs says SilverScript Studio is live on mainnet (25 Sep 19:18Z): write a covenant by hand, with a wizard, or by describing it to a SilverScript-only AI; deposit and withdraw with Kasware, Kasla or Kastle (Kastle deposit only, signing coming). Relay: vertex 2103759384694185988 (26 Sep 08:11Z). Source kasperolabs/silverscript-studio: MIT, created 28 Sep 21:28:34Z, tip e27a7c4e (3 Oct 22:39:10Z). The 3 Oct KasDash page (silverscriptstudio.com/kasdash.html) is a demo, not an L1 product. rusty-kaspa #1140 (kasperolabs, 30 Sep, SDK v2.1.0 findings from mainnet) open, no comments; the master keeps that line. KCC-20 gas-tank idea is an idea only (not filed on kccs). Third-party. Not desk-tested. AI contract code needs review before real KAS. 11 Oct posts (read 12 Oct): a ZK covenant opened on Kaspa mainnet with a proof from the author's own RISC Zero program, the covenant pinning the program's image id, a flipped public-input bit rejected by the node (claim, no txid or image id given, not desk-checked; 2109422238277493065), and a KCC-20 launchpad with a built-in miner covenant that opens when KCC-20 goes final (announcement; 2109291008584540535).",
       "sources": [
         "https://x.com/KasperoLabs/status/2103564787686793710",
         "https://x.com/KaspaScopio/status/2103759384694185988",
@@ -50,9 +50,11 @@
         "https://silverscriptstudio.com/kasdash.html",
         "https://x.com/KasperoLabs/status/2106350037680988279",
         "https://github.com/kaspanet/rusty-kaspa/issues/1140",
-        "https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b"
+        "https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b",
+        "https://x.com/KasperoLabs/status/2109422238277493065",
+        "https://x.com/KasperoLabs/status/2109291008584540535"
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-12"
     },
     {
       "name": "Name services: DOTK, KaChat, name-service PoC, KNS review",
@@ -263,7 +265,7 @@
       "url": "https://github.com/danieliyahu1/kas-odds",
       "page": "entries/danieliyahu1.md",
       "chip": "catalog",
-      "note": "kas-odds tip 876f064 (23 Sep 08:01Z). Commits since 851e114 count a homepage visit when the app loads, via POST /api/visit, not when a client fetches /. The covenant file is not in those commits. kasodds.sil pragma ^0.1.0. pins.json binds SilverScript source 3ed9733 and template ade3453c61ac5858b344b22ccf373e7e44ab18c14506f49b69e29f763057e27a. It labels rusty-kaspa v2.0.1 while sourceCommit a41a333 is #1067, 8 commits ahead of tag cfafeb4c. The wasm URL is the v2.0.1 zip. Stake minimum 100000000 sompi. Creator wins when (creator_choice + joiner_choice) % 2 differs from creator_even. Fee is gross_pot / 100 only when gross_pot >= 10000000000 sompi. Default profile testnet-10. network.js also lists mainnet. onlykas tip 7cd476dd (23 Sep 21:28Z) pins image 8720f12. That image includes the four commits after 7e4e239: challenge logs store a prefix and a length bucket, the client redacts address keys, authenticate switches network and then calls getAccounts, and a post creator link drops its underline. deploy/configmap.yaml in that image sets PUBLIC_ORIGIN to https://onlykas.app, replacing https://onlykas.danieliyahu.com, and KASPA_NETWORK to mainnet. A dismissed, timed-out, or wrong switch ends quietly. The background listener still warns on an independent change. One toast slot. membership.sil is not in these commits. Fee (price + 50) / 100, zero under 1 KAS, and lifetime 25920000 DAA scores stay as read on 22 Sep. The app still names Kasware. The 22 Sep read said testnet-10. This production configmap says mainnet. kaspa-simple-mcp is a read-only api.kaspa.org wrapper, mainnet by default. He follows ezratameno. Those public repos are not Kaspa. kccs#24 notes stay on the KCC row. 8 Oct: onlykas tip b8f28657 (7 Oct 22:35Z) pins image f15ab87a; 6 to 7 Oct commits add a referrer share of the platform fee (8080e5aa), referral credit through shared links and a creator directory. Commit messages only.",
+      "note": "kas-odds tip 876f064 (23 Sep 08:01Z). Commits since 851e114 count a homepage visit when the app loads, via POST /api/visit, not when a client fetches /. The covenant file is not in those commits. kasodds.sil pragma ^0.1.0. pins.json binds SilverScript source 3ed9733 and template ade3453c61ac5858b344b22ccf373e7e44ab18c14506f49b69e29f763057e27a. It labels rusty-kaspa v2.0.1 while sourceCommit a41a333 is #1067, 8 commits ahead of tag cfafeb4c. The wasm URL is the v2.0.1 zip. Stake minimum 100000000 sompi. Creator wins when (creator_choice + joiner_choice) % 2 differs from creator_even. Fee is gross_pot / 100 only when gross_pot >= 10000000000 sompi. Default profile testnet-10. network.js also lists mainnet. onlykas tip 7cd476dd (23 Sep 21:28Z) pins image 8720f12. That image includes the four commits after 7e4e239: challenge logs store a prefix and a length bucket, the client redacts address keys, authenticate switches network and then calls getAccounts, and a post creator link drops its underline. deploy/configmap.yaml in that image sets PUBLIC_ORIGIN to https://onlykas.app, replacing https://onlykas.danieliyahu.com, and KASPA_NETWORK to mainnet. A dismissed, timed-out, or wrong switch ends quietly. The background listener still warns on an independent change. One toast slot. membership.sil is not in these commits. Fee (price + 50) / 100, zero under 1 KAS, and lifetime 25920000 DAA scores stay as read on 22 Sep. The app still names Kasware. The 22 Sep read said testnet-10. This production configmap says mainnet. kaspa-simple-mcp is a read-only api.kaspa.org wrapper, mainnet by default. He follows ezratameno. Those public repos are not Kaspa. kccs#24 notes stay on the KCC row. 8 Oct: onlykas tip b8f28657 (7 Oct 22:35Z) pins image f15ab87a; 6 to 7 Oct commits add a referrer share of the platform fee (8080e5aa), referral credit through shared links and a creator directory. Commit messages only. 12 Oct: onlykas is renamed to danieliyahu1/kaskama (default branch master), tip dce58809 (11 Oct 23:49:59Z) pins image 3e285447; commits 833cb340 settle attempts atomically and 3e285447 drop the dead attempt terminal state; issues #5 to #7 closed, noralane opened #8 to #13 (reports, not desk-checked). Commit messages and issue titles only.",
       "sources": [
         "https://github.com/danieliyahu1/kas-odds",
         "https://github.com/danieliyahu1/kas-odds/commit/876f06491a0f",
@@ -275,9 +277,11 @@
         "https://github.com/STP-KAS/kaspa-master-file/blob/cf10a0f53dc98279f12cd523be008879efff00fd/SNAPSHOT-HISTORY.md#moved-from-readme-on-26-sep-2026",
         "https://onlykas.danieliyahu.com",
         "https://github.com/danieliyahu1/onlykas/commit/b8f28657",
-        "https://github.com/danieliyahu1/onlykas/commit/8080e5aa"
+        "https://github.com/danieliyahu1/onlykas/commit/8080e5aa",
+        "https://github.com/danieliyahu1/kaskama",
+        "https://github.com/danieliyahu1/kaskama/commit/dce588091e75e6be6eca88c8c119b17d0e278f5a"
       ],
-      "checked": "2026-10-08"
+      "checked": "2026-10-12"
     },
     {
       "name": "kaspa-core (Flux)",
@@ -407,13 +411,14 @@
       "url": "https://kas-smiths.org",
       "page": "entries/kas-smiths-threads.md",
       "chip": "catalog",
-      "note": "Post 380 on topic 31 (22 Sep 20:22Z) is a Causfy product note, not a KCC. StppStp answered topic 147 at https://kas-smiths.org/t/wallet-integration-protocol/147/2 (22 Sep 20:37Z) and topic 148 at https://kas-smiths.org/t/three-covenant-kccs-for-reputation-bonds-and-identity-live-on-testnet-10/148/2 (22 Sep 20:39Z). Posts 395-396: topic 13 agentic-commerce replies. Post 401 (28 Sep 16:13Z) ezira topic 155: multi-leaf collection covenant idea for quantum safety. https://kas-smiths.org/t/multi-leaf-collection-covenant/155.",
+      "note": "Post 380 on topic 31 (22 Sep 20:22Z) is a Causfy product note, not a KCC. StppStp answered topic 147 at https://kas-smiths.org/t/wallet-integration-protocol/147/2 (22 Sep 20:37Z) and topic 148 at https://kas-smiths.org/t/three-covenant-kccs-for-reputation-bonds-and-identity-live-on-testnet-10/148/2 (22 Sep 20:39Z). Posts 395-396: topic 13 agentic-commerce replies. Post 401 (28 Sep 16:13Z) ezira topic 155: multi-leaf collection covenant idea for quantum safety. https://kas-smiths.org/t/multi-leaf-collection-covenant/155. 12 Oct: topic 161 (S1LVERTOSHI, B1TCOIN S1LVER game built on the KCC-20 reference; six questions to the KCC authors, no replies; 13 testnet-10 releases and the template-hash match are his claims, not desk-checked).",
       "sources": [
         "https://kas-smiths.org/t/multi-leaf-collection-covenant/155",
         "https://kas-smiths.org/t/wallet-integration-protocol/147/2",
-        "https://kas-smiths.org/t/three-covenant-kccs-for-reputation-bonds-and-identity-live-on-testnet-10/148/2"
+        "https://kas-smiths.org/t/three-covenant-kccs-for-reputation-bonds-and-identity-live-on-testnet-10/148/2",
+        "https://kas-smiths.org/t/a-non-fungible-covenant-family-before-a-unique-asset-kcc-exists-six-questions-from-a-game-built-on-the-kcc-20-reference/161"
       ],
-      "checked": "2026-10-03"
+      "checked": "2026-10-12"
     },
     {
       "name": "Ross Ku (RossKU/kob): Argent port notes",
