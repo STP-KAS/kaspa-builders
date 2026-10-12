@@ -42,7 +42,7 @@
       "url": "https://github.com/kasperolabs/silverscript-studio",
       "page": "entries/kasperolabs-silverscript-studio.md",
       "chip": "catalog",
-      "note": "@KasperoLabs says SilverScript Studio is live on mainnet (25 Sep 19:18Z): write a covenant by hand, with a wizard, or by describing it to a SilverScript-only AI; deposit and withdraw with Kasware, Kasla or Kastle (Kastle deposit only, signing coming). Relay: vertex 2103759384694185988 (26 Sep 08:11Z). Source kasperolabs/silverscript-studio: MIT, created 28 Sep 21:28:34Z, tip e27a7c4e (3 Oct 22:39:10Z). The 3 Oct KasDash page (silverscriptstudio.com/kasdash.html) is a demo, not an L1 product. rusty-kaspa #1140 (kasperolabs, 30 Sep, SDK v2.1.0 findings from mainnet) open, no comments; the master keeps that line. KCC-20 gas-tank idea is an idea only (not filed on kccs). Third-party. Not desk-tested. AI contract code needs review before real KAS. 11 Oct posts (read 12 Oct): a ZK covenant opened on Kaspa mainnet with a proof from the author's own RISC Zero program, the covenant pinning the program's image id, a flipped public-input bit rejected by the node (claim, no txid or image id given, not desk-checked; 2109422238277493065), and a KCC-20 launchpad with a built-in miner covenant that opens when KCC-20 goes final (announcement; 2109291008584540535).",
+      "note": "@KasperoLabs says SilverScript Studio is live on mainnet (25 Sep 19:18Z): write a covenant by hand, with a wizard, or by describing it to a SilverScript-only AI; deposit and withdraw with Kasware, Kasla or Kastle (Kastle deposit only, signing coming). Relay: vertex 2103759384694185988 (26 Sep 08:11Z). Source kasperolabs/silverscript-studio: MIT, created 28 Sep 21:28:34Z, tip e27a7c4e (3 Oct 22:39:10Z). The 3 Oct KasDash page (silverscriptstudio.com/kasdash.html) is a demo, not an L1 product. rusty-kaspa #1140 (kasperolabs, 30 Sep, SDK v2.1.0 findings from mainnet) open, no comments; the master keeps that line. KCC-20 gas-tank idea is an idea only (not filed on kccs). Third-party. Not desk-tested. AI contract code needs review before real KAS. 11 Oct posts (read 12 Oct): a ZK covenant opened on Kaspa mainnet with a proof from the author's own RISC Zero program, the covenant pinning the program's image id, a flipped public-input bit rejected by the node (claim, no txid or image id given, not desk-checked; 2109422238277493065), and a KCC-20 launchpad with a built-in miner covenant that opens when KCC-20 goes final (announcement; 2109291008584540535). MinerDrip draft MineDrip.md at b767e346 (11 Oct 19:38:04Z, MIT): keyless covenant funded in the token genesis pays miners on a halving schedule; the file lists four mainnet transactions, which api.kaspa.org returns as accepted (public indexer read 12 Oct 06:03Z, not a node check; scripts not desk-checked).",
       "sources": [
         "https://x.com/KasperoLabs/status/2103564787686793710",
         "https://x.com/KaspaScopio/status/2103759384694185988",
@@ -52,7 +52,8 @@
         "https://github.com/kaspanet/rusty-kaspa/issues/1140",
         "https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b",
         "https://x.com/KasperoLabs/status/2109422238277493065",
-        "https://x.com/KasperoLabs/status/2109291008584540535"
+        "https://x.com/KasperoLabs/status/2109291008584540535",
+        "https://github.com/kasperolabs/silverscript-studio/blob/b767e3461cd869ccb178e7d097ff4dabc2c96434/MineDrip.md"
       ],
       "checked": "2026-10-12"
     },
