@@ -47,3 +47,7 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 - These items were on the master's *Third-party 26 Sep* row and its master.json entry *Third-party claims 26 Sep* (text before [`b567a48`](https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b)).
 - Moved out of the master on stp's instruction (4 Oct 19:01 CEST) by `b567a48` on `master/community-move-2026-10-04`. The master keeps the rusty-kaspa #1140 line.
 - No star, fork, issue, comment or PR on kasperolabs repos.
+
+## 12–13 Oct 2026 (X, read in the 13 Oct sweep)
+
+- **L1 bridge to Ethereum, claim** ([2109766022790066442](https://x.com/KasperoLabs/status/2109766022790066442), 12 Oct 21:59:52Z): "Kaspa is about to get a L1 bridge to Ethereum with no signers, approvers or admins anywhere in the path. Already proven on mainnet with a test token: deposit an ERC-20 into an Ethereum vault, mint a KCC-20 on Kaspa from a ZK proof of Ethereum’s own consensus." **Author's claim:** no txid, image id, vault address or repo in the post; not desk-checked. asaefstroem replies in-thread (13 Oct): GHOSTDAG in Solidity or a ZK program verified on Ethereum is the hard part ([2109856156055437458](https://x.com/asaefstroem/status/2109856156055437458)); "the impl of ghostdag in rk is not really zk optimized" ([2109859288718172454](https://x.com/asaefstroem/status/2109859288718172454)); "Unfortunately, that is the easy part. :)" ([2109849344400666805](https://x.com/asaefstroem/status/2109849344400666805)). Third-party / talk; not a master pin.
