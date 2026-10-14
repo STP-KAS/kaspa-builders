@@ -24,7 +24,7 @@ The README's reproduce comment quotes image id `4756d736d00cc0e5b813fd9bbb8fe586
 
 The README says `eth-prover/` derives from RISC Zero's [r0vm-helios](https://github.com/risc0/r0vm-helios) and that RISC Zero and r0vm-helios were audited by zkSecurity. That sentence is about those projects. It is not an audit of this repository.
 
-KCC-20 on kaspanet/kccs `3fbec524` is Last Call, not Final. The README calling the Kaspa token KCC-20 does not move that status.
+KCC-20 on kaspanet/kccs main [`1516a6c4`](https://github.com/kaspanet/kccs/commit/1516a6c4cef59940fc3af3096dbcdd9c08690254) (2026-10-14T13:11:38Z) still says `Status: Last Call` in `kcc-0020.md`. That file said the same at the earlier pin `3fbec524`. The README calling the Kaspa token KCC-20 does not move that status.
 
 ## Relay
 
