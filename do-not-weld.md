@@ -14,7 +14,7 @@ Do not weld: the dotk-indexer manifest into published .sil, dotk-indexer into KN
 
 ## Added 8 Oct 2026 (KPI S0 trials)
 
-Do not weld the 8 Oct S0 report's scoped PASS into a closed G5/G6 matrix, into privacy, into a desk-checked inclusion, or into simultaneous network arrival. The public record stores an intent gap of 1.425701759 seconds; the report rounds that to 1.425702. Those are one gap, not two events. Do not weld runner commit `c541dd51` into merge `e4a10390`: the compare is diverged. Do not weld the runner design file's "awaiting publication" line into a retraction of the S0 report in the same commit. Do not weld the S1 file's "PR #22 remains draft" sentence, still present in that merge, into the pull still being open. GitHub shows #22 merged as `e4a10390` at 2026-10-08T18:22:45Z.
+Do not weld the 8 Oct S0 report's scoped PASS into a closed G5/G6 matrix, into privacy, into a desk-checked inclusion, or into simultaneous network arrival. The public record stores an intent gap of 1.425701759 seconds; the report rounds that to 1.425702. Those are one gap, not two events. Do not weld runner commit `c541dd51` into merge `e4a10390`: the compare is diverged. Do not weld the runner design file's line "Results await Claude's review and Olaf's publication decision" into a retraction of the S0 report in the same commit. Do not weld the S1 file's "PR #22 remains draft" sentence, still present in that merge, into the pull still being open. GitHub shows #22 merged as `e4a10390` at 2026-10-08T18:22:45Z.
 
 ## Added 13 Oct 2026 (KPI Based Apps note)
 
