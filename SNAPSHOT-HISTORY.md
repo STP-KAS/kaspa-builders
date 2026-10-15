@@ -26,3 +26,19 @@ For Build to fold into entries (the Kozmic page is open on `build/kozmic-bridge-
 
 - KasperoLabs ([post](https://x.com/KasperoLabs/status/2110528084617134405), 15 Oct 00:28:01Z): "This test Wrapped Kaspa was minted by proving Kaspa’s own blocks (their proof-of-work, and the burn transaction inside them) in a zkVM, straight from the DAG." and "In plain English: 0.2 KAS was burned on Kaspa, a ZK proof of that burn and of the Kaspa work above it was sent to a" (post text truncated in the API at that point). Related core-dev thread with michaelsutton, asaefstroem and Max143672 on superblocks, seqcommit and reorgs, 13 to 15 Oct (for example [this post](https://x.com/michaelsuttonil/status/2110620936885981682)).
 - Kasanova Wallet ([post](https://x.com/KasanovaWallet/status/2110762584357867986), 15 Oct 15:59:50Z): ".k domain by @supertypo_kas is officially LIVE in the Kasanova Wallet!"
+
+### A-Z catch-up 11 to 15 Oct 2026 (stp rule 15 Oct; GitHub API, paginated)
+
+Third-party and developer items not yet on main or any open branch. All are the projects' own records; none desk-tested.
+
+- **RunOnFlux/kaspa-core:** 1.0.1 on main 13 Oct (`08fd4875` "chore(release): 1.0.1"; [#2](https://github.com/RunOnFlux/kaspa-core/pull/2) by stultusmundi merged 14:45:58Z: bare u64s with a global BigInt.toJSON, small-change sends under storage mass). Provenance publishing ([#1](https://github.com/RunOnFlux/kaspa-core/pull/1), [#3](https://github.com/RunOnFlux/kaspa-core/pull/3)). GitHub latest release is still v1.0.0. stultusmundi opened [#4](https://github.com/RunOnFlux/kaspa-core/issues/4) to [#7](https://github.com/RunOnFlux/kaspa-core/issues/7) on 1.0.1 (fee rate on send-all, planner overflow, tests, CHANGELOG), all open.
+- **forbole/kastle:** release v2.61.1 published 14 Oct 16:49:30Z; [#395](https://github.com/forbole/kastle/pull/395) "mention dotK and KNS in the send-address caption" merged; KCC-20 PR [#389](https://github.com/forbole/kastle/pull/389) still open.
+- **elldeeone/kaspa-x402:** [#35](https://github.com/elldeeone/kaspa-x402/pull/35) "Add mainnet SDK configuration and network binding" opened 15 Oct 05:10:57Z (head `267d9ef7`, not draft, open). Issue [#36](https://github.com/elldeeone/kaspa-x402/issues/36) (erhan-kantero, 15 Oct 14:05:56Z) asks about a Kaspa binding for x402 `auth-capture` with `paymentFlow: "escrow"`. #31 to #34 are on `build/x402-main-2026-10-14`.
+- **danieliyahu1/onlykas:** settlement and membership fixes 11 to 12 Oct (tip `c53de3c3`); issues #2 to #7 closed; noralane opened [#8](https://github.com/danieliyahu1/onlykas/issues/8) to [#13](https://github.com/danieliyahu1/onlykas/issues/13) on 12 Oct (payment races and lost txids), all open.
+- **olafweller/kaspa-privacy-initiative:** [#31](https://github.com/olafweller/kaspa-privacy-initiative/pull/31) "research: offline KIP-21 lane completeness PoC and handoff" open (13 Oct).
+- **trillskillz/OpenSilver:** issue [#3](https://github.com/trillskillz/OpenSilver/issues/3) "Upstream silverscript PR: expose OpZkPrecompile builtin" (14 Oct, open).
+- **vsmirn0v/KaChat:** 73 commits on main 11 to 15 Oct (tip `56b75c89`): KaChat Bots in Kaspa Hub, payment requests, `.kachat` marketplace from any address.
+- **RossKU/kob** (not in the watchlist; added): TN10 test reports `docs/testing/TN10-TEST-2026-10-14.md` and `TN10-TEST-2026-10-15.md`; tip `382b5ac3` (15 Oct 14:16:42Z).
+- **KaspaHUB21/Kaspire-Kaspa-Wallet** (not in the watchlist; added): releases v0.11.51 (11 Oct, "KRON DEX and KCC20 Last Call"), v0.11.52 (13 Oct) and extension-v0.5.8.2 (15 Oct).
+- **Kas-Smiths:** S1LVERTOSHI's game topic 161 and post 412 were deleted (HTTP 404, 15 Oct; detail in the master sweep).
+- **tetsuo-ai/agenc-*:** read in full for the window (60 branches on agenc-core); no Kaspa content in issue, PR or branch names. Not in the watchlist.
