@@ -1,7 +1,7 @@
 # KasperoLabs: SilverScript Studio
 
 **Chip:** `catalog`. Third-party builder. **Not desk-tested. AI contract code needs review before real KAS.**
-**Last checked:** 4 Oct 2026 ~19:05 CEST (repo, issue and demo page GETs). The X items come from the 3 Oct backfill (read ~19:20 CEST).
+**Last checked:** 12 Oct 2026 ~07:45 CEST (two X posts of 11 Oct only). Repo, issue and demo page GETs: 4 Oct 2026 ~19:05 CEST. The backfill X items come from the 3 Oct backfill (read ~19:20 CEST).
 
 ## Who
 
@@ -28,6 +28,14 @@ Full timeline, replies included: 24 posts, one page, no `next_token`. There were
 - **Freelancer contract demo** ([2104543100634886578](https://x.com/KasperoLabs/status/2104543100634886578), [2104554999015694827](https://x.com/KasperoLabs/status/2104554999015694827), [2105805703776477569](https://x.com/KasperoLabs/status/2105805703776477569); 28 Sep 12:05 / 12:53, 1 Oct 23:42): pays on a schedule or on milestone delivery, with the delivery notarized on chain, and the client deposits up front. The posts do not state the network.
 - **KCC-20 "gas tank" idea** ([2104917837257339059](https://x.com/KasperoLabs/status/2104917837257339059), [2104936671674605775](https://x.com/KasperoLabs/status/2104936671674605775), [2104941680344657993](https://x.com/KasperoLabs/status/2104941680344657993); 29 Sep 12:54–14:29): a small KAS reserve that travels with the token and pays its transfer fees. **Idea only:** a GitHub search of kaspanet/kccs for "gas tank" found 0 hits on 3 Oct, and the account's only kaspanet issue is rusty-kaspa #1140.
 
+## 11 Oct 2026 posts (X, read in the 12 Oct sweep, ~07:45 CEST)
+
+Both are the author's own posts. Each ends with a media link (`t.co`) that was not opened. Neither post gives a txid, a repo, a commit or a program image id, so **nothing here is desk-checked**.
+
+- **ZK covenant on mainnet, claim** ([2109422238277493065](https://x.com/KasperoLabs/status/2109422238277493065), 11 Oct 23:13:47Z): "Opened a Kaspa mainnet covenant with a ZK proof from my own RISC Zero program. The covenant pins the program’s image id; the proof says ‘this melody is in C major’ and never reveals the melody. Same proof with one bit of the public input flipped: rejected by the node." asaefstroem replied in the same conversation ([2109513092463747119](https://x.com/asaefstroem/status/2109513092463747119), 12 Oct 05:14:48Z): "Cool that you like it!" That reply answers a KasperoLabs post in the thread (2109422940911468746) that this sweep did not read.
+- **KCC-20 launchpad with a miner covenant, announcement** ([2109291008584540535](https://x.com/KasperoLabs/status/2109291008584540535), 11 Oct 14:32:19Z): "KCC-20 launchpad with a built-in miner covenant. Pays Kaspa miners on an emission schedule, and you can pledge above the minimum to show your token backs the network from day one. The pledge is in the genesis itself: no metadata, nothing to fake." and, as a separate paragraph, "Opens when KCC-20 goes final." Not live: KCC-20 is still Last Call, not Final. elldeeone replied ([2109483421944963099](https://x.com/elldeeone/status/2109483421944963099), 12 Oct 03:16:54Z): "love the idea, this is seriously cool"
+- **MinerDrip draft** ([`MineDrip.md` at `b767e346`](https://github.com/kasperolabs/silverscript-studio/blob/b767e3461cd869ccb178e7d097ff4dabc2c96434/MineDrip.md), commit 11 Oct 19:38:04Z, "Added MineDrip.md", 198 lines, MIT): the convention behind the launchpad post. Per the file, a launch fee goes into a keyless covenant created in the token's genesis transaction that pays Kaspa miners on a halving schedule as transaction fees; it carries the KCC-20 covenant ID in its script; SilverScript (silverc v1, kaspanet/silverscript 1.0.0). The file says it is "Proven on Kaspa mainnet" and lists four transactions (claims 4a3b35ba…, b45b339a…, reveal b33fb379…, claim c1d8710e…). Desk read 12 Oct 06:03:18Z–06:03:19Z (server `Date`): [api.kaspa.org](https://api.kaspa.org) returns all four as `is_accepted` true, block times 10 Oct 15:27:57Z, 15:29:34Z, 11 Oct 13:06:06Z, 13:16:19Z. That is a public indexer read, not a node check; the scripts, the refusal cases and the schedule were not desk-checked.
+
 ## Limits
 
 - Third-party. Not desk-tested: no Studio covenant, deposit or withdrawal was run here, on mainnet or Testnet 10.
@@ -39,3 +47,7 @@ Full timeline, replies included: 24 posts, one page, no `next_token`. There were
 - These items were on the master's *Third-party 26 Sep* row and its master.json entry *Third-party claims 26 Sep* (text before [`b567a48`](https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b)).
 - Moved out of the master on stp's instruction (4 Oct 19:01 CEST) by `b567a48` on `master/community-move-2026-10-04`. The master keeps the rusty-kaspa #1140 line.
 - No star, fork, issue, comment or PR on kasperolabs repos.
+
+## 12–13 Oct 2026 (X, read in the 13 Oct sweep)
+
+- **L1 bridge to Ethereum, claim** ([2109766022790066442](https://x.com/KasperoLabs/status/2109766022790066442), 12 Oct 21:59:52Z): "Kaspa is about to get a L1 bridge to Ethereum with no signers, approvers or admins anywhere in the path. Already proven on mainnet with a test token: deposit an ERC-20 into an Ethereum vault, mint a KCC-20 on Kaspa from a ZK proof of Ethereum’s own consensus." **Author's claim:** no txid, image id, vault address or repo in the post; not desk-checked. asaefstroem replies in-thread (13 Oct): GHOSTDAG in Solidity or a ZK program verified on Ethereum is the hard part ([2109856156055437458](https://x.com/asaefstroem/status/2109856156055437458)); "the impl of ghostdag in rk is not really zk optimized" ([2109859288718172454](https://x.com/asaefstroem/status/2109859288718172454)); "Unfortunately, that is the easy part. :)" ([2109849344400666805](https://x.com/asaefstroem/status/2109849344400666805)). Third-party / talk; not a master pin.
