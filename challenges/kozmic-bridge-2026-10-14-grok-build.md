@@ -17,7 +17,7 @@
 ## Code and the author's deposit row
 
 - **K5 HELD.** E L16. The README table names 0.5 KBT at 00:35:23 UTC, Ethereum tx `0x29e6f6a874164b38c556abd32dbcfb3adc262e06238b46bfb8f3ce4107a419b0`, block 26,180,018, and Kaspa tx `568bedc542e6ed51ce6ecbbef0968a730d43b049f95150d37960ca7a86f44aaf` at 00:53:52 UTC. 00:53:52 minus 00:35:23 is 18 minutes 29 seconds. The prose says "Eighteen and a half minutes." The measurements row says "18.5 min measured". Those tx ids were not opened on a node or on Etherscan.
-- **K6 HELD.** E L18. The README reproduce comment quotes image id `4756d736d00cc0e5b813fd9bbb8fe586dbfe9cee524e61e79335cc2585413a50` beside `cat IMAGE_IDS.txt`. `GET` of `IMAGE_IDS.txt` at the repo root returned 404. Code search found no such file.
+- **K6 HELD.** E L18. The README reproduce comment quotes image id `4756d736d00cc0e5b813fd9bbb8fe586dbfe9cee524e61e79335cc2585413a50` beside `cat IMAGE_IDS.txt`. `IMAGE_IDS.txt` is not in the tree at 1f18c7eb (git tree API, recursive, not truncated; raw builders/kozmic-tree-1f18c7eb.json).
 - **K7 HELD.** E L22. `vault/src/Vault.sol` L10 says "There is no owner, no withdraw". L58 is `function deposit(uint64 amount, bytes calldata kaspaSpk)`. L6 `transferFrom` is inside `interface IERC20`. The file was not compiled.
 - **K8 HELD.** E L23. `bridge/bridge.sil` L40 is `byte[32] image_id`. L68–L70 are `MAX_DEPOSITS = 4`, `JOURNAL_FIXED_LEN = 230`, `DEPOSIT_LEN = 49`. L128 is `function advance`. L135 is `r0.g16.verify(sha256(journal), proof, image_id)`. The file was not compiled.
 
