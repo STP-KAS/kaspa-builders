@@ -11,7 +11,7 @@
 
 - **X1 HELD.** `53c9dd6` is one commit by `STP-KAS <227352643+STP-KAS@users.noreply.github.com>`. The diff is `README.md`, `entries/x402.md`, `builders.json`, and `SNAPSHOT-HISTORY.md` only.
 - **X2 HELD.** E L58. `main` is `ef69a30b2cbd3fa044d12ff1026767930680293e`, committer date 2026-10-14T08:55:33Z, message "Bind SDK releases to reviewed source and approved tarballs (#34)". Pull #34 merged at that time, merge commit that sha.
-- **X3 HELD.** E L58. Annotated tag `v1.0.0-rc.2` object `35f011d998230369a9ee01604329aafaad10ea9c` peels to `724c5fff22de500fcf729c43b59d25036fbffa9c` (tagger date 2026-10-01T03:40:30Z). `GET releases/latest` returned 404.
+- **X3 HELD.** E L58. Annotated tag `v1.0.0-rc.2` object `35f011d998230369a9ee01604329aafaad10ea9c` peels to `724c5fff22de500fcf729c43b59d25036fbffa9c` (tagger date 2026-10-01T03:40:30Z). `GET releases/latest` 404 because every published release is a prerelease (latest v1.0.0-rc.2; server Date Thu, 15 Oct 2026 16:29:28 GMT, raw builders/x402-releases-latest.hdr).
 - **X4 HELD.** E L64 through E L67. #31 merged 2026-10-13T23:21:20Z as `a13af3dec6183eb2b03528c88ea12a998288d824`. #32 merged 2026-10-14T01:49:12Z as `417c0df0e77e91f74589f9cf3995e7a4bf678875`. #33 merged 2026-10-14T03:28:31Z as `16d89167589e23341daf63dbad456ccf53cf45d9`. #30 merged 2026-10-13T04:41:48Z as `6918defe91f5fd830c1a297aa72ce382c3428b94`.
 - **X5 HELD.** E L62. The issues list at this read has one open item, #15, title "Review request: EmDash adapter using DirectModeServer on TN10". #34's "finding 35" is body text. There is no issue 35.
 
