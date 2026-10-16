@@ -42,3 +42,8 @@ kas-odds tip 876f064 (23 Sep 08:01Z). Commits since 851e114 count a homepage vis
 - https://onlykas.app
 - https://github.com/STP-KAS/kaspa-master-file/blob/cf10a0f53dc98279f12cd523be008879efff00fd/SNAPSHOT-HISTORY.md#moved-from-readme-on-26-sep-2026
 - https://onlykas.danieliyahu.com
+
+
+## 16 Oct 2026 sweep
+
+- onlykas/kaskama master tip [`781a550f`](https://github.com/danieliyahu1/onlykas/commit/781a550f) (15 Oct 19:55:55Z, chore image pin).

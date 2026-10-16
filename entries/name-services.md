@@ -136,3 +136,9 @@ Kurncy 26 Sep 14:34Z https://x.com/KurncySolutions/status/2103855652493725743: d
 - https://github.com/STP-KAS/kns-tn10-testing/blob/ddf9aa97a09353908932cd3ae2e33d154443b5b6/scripts/kns-s3-create.mjs
 - https://github.com/STP-KAS/kns-dotk/blob/9079e2ab9f10feebac5f20da5279a65713bed050/NEWS.md
 - https://x.com/KurncySolutions/status/2103855652493725743
+
+
+## 16 Oct 2026 sweep
+
+- **IzioDev SMT name service (fork):** Sutton [2110866794218950778](https://x.com/michaelsuttonil/status/2110866794218950778) (15 Oct 22:53:56Z) links [IzioDev/argent-playground `feat/name-service` / `ag/name_service`](https://github.com/IzioDev/argent-playground/tree/feat/name-service/ag/name_service) at [`78d53aa7`](https://github.com/IzioDev/argent-playground/commit/78d53aa7) (14 Oct 20:02:18Z). Tree includes `smt.ag`, `registry.ag`, `registry-fast.ag`, `registry-slow.ag`, `registry-store.ag`, `name.ag`, `name_service.ag`, `const.ag`. Fork of argent-lang/argent-playground; not a merge to upstream; not desk-tested. Distinct from open draft [argent-playground#6](https://github.com/argent-lang/argent-playground/pull/6).
+- **KaChat:** main tip [`0a3848fd`](https://github.com/vsmirn0v/KaChat/commit/0a3848fd) (16 Oct 03:10:58Z).
