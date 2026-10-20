@@ -1,7 +1,7 @@
 # Ross Ku (RossKU/kob): Argent port notes and 8 Oct replies
 
 **Chip:** `catalog`. Third-party. **Caveat: third-party, not audited, demo, not desk-tested.** Everything below is Ross Ku's own account and his own figures. Nothing here was compiled, measured or run by the desk. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-10-09 (GitHub reads 9 Oct ~08:37 CEST and again ~08:40 CEST; the 8 Oct Telegram replies were read in the thread on 8 Oct and not re-read).
+**Last checked:** 2026-10-20 (GitHub commit read 20 Oct ~07:55 CEST: the 19 to 20 Oct section below; the 8 Oct notes and Telegram replies are still the 9 Oct reads).
 
 **The master keeps:** one sentence in its Argent cell, tied to [argent#69](https://github.com/argent-lang/argent/pull/69) (with an artifact import the interface fingerprint excludes the handle; his item 12 pin is open #69), with a pointer to this page ([kaspa-master-file Argent row](https://github.com/STP-KAS/kaspa-master-file), since `cb8b0df`). Argent itself (argent-lang/argent, its PRs and issues) stays in the master. This page holds the rest of his 8 Oct material, trimmed from the master's `build/ross-ku-argent-2026-10-08` branch on 9 Oct.
 
@@ -26,6 +26,15 @@ All of the following is **his claim, not desk-checked**:
 - **The 244 limit (13:51Z; his item 6).** On SilverScript v1.0.0, and, he says, the same on argent master with #68: the router fits, and only adding the continuation pin to the 2+2 swap goes over the 244 live stack bindings (his table: `TokenSwap_swap2` 227 shipped, 248 with the ask pin, 250 with the bid pin). They leave that pin out because the orders check their own continuation. His measurement.
 - **Stored `actor_type` (13:56Z; his item 7).** Until [argent#61](https://github.com/argent-lang/argent/issues/61) (open, last updated 16 Sep) lets an entry compare a stored `actor_type` with an imported template, they store the raw template hash and lengths.
 - He accepts Sutton's answers on items 1, 2, 5, 8 and 9.
+
+## 19 to 20 Oct 2026: KCC-23 tokens and TN10 attack notes (author's record)
+
+Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct 08:30Z to 20 Oct 05:00:56Z). His claims, not desk-checked.
+
+- **KCC-23 token creation.** From [`c4b5e89a`](https://github.com/RossKU/kob/commit/c4b5e89a) to [`218fdc10`](https://github.com/RossKU/kob/commit/218fdc10) (19 Oct 16:16:57Z to 17:41:38Z): a KOB token creation is two transactions under KCC-23, a preparation that declares the token details, then a genesis that spends it; a launch proof (`kob-kcc23-proof/1`) recomputes both ids and the covenant id; the indexer keeps a declaration only when its launch proof verifies. [`910398e6`](https://github.com/RossKU/kob/commit/910398e6c9ff23d13e37bd1a32d9df7512343a04) adds `docs/spec/token-metadata.md`: "KCC-23 (pinned Draft 1516a6c) as KOB adopts it". KCC-23 is a Draft on kccs main `1516a6c4` (master file, KCC still open).
+- **Audit fixes.** [`6276d5ca`](https://github.com/RossKU/kob/commit/6276d5ca) "trigger evidence compares the KCC-20 extension commitment (AUD-EXT), both pair scales positive (AUD-NP)", and [`d368ded9`](https://github.com/RossKU/kob/commit/d368ded9) (AUD-RT), with docs commits marking them closed in `docs/security/AUDIT-2026-10.md` (the audit file itself not read; who wrote it not checked).
+- **Live TN10 attacks.** [`633c06a1`](https://github.com/RossKU/kob/commit/633c06a182241ffcca40b3afff1fd161147e27b3) (20 Oct 05:00:56Z), commit message: "live TN10 attacks on KobCondPair and KobIfdPair (2026-10-20, main 9ff613b1): 11 single-change attacks, all rejected by the engine and the node, both honest controls accepted"; files `docs/testing/TN10-TEST-2026-10.md` and `docs/security/AUDIT-2026-10.md` (not read beyond the commit).
+- Also `fdb38fc7` "kob-x402: conformance vectors of the Kaspa x402 binding v1.0.1" (see [x402](x402.md)).
 
 ## Limits
 
