@@ -60,4 +60,4 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
-- Five commits on master since `d4f1b4ee`, to [`a02345f8`](https://github.com/RossKU/kob/commit/a02345f8) (10:31:29Z). [`c1800bf2`](https://github.com/RossKU/kob/commit/c1800bf2) (05:55:37Z) shows the KAS on the wallet's token UTXOs as its own Balances line; [`6f7b0010`](https://github.com/RossKU/kob/commit/6f7b0010) moves the web app to vite 8.3.5 (author: earlier 8.3.x pulled a launch-editor with high advisories); the rest are e2e/CI test changes. No release.
+- Four commits on master after `d4f1b4ee`, to [`a02345f8`](https://github.com/RossKU/kob/commit/a02345f8) (10:31:29Z). [`c1800bf2`](https://github.com/RossKU/kob/commit/c1800bf2) (05:55:37Z) shows the KAS on the wallet's token UTXOs as its own Balances line; [`6f7b0010`](https://github.com/RossKU/kob/commit/6f7b0010) moves the web app to vite 8.3.5 (author: earlier 8.3.x pulled a launch-editor with high advisories); the rest are e2e/CI test changes. No release.
