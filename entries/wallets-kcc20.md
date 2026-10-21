@@ -48,6 +48,15 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 - Sutton [2107898108113809644](https://x.com/michaelsuttonil/status/2107898108113809644) (18:17:26Z) offers to put together a handoff for the task; [2107901954668249139](https://x.com/michaelsuttonil/status/2107901954668249139) (18:32:43Z) says the wallet section on kaspa.org should have this feature as a criterion.
 - No PR, no code and no wallet release seen. Talk only.
 
+## 20 to 21 Oct 2026: Kaspire P2SH accounts with KIP-22 addresses (release notes; GitHub read 21 Oct ~07:55 CEST; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-tested.** KIP-22 is an open Draft pull (kaspanet/kips #48); its number and derivation purpose are not assigned (see the master's KIPs and KCC-3/4/5 cells).
+
+- [v0.11.53](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.53) "Kaspire Android 0.11.53 — P2SH accounts" and [extension-v0.5.11](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.11) "P2SH accounts and Covenant Vaults" (both published 20 Oct 12:37Z): a separate Mainnet P2SH account; "Receive KAS without publishing the spending public key. Spending reveals that key; fresh P2SH change avoids reusing it for new payments."; "Use KIP-22 derivation with a seed-based HD wallet."
+- [v0.11.54](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.54) and [extension-v0.5.14](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.14) (20 Oct 21:10Z): "P2SH reliability" fixes.
+- Main commit [`57f99426`](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/57f99426) (21 Oct 00:02:44Z) "Release Android 0.11.56 and extension 0.5.18: KCC20 consolidation"; no matching release was listed at the read.
+- This is the first wallet release seen here after the 9 Oct P2SH talk above. Release notes only; no address or spend checked.
+
 ## Sources (every link in the moved text)
 
 - https://github.com/forbole/kastle

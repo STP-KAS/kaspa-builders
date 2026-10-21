@@ -142,3 +142,10 @@ Kurncy 26 Sep 14:34Z https://x.com/KurncySolutions/status/2103855652493725743: d
 
 - **IzioDev SMT name service (fork):** Sutton [2110866794218950778](https://x.com/michaelsuttonil/status/2110866794218950778) (15 Oct 22:53:56Z) links [IzioDev/argent-playground `feat/name-service` / `ag/name_service`](https://github.com/IzioDev/argent-playground/tree/feat/name-service/ag/name_service) at [`78d53aa7`](https://github.com/IzioDev/argent-playground/commit/78d53aa7) (14 Oct 20:02:18Z). Tree includes `smt.ag`, `registry.ag`, `registry-fast.ag`, `registry-slow.ag`, `registry-store.ag`, `name.ag`, `name_service.ag`, `const.ag`. Fork of argent-lang/argent-playground; not a merge to upstream; not desk-tested. Distinct from open draft [argent-playground#6](https://github.com/argent-lang/argent-playground/pull/6).
 - **KaChat:** main tip [`0a3848fd`](https://github.com/vsmirn0v/KaChat/commit/0a3848fd) (16 Oct 03:10:58Z).
+
+## 20 to 21 Oct 2026: KaChat KIP-22 spending addresses (commit messages; GitHub read 21 Oct ~07:55 CEST; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-tested.** KIP-22 is an open Draft pull (kaspanet/kips #48); its number is not assigned.
+
+- [`bba1b1e9`](https://github.com/vsmirn0v/KaChat/commit/bba1b1e98cf92a4527db25aacf6812fd35265b3d) (20 Oct 07:38:39Z) "Quantum-safe addresses (KIP-22)": new spending addresses are P2SH with redeem script `<x-only key> OP_CHECKSIG`, "derived at m/22'/111111'/0'/0/<i> from the same seed"; "The chatting address is unchanged by design (its key is published for encryption and it spends constantly)"; existing addresses stay spendable.
+- 28 more commits on main to tip [`6e938ff7`](https://github.com/vsmirn0v/KaChat/commit/6e938ff7f3ac5af2aed6e54327a239e815a32ee2) (21 Oct 05:10:01Z), including "Verify KIP-22 spends in received-payment signature checks" (`54265bfd`), "Price change at its own script (quantum change is 35 bytes, not 34)" (`40e8c50a`), "KNS and quantum addresses: honest errors, never send a domain to P2SH" (`2a8ca5af`) and launch-hang fixes. Commit messages only.
