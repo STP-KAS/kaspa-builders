@@ -152,3 +152,10 @@ Read 13 Oct 2026. The post and the repo note are the author's record of a conver
 - Row added to kaspa-master-file in [`25c96e4`](https://github.com/STP-KAS/kaspa-master-file/commit/25c96e40f989cee2bbe5c4f97f32a15a838f7793) (4 Oct 18:16 CEST), challenger pass at [`43a3c64`](https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md) (35 HELD, 0 FAILED, 1 UNVERIFIABLE), merged at `7a54145`.
 - Moved out of the master on stp's instruction (4 Oct 19:01 CEST) by [`220fa36`](https://github.com/STP-KAS/kaspa-master-file/commit/220fa36b1fad7143ebd8ee28a4858b26ad60e7c1) on `master/community-move-2026-10-04`. The master keeps the research.kas.pa fact fix.
 - No star, fork, issue, comment or PR on the source repo.
+
+## 21 Oct 2026 (r2 sweep)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- KASPAglobal on X ([2112820036695974389](https://x.com/KASPAglobal/status/2112820036695974389), 08:15:25Z): "a kaspa privacy test switched off its operator after the payment. both wallets still withdrew all 10 test-KAS." It retells the 20 Oct TN10 record above; it is a repost, not a new test.
+- elldeeone's fork, branch `shielded-kas-research`: one more commit, [`7d63e5b6`](https://github.com/elldeeone/kaspa-privacy-initiative/commit/7d63e5b6) "Compare whole-note and partial withdrawal privacy" (12:25:45Z). Research notes; not reviewed.

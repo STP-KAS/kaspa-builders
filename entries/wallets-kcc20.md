@@ -71,3 +71,11 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 - https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/blob/505d70611fc6cbd264d5d1dc299988de928941ad/README.md#L47
 - https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/blob/77d906f20932da096406bac5928905f330af5335/README.md#L47
 - https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.46
+
+## 21 Oct 2026 (r2 sweep): Kastle 2.61.2 and 2.61.3
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [v2.61.2](https://github.com/forbole/kastle/releases/tag/v2.61.2) (07:12:54Z) carries [#397](https://github.com/forbole/kastle/pull/397) "fix: validate watched addresses, harden typed-data JSON parsing" (merged 06:42:25Z).
+- [v2.61.3](https://github.com/forbole/kastle/releases/tag/v2.61.3) (09:32:29Z) carries [#401](https://github.com/forbole/kastle/pull/401) "fix(ci): read CWS upload result — upgrade submit to v2 API" (Chrome Web Store upload step; merged 09:31:10Z). main tip `5f1330f5`.
+- The "Latest release still v2.61.0" line above is from 6 Oct; v2.61.1 followed on 14 Oct.
