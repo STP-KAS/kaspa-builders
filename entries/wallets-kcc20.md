@@ -79,3 +79,11 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 - [v2.61.2](https://github.com/forbole/kastle/releases/tag/v2.61.2) (07:12:54Z) carries [#397](https://github.com/forbole/kastle/pull/397) "fix: validate watched addresses, harden typed-data JSON parsing" (merged 06:42:25Z).
 - [v2.61.3](https://github.com/forbole/kastle/releases/tag/v2.61.3) (09:32:29Z) carries [#401](https://github.com/forbole/kastle/pull/401) "fix(ci): read CWS upload result — upgrade submit to v2 API" (Chrome Web Store upload step; merged 09:31:10Z). main tip `5f1330f5`.
 - The "Latest release still v2.61.0" line above is from 6 Oct; v2.61.1 followed on 14 Oct.
+
+## 21 to 22 Oct 2026 (sweep): Kaspire KaspaRocket on Mainnet; Kastle #389 KRON curve rules
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Kaspire [v0.11.58](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.58) "KaspaRocket Mainnet" (Android, 21 Oct 20:21:17Z) and [extension-v0.5.21](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.21) (21:19:21Z): KaspaRocket swaps on Mainnet ("bonding-curve, AMM and order-book routing"), listed before KRON; "Review token and pool covenant IDs ... before signing locally"; inputs checked "against Kaspire's own node"; signed swaps kept encrypted "for safe recovery without creating a second purchase". [v0.11.59](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.59) (20:38:55Z) is a "KaspaRocket recovery hotfix" for obsolete swaps saved by 0.11.58. Main tip `55f6784a`. Release notes only; no swap checked.
+- Kastle [#389](https://github.com/forbole/kastle/pull/389) (KCC-20 display, transfer and swap; open, head `e07cfa8a`, 22 Oct 05:40:29Z): four commits on 22 Oct and the author's [comment](https://github.com/forbole/kastle/pull/389#issuecomment-6332395599) (04:04:00Z) align the KCC-20 curve submit with "KRON's confirmed production rules": mainnet sequencer `https://seq.kron.technology` (TN10 staging `seq.krontest.xyz`); resend, rebuild (max 3) or direct-to-node depending on whether the sequencer is reachable; curve trades capped at 2 token inputs because "A 3-piece curve sell exceeds the 500k compute-mass consensus cap" (his statement, not checked). Gate figures (287 to 296 e2e passed) are the author's. Not merged.
+

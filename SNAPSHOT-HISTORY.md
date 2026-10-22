@@ -33,6 +33,18 @@ One row per change, newest first. Times are Europe/Brussels (CEST).
 | 2026-10-04 19:05 | seed (first commit on `main`) | Repo created on stp's OK (4 Oct 19:03 CEST). The seed went straight to `main` because the repo was new. Two entries moved here from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) on stp's instruction (19:01 CEST): **Privacy initiative (KPI)** (row from [`25c96e4`](https://github.com/STP-KAS/kaspa-master-file/commit/25c96e40f989cee2bbe5c4f97f32a15a838f7793), challenger pass [`43a3c64`](https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md); removed from the master in [`220fa36`](https://github.com/STP-KAS/kaspa-master-file/commit/220fa36b1fad7143ebd8ee28a4858b26ad60e7c1)) and **KasperoLabs: SilverScript Studio** (text from the master's *Third-party 26 Sep* row, removed in [`b567a48`](https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b); the master keeps rusty-kaspa #1140). The KasperoLabs page adds the 3 Oct X backfill items. The KPI page uses the challenger's KIP-10/16/17/20 wording. Repo pins, PR #22 and rusty-kaspa #1140 were re-read via the GitHub API at ~19:05 CEST and are unchanged. Left out: PhantomPool, the KASperiencexyz shielded-pool claim, the teoscure simnet numbers, and the X spend figure. No public reaction on any source repo. |
 
 
+## Builders sweep 22 Oct 2026
+
+Window: GitHub since `2026-10-21T13:37:15Z` (A-Z, paginated, 0 gaps); X since the 21 Oct r2 since_ids; Kas-Smiths since post 418 (none new). All are third-party; not audited; not desk-checked.
+
+- **Kaspire:** Android 0.11.58 and extension 0.5.21 add KaspaRocket swaps on Mainnet; 0.11.59 is a recovery hotfix. [Wallets and KCC-20](entries/wallets-kcc20.md).
+- **forbole/kastle #389:** KCC-20 curve submit aligned with KRON's sequencer rules (head `e07cfa8a`, open). [Wallets and KCC-20](entries/wallets-kcc20.md).
+- **vsmirn0v/KaChat:** 13 commits to `48f0dce2` (payment verification, quantum-address chain, KaPosts keys). [Name services](entries/name-services.md).
+- **KasSigner (not an entry):** InKasWeRust on kaspanet/kccs [#38](https://github.com/kaspanet/kccs/pull/38#issuecomment-6327175253) (21 Oct 21:41:08Z) says KasSigner "has implemented this layout since v1.0.6, and it has been used on mainnet" (the rusty-kaspa wallet multisig path; the path itself is checked in the master's KCC-3/4/5 cell). His claim; KasSigner not checked.
+- **X (community):** kaspaunchained and Kaspa_Commons "come build with us" posts, ReconProtocol on Igra sequencing, KasanovaWallet achievements, KaspaScopio on business adoption (mentions x402 and KaspaKii): nothing checkable to add.
+- **Skipped (not Kaspa):** tetsuo-ai/agenc-core, agenc-protocol, agenc-releases and homebrew-agenc (Solana), getumbrel/umbrel-apps, Magma-Devs/lava-specs, bitcoin/bips, zawy12/difficulty-algorithms #89.
+- **Master:** rusty-kaspa #1158 and #1152, kccs #38, vprogs #134, Argent #70, KGI #15, the KCC Final X posts and the TN10 public API sample are on kaspa-master-file `master/sweep-2026-10-22`.
+
 ## Builders sweep 21 Oct 2026 (r2)
 
 Extra sweep asked by stp. Window: GitHub since `2026-10-21T05:36:55Z` (A-Z, paginated); X since the morning since_ids; Kas-Smiths since post 417 (post 418 is core KCC-20 work, on the master). All are third-party; not audited; not desk-checked.
