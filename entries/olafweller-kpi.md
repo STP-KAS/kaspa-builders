@@ -159,3 +159,9 @@ Read 13 Oct 2026. The post and the repo note are the author's record of a conver
 
 - KASPAglobal on X ([2112820036695974389](https://x.com/KASPAglobal/status/2112820036695974389), 08:15:25Z): "a kaspa privacy test switched off its operator after the payment. both wallets still withdrew all 10 test-KAS." It retells the 20 Oct TN10 record above; it is a repost, not a new test.
 - elldeeone's fork, branch `shielded-kas-research`: one more commit, [`7d63e5b6`](https://github.com/elldeeone/kaspa-privacy-initiative/commit/7d63e5b6) "Compare whole-note and partial withdrawal privacy" (12:25:45Z). Research notes; not reviewed.
+
+## 22 to 23 Oct 2026 (GitHub read 23 Oct ~08:15 CEST)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- elldeeone's fork: 10 branches moved after 22 Oct 05:42Z (every branch read): `shielded-kas-research` [`ec6aa15d`](https://github.com/elldeeone/kaspa-privacy-initiative/commit/ec6aa15d) "Record price baseline results and public verification" (09:24:57Z); `research/shielded-kas-feasibility` [`6532443c`](https://github.com/elldeeone/kaspa-privacy-initiative/commit/6532443c) (23 Oct 05:47:43Z); and new dated branches `work/s7-owner-lifecycle-20261022`, `work/intensive-research-20261022`, `docs/kpi-orchestration-2026-10-22` and five `test/*-20261022` branches (native guard, relation, tree-capacity, continuation-admission and admission-adapter controls). Research and test branches; not reviewed. olafweller/kaspa-privacy-initiative: no branch moved.

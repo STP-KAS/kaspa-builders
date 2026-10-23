@@ -63,3 +63,9 @@ Third-party count, not a pin: kascovio https://x.com/kascovio/status/21035288663
 - https://x.com/kascovio/status/2103528866312802567
 - https://kascov.io/#/testnet-10/c/85165a6f453dbbd1e968c238966e297046b8f1d22c00fee1bc208de00c3fb097
 - https://kascov.io/data/testnet-10/c/85165a6f453dbbd1e968c238966e297046b8f1d22c00fee1bc208de00c3fb097.json
+
+## 22 Oct 2026: kascov-decode 0.3.0 (GitHub read 23 Oct ~08:15 CEST)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [`82b7ed6c`](https://github.com/Knitser/kascov/commit/82b7ed6c) (Knitser, 22 Oct 13:57:33Z) "kascov-decode 0.3.0: KCC-1, KCC-2 and KCC-20 Final at kaspanet/kccs 1ed87ae". The message says the crate is "an exact export of private b4554db0", live on kascov.io, and is "Breaking for library users, hence 0.3.0" (new fields in `kcc0020::IssueVerdict`, `Pin` and `IssuerFields`; "KCC-20 token" is now a token-level name). Fixtures include KaspaRocket LP AMM v1 mainnet and TN10 binaries. Commit message only; not built here.

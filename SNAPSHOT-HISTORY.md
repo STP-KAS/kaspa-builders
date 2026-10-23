@@ -34,6 +34,19 @@ One row per change, newest first. Times are Europe/Brussels (CEST).
 | 2026-10-04 19:05 | seed (first commit on `main`) | Repo created on stp's OK (4 Oct 19:03 CEST). The seed went straight to `main` because the repo was new. Two entries moved here from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) on stp's instruction (19:01 CEST): **Privacy initiative (KPI)** (row from [`25c96e4`](https://github.com/STP-KAS/kaspa-master-file/commit/25c96e40f989cee2bbe5c4f97f32a15a838f7793), challenger pass [`43a3c64`](https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md); removed from the master in [`220fa36`](https://github.com/STP-KAS/kaspa-master-file/commit/220fa36b1fad7143ebd8ee28a4858b26ad60e7c1)) and **KasperoLabs: SilverScript Studio** (text from the master's *Third-party 26 Sep* row, removed in [`b567a48`](https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b); the master keeps rusty-kaspa #1140). The KasperoLabs page adds the 3 Oct X backfill items. The KPI page uses the challenger's KIP-10/16/17/20 wording. Repo pins, PR #22 and rusty-kaspa #1140 were re-read via the GitHub API at ~19:05 CEST and are unchanged. Left out: PhantomPool, the KASperiencexyz shielded-pool claim, the teoscure simnet numbers, and the X spend figure. No public reaction on any source repo. |
 
 
+## Builders sweep 23 Oct 2026
+
+Window: GitHub since `2026-10-22T05:42:56Z` (A-Z 134 repos, paginated, 0 gaps; risc0/risc0 read as a list only); X since the 22 Oct since_ids; Kas-Smiths since post 418 (post 419 is core KCC-20 news, on the master). All are third-party; not audited; not desk-checked.
+
+- **forbole/kastle:** [v2.61.4](https://github.com/forbole/kastle/releases/tag/v2.61.4) rotates the PostHog project key (#403; the PR body links it to "the Oct 21 Railway breach"); #389 head now `1085a1d0`. [Wallets and KCC-20](entries/wallets-kcc20.md).
+- **vsmirn0v/KaChat:** 8 commits to `8b31f71c` (per-account writes, IOS-107/IOS-109). [Name services](entries/name-services.md).
+- **RossKU/kob:** 22 commits to `aec11a5f` (no per-token judgement in the registry, no ticker uniqueness, public node pair default, release and Pages workflows). [Ross Ku: kob](entries/rossku-kob.md).
+- **Knitser/kascov:** kascov-decode 0.3.0 for KCC-1, KCC-2 and KCC-20 Final (`82b7ed6c`). [Covenant-id tooling](entries/covenant-id-tooling.md).
+- **elldeeone/kaspa-privacy-initiative:** 10 branches moved, 8 of them new dated research and test branches. [KPI](entries/olafweller-kpi.md).
+- **X (community):** KasperoLabs [2113225368727372281](https://x.com/KasperoLabs/status/2113225368727372281) (22 Oct 11:06:04Z): "Someone is poking at" a linked site "over Tor right now. Nothing has gotten through" (its claim); ReconProtocol network snapshot and covenant replies, KasanovaWallet referral posts, CryptoQTK, BankQuote, KASPAglobal KCC-20 recap, KaspaScopio bridge reply: nothing checkable to add.
+- **Skipped (not Kaspa):** tetsuo-ai/agenc-core, agenc-releases and homebrew-agenc (Solana), getumbrel/umbrel-apps, Magma-Devs/lava-specs, bitcoin/bips, stackedlol/ascii-sharks, risc0/risc0 bulk update.
+- **Master:** rusty-kaspa #1152 and #1159, silverscript #261/#262, vprogs #136/#139/#140, Argent, KGI #16/#17, the KAS20 X posts, Kas-Smiths post 419 and the TN10 public API sample are on kaspa-master-file `master/sweep-2026-10-23`.
+
 ## Builders sweep 22 Oct 2026
 
 Window: GitHub since `2026-10-21T13:37:15Z` (A-Z, paginated, 0 gaps); X since the 21 Oct r2 since_ids; Kas-Smiths since post 418 (none new). All are third-party; not audited; not desk-checked.

@@ -61,3 +61,9 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - Four commits on master after `d4f1b4ee`, to [`a02345f8`](https://github.com/RossKU/kob/commit/a02345f8) (10:31:29Z). [`c1800bf2`](https://github.com/RossKU/kob/commit/c1800bf2) (05:55:37Z) shows the KAS on the wallet's token UTXOs as its own Balances line; [`6f7b0010`](https://github.com/RossKU/kob/commit/6f7b0010) moves the web app to vite 8.3.5 (author: earlier 8.3.x pulled a launch-editor with high advisories); the rest are e2e/CI test changes. No release.
+
+## 22 to 23 Oct 2026 (GitHub read 23 Oct ~08:15 CEST)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- 22 commits on master after `a02345f8`, to [`aec11a5f`](https://github.com/RossKU/kob/commit/aec11a5f) (23 Oct 01:58:04Z). Among them: [`f50a5b32`](https://github.com/RossKU/kob/commit/f50a5b32) (11:26:30Z) "registry: KOB makes no per-token judgement (founder 2026-10-19, legal review 2026-10-21)": token entries lose listed/delisted status, `official` and the maintainer warning text; [`2abc1f47`](https://github.com/RossKU/kob/commit/2abc1f47) (14:59:44Z) "registry: no ticker uniqueness", because "the covenant id beside the ticker is the identity"; [`5c27aee1`](https://github.com/RossKU/kob/commit/5c27aee1) public Kaspa nodes as the executor default, "always a cross-checked pair"; [`ec71e142`](https://github.com/RossKU/kob/commit/ec71e142) a release workflow for prebuilt `kob-executor` / `kob-cli` binaries on a `v*` tag; [`ca4ae33c`](https://github.com/RossKU/kob/commit/ca4ae33c) a Cloudflare Pages deploy workflow for the web app; the rest are web layout and docs. No tag or release.
