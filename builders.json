@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-10-21",
+  "updated": "2026-10-24",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -539,6 +539,19 @@
         "https://github.com/STP-KAS/tn10-storm-plan-mint-rush/blob/262d1bccd57aa739342fa04272a2570900e96bab/docs/KCC20-VS-KRC20.md"
       ],
       "checked": "2026-10-11"
+    },
+    {
+      "name": "KaspaDollar (announced stablecoin initiative)",
+      "url": "https://x.com/KaspaDollar/status/2113601328975098237",
+      "page": "entries/kaspadollar.md",
+      "chip": "claim",
+      "note": "Third-party. @KaspaDollar 2113601328975098237 (23 Oct 12:00Z): initiative led by core developer @asaefstroem for a decentralized, overcollateralized stablecoin, \"with the support of the core team\"; fundraiser target 5,000,000 KAS, contributions returned if not reached by 1 January 2027. No code, repo or address in the posts. asaefstroem 2113842818326392875: the rust and DagKnight funds are already allocated; the community dev fund is too small for the project.",
+      "sources": [
+        "https://x.com/KaspaDollar/status/2113601328975098237",
+        "https://x.com/asaefstroem/status/2113601810149859807",
+        "https://x.com/asaefstroem/status/2113842818326392875"
+      ],
+      "checked": "2026-10-24"
     }
   ]
 }
