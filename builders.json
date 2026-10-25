@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -545,13 +545,17 @@
       "url": "https://x.com/KaspaDollar/status/2113601328975098237",
       "page": "entries/kaspadollar.md",
       "chip": "claim",
-      "note": "Third-party. @KaspaDollar 2113601328975098237 (23 Oct 12:00Z): initiative led by core developer @asaefstroem for a decentralized, overcollateralized stablecoin, \"with the support of the core team\"; fundraiser target 5,000,000 KAS, contributions returned if not reached by 1 January 2027. No code, repo or address in the posts. asaefstroem 2113842818326392875: the rust and DagKnight funds are already allocated; the community dev fund is too small for the project.",
+      "note": "Third-party. @KaspaDollar 2113601328975098237 (23 Oct 12:00Z): initiative led by core developer @asaefstroem for a decentralized, overcollateralized stablecoin, \"with the support of the core team\"; fundraiser target 5,000,000 KAS, contributions returned if not reached by 1 January 2027. No code, repo or address in the posts. asaefstroem 2113842818326392875: the rust and DagKnight funds are already allocated; the community dev fund is too small for the project. michaelsutton 2114040191719444646 (24 Oct): \"i’ll do everything in my power on the technical side to help this initiative move forward\". asaefstroem replies 24 Oct: \"Covenants will issue it.\"; \"a token like $USDS and ethereum:0x6b175474e89094c44da98b954eedeac495271d0f\".",
       "sources": [
         "https://x.com/KaspaDollar/status/2113601328975098237",
         "https://x.com/asaefstroem/status/2113601810149859807",
-        "https://x.com/asaefstroem/status/2113842818326392875"
+        "https://x.com/asaefstroem/status/2113842818326392875",
+        "https://x.com/michaelsuttonil/status/2114040191719444646",
+        "https://x.com/asaefstroem/status/2113970020598632570",
+        "https://x.com/asaefstroem/status/2113969939073917153",
+        "https://x.com/asaefstroem/status/2113984535738118208"
       ],
-      "checked": "2026-10-24"
+      "checked": "2026-10-25"
     }
   ]
 }

@@ -73,3 +73,9 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - 6 commits on master after `aec11a5f` (compare, every commit), to [`8979408f`](https://github.com/RossKU/kob/commit/8979408f0373b0643255f7a6d6ec11a9fbdefafa) (23 Oct 21:03:35Z) "deps: tokio 1.54.1 (RUSTSEC-2026-0386 ...), which failed cargo deny". Among them: [`424cb430`](https://github.com/RossKU/kob/commit/424cb430) (15:36:25Z) "release: aarch64-linux-android (bionic) builds of kob-executor and kob-cli for Termux on a phone"; `1f2185f7`, `8d544ca2` and `d9c7bf80` (06:43Z–07:17Z) on the web private-key signer's anti-clickjacking wait ("Android Chrome reported three of five rows as covered ... so Approve never opened on that phone"); [`bdb892e5`](https://github.com/RossKU/kob/commit/bdb892e5) (10:13:21Z) an e2e guard for that signer on Android-like phones.
+
+## 24 Oct 2026 (GitHub read 25 Oct ~07:50 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- 9 commits on `master`, 07:47:16Z to 10:00:33Z, tip [`fd105ec6`](https://github.com/RossKU/kob/commit/fd105ec6). [`a8fd5da5`](https://github.com/RossKU/kob/commit/a8fd5da5) "android: testnet-10 executor app (foreground service, setup/run/status screens), CI builds the debug-signed APK"; [`49b3a104`](https://github.com/RossKU/kob/commit/49b3a104) `setup --non-interactive` and `address-balance` for the app; [`540dac0c`](https://github.com/RossKU/kob/commit/540dac0c) writer lock with flock on Unix ("std's File::try_lock is unsupported on Android"); [`7d955f8b`](https://github.com/RossKU/kob/commit/7d955f8b) "fast start" on a tip store while the full book is indexed; [`fd105ec6`](https://github.com/RossKU/kob/commit/fd105ec6) "lean storage - the live book plus 30 days of closed orders and a 500 MB cap"; four Android UI commits (gradlew, balance read, selectable text, dark mode).

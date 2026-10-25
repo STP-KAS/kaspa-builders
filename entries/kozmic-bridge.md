@@ -35,3 +35,11 @@ The 12 Oct claim [2109766022790066442](https://x.com/KasperoLabs/status/21097660
 ## Do not weld
 
 KBT into KCC-20 Final. This one-way vault into a two-way bridge. The RISC Zero / r0vm-helios zkSecurity audit into an audit of Kozmic. The author's mainnet tx ids into a desk node check. rusty-kaspa #1074 into this bridge. silverscript-studio `e27a7c4e` into this repository.
+
+## 24 Oct 2026: author's status post (X read 25 Oct ~07:50 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- KasperoLabs [2113950984451817976](https://x.com/KasperoLabs/status/2113950984451817976) (24 Oct 11:09:24Z): "The concept is solid and proven on mainnet, both directions. It is possible to use Groth16/zk to prove Kaspa to Ethereum using a level-30 superblock ladder with 100 attesting superblocks." "One weakness I found myself in the relay’s replacement rule is still open, with a fix designed and waiting for review." "Not verified: that the silverscript is solid enough, and that the Ethereum contracts are solid enough." "I am right now in “thinking about it” mode."
+- Same post, other projects: kasla "added KCC-20 token support", "changed email invites to be covenant-based", and "an air-gapped vault with an external watcher" with a "not me" button that sweeps the vault to an external kaspa address; "The KCC-20 Launcher V2.0 will be about utility tokens".
+- No new txid, commit or repo link in the post.
