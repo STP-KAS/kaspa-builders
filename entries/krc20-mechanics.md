@@ -50,3 +50,9 @@ KNS is not KRC-20; it only shares the inscription pattern.
 
 - Silentpartnercoding ([24 Oct 19:20:30Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6388471139)): "an op that needs an additional fee is ignored (not failed) if any of its inputs has a DAA score below 83,403,399, and from DAA 408,300,500 (HfDaaScore2026Q1) fees come from rpc-vspc2, so it can't recur. I've added that rule to krc20-verifier with boundary tests."
 - 5bb55b ([25 Oct 02:26:13Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6392440403)), pointing to [`sequencer/archive.go#L354`](https://github.com/kasplex/go-krc20d/blob/main/sequencer/archive.go#L354): "This is an adjustment for KIP-15: when the `daa-score` < `110,165,000`, transactions are sorted by their transaction ID; otherwise, the original VSPC ordering is used." Issue still open.
+
+## 25 Oct 2026: go-krc20d#1, transaction order (GitHub read 26 Oct ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Silentpartnercoding ([25 Oct 09:21:10Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6395881149)): "The L354 rule only applies below DAA 110,165,000, and all 74 blocks are above it (256,890,845 to 569,981,356), so they use the VSPC order." Checking `acceptedIdMerkleRoot` in block headers (KIP-15): "That's 11 of 11 checkable blocks matching Kasplex and none matching mine. The cause is on my side: the public REST API's `/virtual-chain` lists txids in ascending order (73 of the 74 blocks), not in acceptance order." He asks Kasplex to confirm the canonical order for DAA ≥ 110,165,000 in the KRC-20 spec, and says `/v1/archive/vspc/:daascore` on api.kasplex.org returns "api disabled". Issue still open, no reply at this read.

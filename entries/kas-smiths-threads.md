@@ -44,6 +44,13 @@ Post 401 (28 Sep 16:13Z) ezira topic 155: multi-leaf collection covenant idea fo
 - The six questions go to the KCC authors (unique-asset KCC; KCC-1/KCC-2 conventions for a non-standard family; a one-way hand-over in a covenant-ID authority slot; an unbiased sampling primitive and i64 width; discovery via KCC-23 metadata and a covenant-ID UTXO lookup; the OpChainblockSeqCommit window). No replies at this read. Post [412](https://kas-smiths.org/t/fungible-token-covenant-specification-kcc20/8/77) (04:22:05Z) points to it from the KCC-20 topic.
 - **The master keeps:** the six KCC questions as an open forum item in its Kas-Smiths row; the game is here.
 
+## 26 Oct 2026: topic 165, B1TCOIN S1LVER unique-asset KCC (read 26 Oct 06:49Z)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Post 420 (S1LVERTOSHI, 26 Oct 01:01:51Z) opens [topic 165](https://kas-smiths.org/t/kaspa-nfts-a-unique-asset-kcc-on-top-of-kcc-1-2-23-offering-a-draft-a-reference-contract-and-a-live-implementation/165) "(Kaspa NFTs) A unique-asset KCC on top of KCC-1/2/23: offering a draft, a reference contract and a live implementation". On his game: "I am building B1TCOIN S1LVER, a multi-year replay of Bitcoin’s history on Kaspa"; "It launches January 3rd 2027 with a fixed-supply of B1TCOINs (KCC-20 tokens) and numbered mining units that carry hashpower and artwork". He offers "a short draft reusing KCC-1/2/23 by reference, a reference contract in Silverscript, conformance vectors, and a live implementation on testnet-10 and then mainnet", and asks the KCC721 authors and wallet and indexer builders to co-author. No reply at this read.
+- **The master keeps:** the topic and its KCC ask in its Kas-Smiths row; the game is here.
+
 ## Sources (every link in the moved text)
 
 - https://kas-smiths.org/t/multi-leaf-collection-covenant/155
