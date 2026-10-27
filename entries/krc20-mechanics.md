@@ -56,3 +56,10 @@ KNS is not KRC-20; it only shares the inscription pattern.
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - Silentpartnercoding ([25 Oct 09:21:10Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6395881149)): "The L354 rule only applies below DAA 110,165,000, and all 74 blocks are above it (256,890,845 to 569,981,356), so they use the VSPC order." Checking `acceptedIdMerkleRoot` in block headers (KIP-15): "That's 11 of 11 checkable blocks matching Kasplex and none matching mine. The cause is on my side: the public REST API's `/virtual-chain` lists txids in ascending order (73 of the 74 blocks), not in acceptance order." He asks Kasplex to confirm the canonical order for DAA ≥ 110,165,000 in the KRC-20 spec, and says `/v1/archive/vspc/:daascore` on api.kasplex.org returns "api disabled". Issue still open, no reply at this read.
+
+## 26 to 27 Oct 2026: go-krc20d#1, order confirmed (GitHub read 27 Oct ~07:50 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- 5bb55b ([26 Oct 07:37:58Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352)), answering Silentpartnercoding's two questions: "1, Yes confirmed." (that for DAA ≥ 110,165,000 the canonical order is the node's VSPC `acceptedTransactionIds` order) and "2, As the real-time archival db now implements historical data pruning, this API is no longer provided. However, an export directory—containing compressed files backed up to an S3 bucket—will be made available for download in the near future."
+- Silentpartnercoding ([27 Oct 02:17:54Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6432104838)): "Thanks, that settles the ordering question." He asks whether Kasplex would "take a PR adding the post-110,165,000 ordering rule to the spec" and to post when the S3 export is live. Issue still open (11 comments).
