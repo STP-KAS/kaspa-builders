@@ -63,3 +63,10 @@ KNS is not KRC-20; it only shares the inscription pattern.
 
 - 5bb55b ([26 Oct 07:37:58Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352)), answering Silentpartnercoding's two questions: "1, Yes confirmed." (that for DAA ≥ 110,165,000 the canonical order is the node's VSPC `acceptedTransactionIds` order) and "2, As the real-time archival db now implements historical data pruning, this API is no longer provided. However, an export directory—containing compressed files backed up to an S3 bucket—will be made available for download in the near future."
 - Silentpartnercoding ([27 Oct 02:17:54Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6432104838)): "Thanks, that settles the ordering question." He asks whether Kasplex would "take a PR adding the post-110,165,000 ordering rule to the spec" and to post when the S3 export is live. Issue still open (11 comments).
+
+## 27 to 28 Oct 2026: go-krc20d#2 ordering-rule docs pull (GitHub read 28 Oct ~07:50 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- 5bb55b ([27 Oct 14:34:49Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6444784929)), answering Silentpartnercoding's offer of a PR adding the post-110,165,000 ordering rule to the spec and his request to post when the S3 export is live: "Yes, certainly." Issue still open (12 comments).
+- Silentpartnercoding opened [#2](https://github.com/kasplex/go-krc20d/pull/2) "docs: add transaction ordering rule for DAA >= 110165000" (27 Oct 16:10:27Z, head `8d70752e`, README.md only, +12/−0), open: below DAA 110165000 "txids are sorted (KIP-15 adjustment, sequencer/archive.go#L354)", and from 110165000 onward "the node's VSPC `acceptedTransactionIds` order is kept"; "Documentation only; no code changes."
