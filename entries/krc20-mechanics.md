@@ -70,3 +70,10 @@ KNS is not KRC-20; it only shares the inscription pattern.
 
 - 5bb55b ([27 Oct 14:34:49Z](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6444784929)), answering Silentpartnercoding's offer of a PR adding the post-110,165,000 ordering rule to the spec and his request to post when the S3 export is live: "Yes, certainly." Issue still open (12 comments).
 - Silentpartnercoding opened [#2](https://github.com/kasplex/go-krc20d/pull/2) "docs: add transaction ordering rule for DAA >= 110165000" (27 Oct 16:10:27Z, head `8d70752e`, README.md only, +12/−0), open: below DAA 110165000 "txids are sorted (KIP-15 adjustment, sequencer/archive.go#L354)", and from 110165000 onward "the node's VSPC `acceptedTransactionIds` order is kept"; "Documentation only; no code changes."
+
+## 28 to 29 Oct 2026: go-krc20d#2 merged (GitHub read 29 Oct ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [kasplex/go-krc20d#2](https://github.com/kasplex/go-krc20d/pull/2) (the DAA 110165000 ordering-rule docs) was merged by 5bb55b on 29 Oct 02:25:36Z as [`6d21c866`](https://github.com/kasplex/go-krc20d/commit/6d21c8668bd77db6d89f28560cc37aaa205f8517).
+- Silentpartnercoding ([03:18:57Z](https://github.com/kasplex/go-krc20d/pull/2#issuecomment-6486943978)): "I've updated krc20-verifier to cite this section as the documented ordering rule. Should the same two rules also go into the GitBook KRC-20 spec?" No answer yet. Issue #1 is still open (12 comments).

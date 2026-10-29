@@ -26,6 +26,13 @@ RunOnFlux/kaspa-core (Flux, author TheTrunk). Pure-TypeScript Kaspa transaction 
 - `main` still [`4cf8f35b`](https://github.com/RunOnFlux/kaspa-core/commit/4cf8f35be6e3bec696e784f4b3656d9feaa15bf6), release still v1.0.0 (7 and 8 Oct reads).
 - Zelcore [2107391084615893260](https://x.com/zelcore_io/status/2107391084615893260) (6 Oct 08:42Z, reply to KaspaScopio): "The library is MIT licensed, pure TypeScript, and runs without WASM or a Rust toolchain. It's verified against rusty-kaspa. Keys sign on the device"; "Zelcore plans to build on it too. That switch isn't shipped yet." This matches this repo's README (MIT, no WASM, rusty-kaspa oracle), so it **likely** means RunOnFlux/kaspa-core, but the post names no repo. Not verified.
 
+## 28 to 29 Oct 2026: Zelcore 8.39.0 on kaspa-core (X and GitHub read 29 Oct ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Zelcore [2115551981859451159](https://x.com/zelcore_io/status/2115551981859451159) (28 Oct 21:11:12Z): "Zelcore 8.39.0 now runs $KAS on kaspa-core v1.0.0. It's pure TypeScript with two runtime dependencies and no WASM blob. Every flow verified on mainnet. MIT licensed". This post names the library, so the 6 Oct match above no longer rests only on the description. "Verified on mainnet" is Zelcore's claim; not checked here.
+- RunOnFlux/kaspa-core `main` is [`da5c259c`](https://github.com/RunOnFlux/kaspa-core/commit/da5c259cbe819002c4bcf754ce96d7ef7345887d) (13 Oct 15:28:26Z, "Merge pull request #3 from RunOnFlux/ci/publish-no-registry-url"), 9 commits ahead of `4cf8f35b`; tag `v1.0.1` points at `da5c259c`; npm `@runonflux/kaspa-core` latest is 1.0.1 (published 13 Oct 15:18:04Z); the only GitHub release is still v1.0.0.
+
 ## Sources (every link in the moved text)
 
 - https://github.com/RunOnFlux/kaspa-core

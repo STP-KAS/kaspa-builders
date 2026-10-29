@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -352,7 +352,7 @@
       "url": "https://github.com/RunOnFlux/kaspa-core",
       "page": "entries/kaspa-core-flux.md",
       "chip": "catalog",
-      "note": "RunOnFlux/kaspa-core (Flux, author TheTrunk). Pure-TypeScript Kaspa transaction library for Flux's SSP and ZelCore wallets: addresses, M-of-N P2SH multisig, sighash, BIP340 signing, KIP-9 mass and fees, input selection, KRC-20 and Igra entry builders, REST and JSON-wRPC clients. No WASM. MIT. Not a rusty-kaspa fork and not a node: GitHub fork false, one commit 4cf8f35b (25 Sep 13:58Z), tag and release v1.0.0 (14:10Z) https://github.com/RunOnFlux/kaspa-core/releases/tag/v1.0.0 , npm @runonflux/kaspa-core 1.0.0. Dev-only oracle links rusty-kaspa crates at 01b532e8 (v2.1.0). No open issues or pulls on 27 Sep. No Dockerfile. wRPC client takes networkId testnet-10 (kaspatest:) and fixed URLs, so it can point at a TN10 kaspad with --utxoindex --rpclisten-json (testnet JSON port 18210); live tests are mainnet only. Mainnet-proof claims are the author's (AUDIT.md). Not desk-tested. Catalog. 8 Oct: main still 4cf8f35b, release v1.0.0. Zelcore https://x.com/zelcore_io/status/2107391084615893260 (6 Oct) describes an MIT, pure-TypeScript, no-WASM library verified against rusty-kaspa that Zelcore plans to build on; likely this repo, but the post names no repo.",
+      "note": "RunOnFlux/kaspa-core (Flux, author TheTrunk). Pure-TypeScript Kaspa transaction library for Flux's SSP and ZelCore wallets: addresses, M-of-N P2SH multisig, sighash, BIP340 signing, KIP-9 mass and fees, input selection, KRC-20 and Igra entry builders, REST and JSON-wRPC clients. No WASM. MIT. Not a rusty-kaspa fork and not a node: GitHub fork false, one commit 4cf8f35b (25 Sep 13:58Z), tag and release v1.0.0 (14:10Z) https://github.com/RunOnFlux/kaspa-core/releases/tag/v1.0.0 , npm @runonflux/kaspa-core 1.0.0. Dev-only oracle links rusty-kaspa crates at 01b532e8 (v2.1.0). No open issues or pulls on 27 Sep. No Dockerfile. wRPC client takes networkId testnet-10 (kaspatest:) and fixed URLs, so it can point at a TN10 kaspad with --utxoindex --rpclisten-json (testnet JSON port 18210); live tests are mainnet only. Mainnet-proof claims are the author's (AUDIT.md). Not desk-tested. Catalog. 8 Oct: main still 4cf8f35b, release v1.0.0. Zelcore https://x.com/zelcore_io/status/2107391084615893260 (6 Oct) describes an MIT, pure-TypeScript, no-WASM library verified against rusty-kaspa that Zelcore plans to build on; likely this repo, but the post names no repo. 29 Oct read: main da5c259c (13 Oct), tag v1.0.1 at da5c259c, npm 1.0.1, GitHub release still v1.0.0. Zelcore https://x.com/zelcore_io/status/2115551981859451159 (28 Oct): \"Zelcore 8.39.0 now runs $KAS on kaspa-core v1.0.0\"; \"Every flow verified on mainnet\" is its claim.",
       "sources": [
         "https://github.com/RunOnFlux/kaspa-core",
         "https://github.com/RunOnFlux/kaspa-core/commit/4cf8f35be6e3bec696e784f4b3656d9feaa15bf6",
