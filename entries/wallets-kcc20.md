@@ -9,7 +9,7 @@ Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-f
 
 ## What
 
-Third-party wallet work on KCC-20: forbole/kastle KCC-20 UI merged into a feature branch, #372 into main closed unmerged on 6 Oct 07:21:22Z (head `ddfaf373`); Kaspire KCC-20 swaps on TN10 Android and release v0.11.46 (extension 0.5.5). Not verified: swaps in the extension. No mainnet KCC-20 swap claimed.
+Third-party wallet work on KCC-20: forbole/kastle KCC-20 UI merged into a feature branch, #372 into main closed unmerged on 6 Oct 07:21:22Z (head `84ebe285`); Kaspire KCC-20 swaps on TN10 Android and release v0.11.46 (extension 0.5.5). Not verified: swaps in the extension. No mainnet KCC-20 swap claimed.
 
 ## Moved text (verbatim)
 
