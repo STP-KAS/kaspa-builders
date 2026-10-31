@@ -185,3 +185,9 @@ Read 13 Oct 2026. The post and the repo note are the author's record of a conver
 
 - elldeeone's fork, branch `research/shielded-kas-feasibility`: one commit [`62dea77f`](https://github.com/elldeeone/kaspa-privacy-initiative/commit/62dea77f) (25 Oct 22:59:34Z) "Prototype owner-local native KAS payments and independent recovery".
 - Pre-release [native-kas-local-payment-research-2026-10-25](https://github.com/elldeeone/kaspa-privacy-initiative/releases/tag/native-kas-local-payment-research-2026-10-25) "Native KAS local payment research and recovery kit" (23:01:50Z): "Research snapshot for local one-input/two-output native KAS payments and original-seed cold recovery on Testnet-10. This prerelease does not qualify production safety or financial privacy." olafweller/kaspa-privacy-initiative main still `7ffe8353`.
+
+## 30 Oct 2026: author's development pause (X read 31 Oct ~07:50 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [@WellerOlaf 2116101290774126759](https://x.com/WellerOlaf/status/2116101290774126759) (30 Oct 09:33:57Z): "Quick KPI update ... development of the Kaspa Privacy Initiative will be taking a back seat for a while. I'll still be working on things here and there whenever I find the time, but without a fixed schedule." olafweller/kaspa-privacy-initiative main still [`7ffe8353`](https://github.com/olafweller/kaspa-privacy-initiative/commit/7ffe8353) (20 Oct 21:46:11Z).
