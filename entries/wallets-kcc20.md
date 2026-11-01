@@ -153,3 +153,11 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 ## 31 Oct 2026: Kastle #389 closed, #406 merged (gh read 31 Oct)
 
 - 31 Oct: [#389](https://github.com/forbole/kastle/pull/389) closed unmerged 26 Oct 09:07:19Z (head `1085a1d0`); [#406](https://github.com/forbole/kastle/pull/406) merged.
+
+## 1 Nov 2026: Kastle #420 replaces #415 to #419; #421 Kasseal in Swap (GitHub read 1 Nov ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- leobragaz opened [forbole/kastle#420](https://github.com/forbole/kastle/pull/420) "fix(kcc20): one branch for KCC-20 parity and asset detail consistency" (1 Nov 02:08:24Z, base `main`, head `fix/kcc20-parity-all` at [`00e92966`](https://github.com/forbole/kastle/commit/00e92966), 37 files, +1584/−1240). Its body: "Supersedes #415, #416, #417, #418 and #419. Merge this one, close those." and lists `npm run e2e` "478 passed". Open, not merged; reviews so far are bots only (Copilot and CodeRabbit, COMMENTED).
+- [#415](https://github.com/forbole/kastle/pull/415), [#416](https://github.com/forbole/kastle/pull/416), [#417](https://github.com/forbole/kastle/pull/417), [#418](https://github.com/forbole/kastle/pull/418) and [#419](https://github.com/forbole/kastle/pull/419) were closed unmerged on 1 Nov, 02:08:33Z to 02:08:48Z, each with a "Superseded by #420" comment.
+- [#421](https://github.com/forbole/kastle/pull/421) "feat(swap): Kasseal trades run through the existing swap screen" (03:05:00Z, base `fix/kcc20-parity-all` = #420's branch, head [`142300cc`](https://github.com/forbole/kastle/commit/142300cc), 6 files, +1829/−84), open. Its body: "A Kasseal token now behaves like any other token in Swap. ... No new route, screen, bottom bar or dashboard entry"; "Merge #420 first."

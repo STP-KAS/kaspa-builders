@@ -65,3 +65,10 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - [kasperolabs/kaspa-redteam](https://github.com/kasperolabs/kaspa-redteam) main got 31 commits on 30 Oct (07:42:24Z to 23:43:59Z), their messages numbered v0.4.0 ("projects, several contracts tested as one program") to v0.14.2 ([`5b2eb5a5`](https://github.com/kasperolabs/kaspa-redteam/commit/5b2eb5a5d7f9cf3adb2090f8301854bf3b862ae9), "optional usage log for the web page"); v0.11.0 ([`9239f33d`](https://github.com/kasperolabs/kaspa-redteam/commit/9239f33d)) is "KCC-20 borrowed receive attacks; sorted attack list; honest verdicts". Still 0 git tags. Author's post [@KasperoLabs 2116119876720803840](https://x.com/KasperoLabs/status/2116119876720803840) (30 Oct 10:47:48Z): "got some great user feedback, and already implementing it. Multi-file projects, fill in your own args ... zk proofs, more human readable explanations about the findings, and advice on how to fix it." Not run here.
+
+## 31 Oct 2026: kaspa-redteam v0.15.0; QA notes on RossKU/kob (GitHub read 1 Nov ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [kasperolabs/kaspa-redteam](https://github.com/kasperolabs/kaspa-redteam) main tip [`eaa79c89`](https://github.com/kasperolabs/kaspa-redteam/commit/eaa79c890a4fc00aa6c8ac12a1208aa8e6d6d23f) (31 Oct 16:59:53Z), message "v0.15.0: helper functions, contract bounds, message signatures, own coins"; its list includes "checkMsgSig over a digest the contract holds: the named party signs it", "SIG-01 and SIG-02 cover message signatures; library 0.9.1" and "New example milestone_escrow (PASS and FAIL)". Still 0 git tags. Not run here.
+- kasperolabs opened [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) "QA notes from testnet: UX and balance findings" (31 Oct 11:44:32Z, open): "Tested on testnet-10 with KasWare and Kaspire." Detail in the [kob entry](rossku-kob.md).

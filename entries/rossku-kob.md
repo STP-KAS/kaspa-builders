@@ -92,3 +92,9 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 
 - Tag [`v0.1.0`](https://github.com/RossKU/kob/releases/tag/v0.1.0) (annotated, tagger date 28 Oct 06:45:34Z, "KOB 0.1.0: first release, testnet-10 only, pre-audit") points to [`945f574a`](https://github.com/RossKU/kob/commit/945f574a6fcfbf50dafeabfe04c040ccddc6dacb) "kob-protocol: golden vectors carry protocol version 0.1.0"; 0 GitHub releases. [`2d4d0d35`](https://github.com/RossKU/kob/commit/2d4d0d35ce149ef2d9dd12e4ae870869e7486e7e) "Release 0.1.0": "First release: testnet-10 only, pre-audit."
 - 19 commits on `master` since 27 Oct 06:42:59Z, tip [`250513c2`](https://github.com/RossKU/kob/commit/250513c20f23f7bded4d1aef88850ac90c0a0673) (28 Oct 05:15:39Z). Among them: [`e0d49412`](https://github.com/RossKU/kob/commit/e0d49412) "KaspaRocket token program on mainnet: reviewed, genesis-only, default decimals 3 (the KaspaRocket convention)"; [`75db5385`](https://github.com/RossKU/kob/commit/75db5385) "Pin the KCC-20 reference issuers of 27f8403 beside c8a0871: …"; [`4da4979e`](https://github.com/RossKU/kob/commit/4da4979e) "web: indexer failover. …".
+
+## 31 Oct 2026: kob#1 QA notes from KasperoLabs (GitHub read 1 Nov ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) "QA notes from testnet: UX and balance findings", opened by kasperolabs 31 Oct 11:44:32Z, open, 0 comments: "Tested on testnet-10 with KasWare and Kaspire. Ranked by user impact, highest first." Items include "One market buy left 3.47 KAS on my token UTXOs" and "About 0.5 KAS per cell is enough under storage mass"; "Token image not shown"; "Default indexer and node use a trycloudflare quick tunnel. Fine for the canary; a stable domain will be needed before mainnet users rely on it."; "Kastle is hidden behind an experimental checkbox." The tester's notes; not desk-checked.

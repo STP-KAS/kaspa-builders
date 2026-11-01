@@ -77,3 +77,13 @@ KNS is not KRC-20; it only shares the inscription pattern.
 
 - [kasplex/go-krc20d#2](https://github.com/kasplex/go-krc20d/pull/2) (the DAA 110165000 ordering-rule docs) was merged by 5bb55b on 29 Oct 02:25:36Z as [`6d21c866`](https://github.com/kasplex/go-krc20d/commit/6d21c8668bd77db6d89f28560cc37aaa205f8517).
 - Silentpartnercoding ([03:18:57Z](https://github.com/kasplex/go-krc20d/pull/2#issuecomment-6486943978)): "I've updated krc20-verifier to cite this section as the documented ordering rule. Should the same two rules also go into the GitBook KRC-20 spec?" No answer yet. Issue #1 is still open (12 comments).
+
+## 30 Oct to 1 Nov 2026: NACHO migration from KRC-20 to KCC-20 (X and site read 1 Nov ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [@NachotheKat 2116240787239281081](https://x.com/NachotheKat/status/2116240787239281081) (30 Oct 18:48:16Z): "NACHO MIGRATION IS LIVE ... KRC-20 → KCC-20 on Kaspa L1." Migrate at katbridge.com/migrate; "Official KCC-20 Covenant ID: 41d44970ba6307bcec418f677fd253778d0ffa47750d179dff647061aa6c0d40"; "Migration deadline: January 31, 2027 After this date, unmigrated tokens will not be eligible."
+- [nachothekat.xyz/nacho/migration](https://nachothekat.xyz/nacho/migration) (read 1 Nov, HTTP 200) shows the same covenant id and three routes: Kaspa (KRC-20), IGRA and Kasplex (L2) to KCC-20.
+- [@NachotheKat 2116297069740577125](https://x.com/NachotheKat/status/2116297069740577125) (30 Oct 22:31:54Z): "Indefinitely keeping migration open is not an option for security reasons, but we are open to ideas."
+- [@NachotheKat 2116766421313012132](https://x.com/NachotheKat/status/2116766421313012132) (1 Nov 05:36:57Z): "@KasWare_Wallet v0.11.2 is released! ... $NACHO KCC-20 ticker name, logo, and decimals are now fixed along with the ability to compound token UTXOs".
+- The team's own posts. The covenant id was not checked on a node; the migration was not run here.
