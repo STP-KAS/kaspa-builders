@@ -72,3 +72,10 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 
 - [kasperolabs/kaspa-redteam](https://github.com/kasperolabs/kaspa-redteam) main tip [`eaa79c89`](https://github.com/kasperolabs/kaspa-redteam/commit/eaa79c890a4fc00aa6c8ac12a1208aa8e6d6d23f) (31 Oct 16:59:53Z), message "v0.15.0: helper functions, contract bounds, message signatures, own coins"; its list includes "checkMsgSig over a digest the contract holds: the named party signs it", "SIG-01 and SIG-02 cover message signatures; library 0.9.1" and "New example milestone_escrow (PASS and FAIL)". Still 0 git tags. Not run here.
 - kasperolabs opened [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) "QA notes from testnet: UX and balance findings" (31 Oct 11:44:32Z, open): "Tested on testnet-10 with KasWare and Kaspire." Detail in the [kob entry](rossku-kob.md).
+
+## 1 to 2 Nov 2026: vault concept video; covenant index on an indexer (X read 2 Nov ~19:20 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- @KasperoLabs [2116931418404106250](https://x.com/KasperoLabs/status/2116931418404106250) (1 Nov 16:32:35Z): "My vault concept, explained in 4 minutes. Two covenants: the vault itself, and an airlock that holds anything leaving it for 24 hours. An external watcher monitors the DAG and emails you the moment something moves, with a \"not me\" button. Press it, and everything in the airlock and the vault lands in your backup wallet within seconds." No repo linked in the post; kasperolabs/kaspa-vault not read.
+- @KasperoLabs replying to IzioDev ([2117284405643473363](https://x.com/KasperoLabs/status/2117284405643473363), 2 Nov 15:55:14Z) about the covenant-id index (rusty-kaspa #1152, approved, not merged): "Using this now on my main indexer node for KCC20 tokens. It’s already found coins my original indexer missed."

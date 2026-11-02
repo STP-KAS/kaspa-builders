@@ -47,3 +47,10 @@ kas-odds tip 876f064 (23 Sep 08:01Z). Commits since 851e114 count a homepage vis
 ## 16 Oct 2026 sweep
 
 - onlykas/kaskama master tip [`781a550f`](https://github.com/danieliyahu1/onlykas/commit/781a550f) (15 Oct 19:55:55Z, chore image pin).
+
+## 2 Nov 2026: kticket (GitHub read 2 Nov ~19:25 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [danieliyahu1/kticket](https://github.com/danieliyahu1/kticket) (created 7 Aug, main [`e5f91ace`](https://github.com/danieliyahu1/kticket/commit/e5f91ace), 36 commits since 1 Nov 06:38Z). README: "On-chain event ticketing on Kaspa: tickets are covenant-bound assets, deployed by event organisers and bought / held by attendees — all on chain." Packages `@kticket/kit` (TypeScript over `kaspa-wasm` + SilverScript artifacts), `@kticket/api` (Fastify; "every read re-verifies event data from the chain"), `@kticket/web` (React SPA). Live site per README: https://kticket.danieliyahu.com/ (not opened). Network not stated in the README lines read.
+- danieliyahu1 closed his kaspanet/kccs draft [#35](https://github.com/kaspanet/kccs/pull/35) "Mobile Wallet Session and Pairing API (unnumbered KCC)" on 1 Nov 17:10:28Z, unmerged.

@@ -33,3 +33,9 @@ supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept al
 
 - https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6
 - https://github.com/getumbrel/umbrel-apps/pull/6120
+
+## 2 Nov 2026: aspectron/khost #5 covenant index flag (GitHub read 2 Nov ~19:25 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- IzioDev opened [aspectron/khost#5](https://github.com/aspectron/khost/pull/5) "feat(p2p): add covenant index arg to systemd" (2 Nov 15:34Z, head `4a373bb9`, 1 file, +1/−0, open). Body: "to be merged after RK is released with the covenant index feature (https://github.com/kaspanet/rusty-kaspa/pull/1152)"; "it will enable the covenant index on the freshly created systemd services"; existing operators then update khost, rebuild configuration and restart all services.
