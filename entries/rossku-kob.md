@@ -98,3 +98,10 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) "QA notes from testnet: UX and balance findings", opened by kasperolabs 31 Oct 11:44:32Z, open, 0 comments: "Tested on testnet-10 with KasWare and Kaspire. Ranked by user impact, highest first." Items include "One market buy left 3.47 KAS on my token UTXOs" and "About 0.5 KAS per cell is enough under storage mass"; "Token image not shown"; "Default indexer and node use a trycloudflare quick tunnel. Fine for the canary; a stable domain will be needed before mainnet users rely on it."; "Kastle is hidden behind an experimental checkbox." The tester's notes; not desk-checked.
+
+## 2 to 3 Nov 2026: kob#1 reply; terminal bid refund (GitHub read 3 Nov ~07:40 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- RossKU on [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) (2 Nov 22:33:20Z): "Fixed on master (ff3cd288, b7929f73)". Listed as not changed: "The trycloudflare tunnel is a canary setup and will be replaced by a stable domain before mainnet." and "Kastle stays behind the experimental option, by decision." Token-cell KAS is listed under "In progress". The issue is still open.
+- 8 commits on `master` from 2 Nov 21:06:34Z to 3 Nov 04:49:06Z, tip [`5ceee157`](https://github.com/RossKU/kob/commit/5ceee15749c2129c27b3ed10394c7bb4dbca9930). Among them: [`ff3cd288`](https://github.com/RossKU/kob/commit/ff3cd288) "web: issue 1 fixes: …"; [`acf39cf1`](https://github.com/RossKU/kob/commit/acf39cf1) "contracts: a terminal bid fill returns the spare KAS to its maker as a plain output"; [`2767de34`](https://github.com/RossKU/kob/commit/2767de34) "kob-protocol: builders lay out the terminal bid refund; matcher, x402, executor and docs follow"; [`5ceee157`](https://github.com/RossKU/kob/commit/5ceee157) "kob-tests: attack and regression tests for the terminal bid refund, ablation catalogs, audit section 17". Tag still `v0.1.0`.

@@ -79,3 +79,10 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 
 - @KasperoLabs [2116931418404106250](https://x.com/KasperoLabs/status/2116931418404106250) (1 Nov 16:32:35Z): "My vault concept, explained in 4 minutes. Two covenants: the vault itself, and an airlock that holds anything leaving it for 24 hours. An external watcher monitors the DAG and emails you the moment something moves, with a \"not me\" button. Press it, and everything in the airlock and the vault lands in your backup wallet within seconds." No repo linked in the post; kasperolabs/kaspa-vault not read.
 - @KasperoLabs replying to IzioDev ([2117284405643473363](https://x.com/KasperoLabs/status/2117284405643473363), 2 Nov 15:55:14Z) about the covenant-id index (rusty-kaspa #1152, approved, not merged): "Using this now on my main indexer node for KCC20 tokens. It’s already found coins my original indexer missed."
+
+## 2 Nov 2026: kaspa-redteam v0.16.0 and v0.16.1 (GitHub read 3 Nov ~07:40 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [kasperolabs/kaspa-redteam](https://github.com/kasperolabs/kaspa-redteam) main: [`5ec28913`](https://github.com/kasperolabs/kaspa-redteam/commit/5ec28913) (2 Nov 19:04:37Z) "v0.16.0: fetch real transactions as a baseline"; tip [`3777de5c`](https://github.com/kasperolabs/kaspa-redteam/commit/3777de5c0b5c9aa896a0f8b071d69d9affc5e091) (19:15:14Z) "v0.16.1: every file in the constructor form; \"not reachable as written\"". Still 0 GitHub releases. Not run here.
+- RossKU replied on [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) (2 Nov 22:33:20Z); detail in the [kob entry](rossku-kob.md).

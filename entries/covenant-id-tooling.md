@@ -1,7 +1,7 @@
 # Covenant-id tooling: kascov, CAIP namespace
 
 **Chip:** `catalog`. Third-party. **Not Kaspa core. Not a KIP. Not an endorsement.**
-**Last checked:** 2026-09-29 (the latest dated read in the moved text).
+**Last checked:** 2026-11-03 (ChainAgnostic/namespaces#193 merge, GitHub read 3 Nov ~07:40 CET).
 
 Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) main [`cf10a0f`](https://github.com/STP-KAS/kaspa-master-file/commit/cf10a0f53dc98279f12cd523be008879efff00fd) on 4 Oct 2026, branch `master/builders-split-2026-10-04`, under the master/builders split rule stp approved on 4 Oct 2026 (19:06 CEST). Text below is verbatim from the master; relative links were made absolute to that commit. Nothing here was re-checked on 4 Oct unless the text says so.
 
@@ -9,7 +9,7 @@ Moved from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-f
 
 ## What
 
-Third-party covenant-id tooling while the rusty-kaspa RPC endpoint does not exist: Knitser's off-chain kascov decoder (`kascov-decode`), its outage report, free public API claim and tictactoe settlement counts; ChainAgnostic/namespaces#193 (Kaspa CAIP-2/CAIP-10 profiles). Author claims; the desk did not verify the reorg or the counts. Not L1 consensus. elldeeone's `rk-with-tcp` rusty-kaspa fork branch stays in the master.
+Third-party covenant-id tooling while the rusty-kaspa RPC endpoint does not exist: Knitser's off-chain kascov decoder (`kascov-decode`), its outage report, free public API claim and tictactoe settlement counts; ChainAgnostic/namespaces#193 (Kaspa CAIP-2/CAIP-10 profiles, merged 2 Nov 2026). Author claims; the desk did not verify the reorg or the counts. Not L1 consensus. elldeeone's `rk-with-tcp` rusty-kaspa fork branch stays in the master.
 
 ## Moved text (verbatim)
 
@@ -69,3 +69,7 @@ Third-party count, not a pin: kascovio https://x.com/kascovio/status/21035288663
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - [`82b7ed6c`](https://github.com/Knitser/kascov/commit/82b7ed6c) (Knitser, 22 Oct 13:57:33Z) "kascov-decode 0.3.0: KCC-1, KCC-2 and KCC-20 Final at kaspanet/kccs 1ed87ae". The message says the crate is "an exact export of private b4554db0", live on kascov.io, and is "Breaking for library users, hence 0.3.0" (new fields in `kcc0020::IssueVerdict`, `Pin` and `IssuerFields`; "KCC-20 token" is now a token-level name). Fixtures include KaspaRocket LP AMM v1 mainnet and TN10 binaries. Commit message only; not built here.
+
+## 2 Nov 2026: ChainAgnostic/namespaces#193 merged (GitHub read 3 Nov ~07:40 CET)
+
+- [ChainAgnostic/namespaces#193](https://github.com/ChainAgnostic/namespaces/pull/193) "Add Kaspa namespace with CAIP-2 and CAIP-10 profiles" merged 2 Nov 20:17:56Z by obstropolos as [`051f805f`](https://github.com/ChainAgnostic/namespaces/commit/051f805f6f2a2af48983b9715311acd14227513c) (head [`dea17a16`](https://github.com/ChainAgnostic/namespaces/commit/dea17a1676df67c08a93854bfe1e377e61bcaa7d)); files `kaspa/README.md`, `kaspa/caip2.md`, `kaspa/caip10.md`. Reviews: bumblefudge APPROVED 30 Sep; obstropolos APPROVED 2 Nov 20:17:44Z. A namespace document, not a Kaspa core change.
