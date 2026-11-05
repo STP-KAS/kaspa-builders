@@ -167,3 +167,14 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - KaspaHUB21/Kaspire-Kaspa-Wallet releases (times UTC): [v0.11.84](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.84) "Faster KCC20 discovery and stable token identity" (1 Nov 17:02:02Z, commit `9428ba24` "address-scoped KCC20 discovery and stable token identity"), [v0.11.85](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.85) "Kasseal transfers and accurate KCC20 discovery status" (1 Nov 17:42:36Z, `7ea2421e`), [v0.11.87](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.87) "Jeetslab in Kaspire Browser" (2 Nov 15:52:15Z, `c34c838f`). No v0.11.86 release in the list.
+
+
+## 3 to 5 Nov 2026: Kastle UTXO selection and consolidation (GitHub read 5 Nov; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-tested.**
+
+- [#422](https://github.com/forbole/kastle/pull/422) merged as [`08e16332`](https://github.com/forbole/kastle/commit/08e163328ff6295107b32bdcf7136050dc5e9caf): app-side UTXO selection and real batch-fee pricing.
+- [#424](https://github.com/forbole/kastle/pull/424) merged as [`259c0c55`](https://github.com/forbole/kastle/commit/259c0c55fb2560982a0f863c8605b79a13464152): consolidate small UTXOs for cheaper sends and Ledger. Current main is `259c0c55`. #423 closed superseded.
+- [#420](https://github.com/forbole/kastle/pull/420) remains open at head `98683bbfa302737210938179e154b6b4a12d48dc`, 73 files. CodeRabbit reviewed on 5 Nov; bot findings are not maintainer review. #421 remains open on its branch.
+- Release pull #407 remains open at `6e5481e1e4c455862a5a867c269cc2ee56fa8f59`; latest release remains v2.61.4.
+- Separate wallet repo: kas-builder/KasSigner-iOS main [`074e8a00`](https://github.com/kas-builder/KasSigner-iOS/commit/074e8a00f7a60d1abd89a27881999fd50a7c894f), including a fee-estimate refresh when Send Max is disabled and transaction-entry fixes. Not desk-tested.

@@ -191,3 +191,11 @@ Read 13 Oct 2026. The post and the repo note are the author's record of a conver
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - [@WellerOlaf 2116101290774126759](https://x.com/WellerOlaf/status/2116101290774126759) (30 Oct 09:33:57Z): "Quick KPI update ... development of the Kaspa Privacy Initiative will be taking a back seat for a while. I'll still be working on things here and there whenever I find the time, but without a fixed schedule." olafweller/kaspa-privacy-initiative main still [`7ffe8353`](https://github.com/olafweller/kaspa-privacy-initiative/commit/7ffe8353) (20 Oct 21:46:11Z).
+
+
+## 3 to 5 Nov 2026: elldeeone native-KAS privacy research (GitHub read 5 Nov)
+
+**Caveat: third-party research; not desk-checked.**
+
+- elldeeone/kaspa-privacy-initiative default branch is `research/native-kas-withdrawal-privacy`, tip [`00018b98`](https://github.com/elldeeone/kaspa-privacy-initiative/commit/00018b9898ae2f09c9bca59ede632aee54c940ec). Its current research focuses shared KPI contributions unless an alternative demonstrates better privacy. Earlier commits compare native-KAS privacy designs under unchanged consensus.
+- No new upstream olafweller/kaspa-privacy-initiative commit was found in the window; the 30 Oct back-seat statement remains the latest project-status statement.

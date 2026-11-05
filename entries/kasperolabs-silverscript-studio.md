@@ -86,3 +86,12 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 
 - [kasperolabs/kaspa-redteam](https://github.com/kasperolabs/kaspa-redteam) main: [`5ec28913`](https://github.com/kasperolabs/kaspa-redteam/commit/5ec28913) (2 Nov 19:04:37Z) "v0.16.0: fetch real transactions as a baseline"; tip [`3777de5c`](https://github.com/kasperolabs/kaspa-redteam/commit/3777de5c0b5c9aa896a0f8b071d69d9affc5e091) (19:15:14Z) "v0.16.1: every file in the constructor form; \"not reachable as written\"". Still 0 GitHub releases. Not run here.
 - RossKU replied on [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) (2 Nov 22:33:20Z); detail in the [kob entry](rossku-kob.md).
+
+
+## 3 to 5 Nov 2026: kaspa-redteam v0.17.0 and kcc20-analyzer (GitHub read 5 Nov)
+
+**Caveat: third-party, not audited, not desk-tested; not run here.**
+
+- v0.17.0 [`0eb8c4fd`](https://github.com/kasperolabs/kaspa-redteam/commit/0eb8c4fde4399cd4d62971df1f3ed6aa5620bff3): recognizes KCC-20 cells in real transactions and adds multi-file `--baseline` support.
+- Current main [`a0ef2802`](https://github.com/kasperolabs/kaspa-redteam/commit/a0ef28022fa0d840854b65230eea89cdffa055ac) (5 Nov 13:41:55Z) adds `kcc20-analyzer 0.1.0`: mutates real spends of on-chain programs and judges them through the script engine. It has its own workspace and pins rusty-kaspa `a41a333b`.
+- No GitHub releases or tags were found.

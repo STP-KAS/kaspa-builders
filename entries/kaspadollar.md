@@ -1,33 +1,44 @@
 # KaspaDollar (announced stablecoin initiative)
 
 **Chip:** `claim`. Third-party initiative. **Not Kaspa core. Not a KIP. Not a KCC. Not an endorsement.**
-**Last checked:** 2026-10-24 (X read 24 Oct ~07:45 CEST).
+**Last checked:** 2026-11-05 (X and public site reads).
 
-**The master keeps:** nothing; saefstroem's KIP-16 and kccs work stays in the master row "saefstroem".
+**The master keeps:** the KaspaDollar current-state row because stp classified it as core on 25 Oct. This entry holds the third-party project detail.
 
-## What
+## Original announcement (23–24 Oct 2026)
 
-@KaspaDollar [2113601328975098237](https://x.com/KaspaDollar/status/2113601328975098237) (23 Oct 12:00:00Z): "Today we are introducing KaspaDollar, an initiative led by core developer @asaefstroem to build the first decentralized stablecoin on the $KAS network." "The design we intend to follow is the decentralized, overcollateralized stablecoin". "With the support of the core team, we consider the conditions right to bring it to Kaspa." It names "development, an independent audit, further research" and "a fundraiser with a target of 5,000,000 KAS"; contributions go to "the fundraising address published on the website" (no URL in the post), and "Should the target not be reached by 1 January 2027, every contribution will be returned to the address from which it was sent."
+@KaspaDollar [2113601328975098237](https://x.com/KaspaDollar/status/2113601328975098237) (23 Oct 12:00:00Z): initiative led by core developer @asaefstroem for a decentralized, overcollateralized stablecoin, "with the support of the core team"; fundraiser target 5,000,000 KAS and return of contributions if the target is not reached by 1 January 2027.
 
-## Related posts
+- asaefstroem [2113842818326392875](https://x.com/asaefstroem/status/2113842818326392875): existing rust and DagKnight funds already allocated; community dev fund too small.
+- michaelsutton [2114040191719444646](https://x.com/michaelsuttonil/status/2114040191719444646): "i’ll do everything in my power on the technical side to help this initiative move forward".
+- asaefstroem [2113970020598632570](https://x.com/asaefstroem/status/2113970020598632570): "Covenants will issue it."
 
-- asaefstroem [2113601810149859807](https://x.com/asaefstroem/status/2113601810149859807) (12:01:55Z), quoting it: "$KAS, did I hear you want stablecoins?"
-- asaefstroem [2113842818326392875](https://x.com/asaefstroem/status/2113842818326392875) (24 Oct 03:59:35Z): "The rust fund and DagKnight fund is already ”spent”. I.e. it has already been allocated to the people who should receive it." and "The community dev fund exists yes, but its too small of an amount for the @KaspaDollar project."
-- michaelsutton [2114040191719444646](https://x.com/michaelsuttonil/status/2114040191719444646) (24 Oct 17:03:53Z), quoting the announcement: "i’ll do everything in my power on the technical side to help this initiative move forward and navigate any protocol-level obstacles along the way."
-- asaefstroem [2113970020598632570](https://x.com/asaefstroem/status/2113970020598632570) (24 Oct 12:25:03Z), a reply: "Covenants will issue it."
-- asaefstroem [2113969939073917153](https://x.com/asaefstroem/status/2113969939073917153) (24 Oct 12:24:43Z), a reply: "There exists at the moment a community fund with about 1M, a rust and a DK fund, and all of those have already been allocated strictly to those endeavors."
-- asaefstroem [2113984535738118208](https://x.com/asaefstroem/status/2113984535738118208) (24 Oct 13:22:43Z), a reply: "@KaspaDollar will be a token like $USDS and ethereum:0x6b175474e89094c44da98b954eedeac495271d0f, which has operated for almost 9 years with no issues."
+## 3–5 Nov 2026: website and preliminary design
 
-## Not checked
+@KaspaDollar [2117587606305206610](https://x.com/KaspaDollar/status/2117587606305206610) (3 Nov 12:00:02Z) announced the website update and proposed decentralized oracle using miners and KIP-21 sequencing commitments.
 
-- No KaspaDollar code, repo, contract or fundraising address was found in these posts (the Ethereum address in 2113984535738118208 is the token it is compared with); the website was not read. No price talk.
+The public [How it works](https://kaspadollar.com/how-it-works) page, read 5 Nov, says all parameters are preliminary and subject to internal review:
 
-## Sources
+- `KSD` is a reference label, not the final ticker.
+- Minting or withdrawing requires at least 250% collateral. Below 200%, anyone including the owner may partially liquidate a vault toward 200%. Below 100%, part of its KSD is unbacked.
+- Miners can post prices in coinbase payloads using KIP-21 sequence commitments. The proposed window is the last ten minutes and the median of votes; a valid window requires at least 50% of blocks to carry a vote.
+- Anyone can post a price update with a ZK proof of the window votes and median. The page says the proof provider receives a small fee paid by liquidators.
+- If no valid price is posted for 30 minutes, minting, withdrawing, liquidating and redeeming stop. Adding KAS, repaying and closing continue.
+- The mint price rises by at most 10%/hour; the liquidation price falls by at most 25%/hour.
 
-- https://x.com/KaspaDollar/status/2113601328975098237
-- https://x.com/asaefstroem/status/2113601810149859807
-- https://x.com/asaefstroem/status/2113842818326392875
-- https://x.com/michaelsuttonil/status/2114040191719444646
-- https://x.com/asaefstroem/status/2113970020598632570
-- https://x.com/asaefstroem/status/2113969939073917153
-- https://x.com/asaefstroem/status/2113984535738118208
+The [whitepaper page](https://kaspadollar.com/whitepaper) says **"Publishing on 8 November 2026"**; the whitepaper is not yet published.
+
+The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising address `kaspa:qpy0rvs9mkfa66vnhre4dwsc4c0nu8jhvk0jlfzvq7x8pejjezpujpyrwecl6`, target 5,000,000 KAS and close 1 January 2027. It states refund terms and also says no guarantees can be made and contributors accept the risk of losing the contribution in full. Testnet in May, audit in June–August and mainnet in September are future roadmap entries, not deployments.
+
+## Attributed design answers (4–5 Nov)
+
+- asaefstroem [2117912744426914091](https://x.com/asaefstroem/status/2117912744426914091): the ten-minute median is preliminary; roughly five minutes plus proving, roughly ten-minute updates.
+- [2118285824022503531](https://x.com/asaefstroem/status/2118285824022503531): acknowledges insufficient backing if liquidators do not act; stress tests planned.
+- [2118291388249096310](https://x.com/asaefstroem/status/2118291388249096310): a liquidator can mint KSD against its own KAS, liquidate and close the loan.
+- [2117609455743627318](https://x.com/asaefstroem/status/2117609455743627318): proposed hashrate gate before covenant activation; percentage unspecified.
+
+## Limits and sources
+
+No public code repository or deployed KaspaDollar covenant was found in this sweep. The site and answers are project statements, not desk tests. No price or investment judgement.
+
+Sources: the linked X posts and public pages above; raw public reads retained in the watch desk's 5 Nov raw directory.

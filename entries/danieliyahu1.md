@@ -54,3 +54,11 @@ kas-odds tip 876f064 (23 Sep 08:01Z). Commits since 851e114 count a homepage vis
 
 - [danieliyahu1/kticket](https://github.com/danieliyahu1/kticket) (created 7 Aug, main [`e5f91ace`](https://github.com/danieliyahu1/kticket/commit/e5f91ace), 36 commits since 1 Nov 06:38Z). README: "On-chain event ticketing on Kaspa: tickets are covenant-bound assets, deployed by event organisers and bought / held by attendees — all on chain." Packages `@kticket/kit` (TypeScript over `kaspa-wasm` + SilverScript artifacts), `@kticket/api` (Fastify; "every read re-verifies event data from the chain"), `@kticket/web` (React SPA). Live site per README: https://kticket.danieliyahu.com/ (not opened). Network not stated in the README lines read.
 - danieliyahu1 closed his kaspanet/kccs draft [#35](https://github.com/kaspanet/kccs/pull/35) "Mobile Wallet Session and Pairing API (unnumbered KCC)" on 1 Nov 17:10:28Z, unmerged.
+
+
+## 3 to 5 Nov 2026: kticket and kaskama (GitHub read 5 Nov)
+
+**Caveat: third-party, not audited, not desk-tested; commit records.**
+
+- danieliyahu1/kticket main is [`877b03c0`](https://github.com/danieliyahu1/kticket/commit/877b03c0436faf53a5e813e0d905b6856968d3cd), pinning image `08bb336c16cb`. Earlier commits include `c7bb5e55e6f9` on KIP-9 mass-model pricing and retryable fee-market rejection, and docs commit `08bb336c16cb`.
+- danieliyahu1/kaskama main is `3e487212`, pinning image `b66f7c2b`; architecture documentation only in the window.

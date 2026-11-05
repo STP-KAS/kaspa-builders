@@ -105,3 +105,13 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 
 - RossKU on [RossKU/kob#1](https://github.com/RossKU/kob/issues/1) (2 Nov 22:33:20Z): "Fixed on master (ff3cd288, b7929f73)". Listed as not changed: "The trycloudflare tunnel is a canary setup and will be replaced by a stable domain before mainnet." and "Kastle stays behind the experimental option, by decision." Token-cell KAS is listed under "In progress". The issue is still open.
 - 8 commits on `master` from 2 Nov 21:06:34Z to 3 Nov 04:49:06Z, tip [`5ceee157`](https://github.com/RossKU/kob/commit/5ceee15749c2129c27b3ed10394c7bb4dbca9930). Among them: [`ff3cd288`](https://github.com/RossKU/kob/commit/ff3cd288) "web: issue 1 fixes: …"; [`acf39cf1`](https://github.com/RossKU/kob/commit/acf39cf1) "contracts: a terminal bid fill returns the spare KAS to its maker as a plain output"; [`2767de34`](https://github.com/RossKU/kob/commit/2767de34) "kob-protocol: builders lay out the terminal bid refund; matcher, x402, executor and docs follow"; [`5ceee157`](https://github.com/RossKU/kob/commit/5ceee157) "kob-tests: attack and regression tests for the terminal bid refund, ablation catalogs, audit section 17". Tag still `v0.1.0`.
+
+
+## 3 to 5 Nov 2026: kob#1 follow-ups and current master (GitHub read 5 Nov)
+
+**Caveat: third-party, not audited, not desk-tested; the author's own records.**
+
+- Current master [`dc91c8c3`](https://github.com/RossKU/kob/commit/dc91c8c3c9fafad3cc17560d957bac6ce1cf7dc5) (5 Nov 16:43:11Z); [kob#1](https://github.com/RossKU/kob/issues/1) remains open.
+- Default delivered-cell carrier changed from 2 to 1 KAS in `984ef9ee`, with web/unit expectations in `c0ae129d`. In the #1 discussion the author reports 1,635 builder shapes still build at 1 KAS and 75 fail at 0.5 KAS. These are the author's measurements, not a desk run.
+- Other substantive follow-ups: PublicMint becomes the default issuance program; KCC-23 image/image_hash metadata and hash verification; compact storage and indexer schema migrations; x402 settlement/rival-keeper fixes; standalone/mock mode with node-followed blocks and docs; public indexer/deployment and CLI documentation.
+- Tag remains v0.1.0, Testnet-10 only, pre-audit. The commit list was not itemized exhaustively.
