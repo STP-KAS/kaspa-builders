@@ -115,3 +115,11 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 - Default delivered-cell carrier changed from 2 to 1 KAS in `984ef9ee`, with web/unit expectations in `c0ae129d`. In the #1 discussion the author reports 1,635 builder shapes still build at 1 KAS and 75 fail at 0.5 KAS. These are the author's measurements, not a desk run.
 - Other substantive follow-ups: PublicMint becomes the default issuance program; KCC-23 image/image_hash metadata and hash verification; compact storage and indexer schema migrations; x402 settlement/rival-keeper fixes; standalone/mock mode with node-followed blocks and docs; public indexer/deployment and CLI documentation.
 - Tag remains v0.1.0, Testnet-10 only, pre-audit. The commit list was not itemized exhaustively.
+
+## 5 to 6 Nov 2026: master tip `29c09092` (GitHub read 6 Nov ~07:45 CET)
+
+**Caveat: third-party, not audited, not desk-tested; the author's own records.**
+
+- Current master [`29c09092`](https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f) (6 Nov 06:36:07Z); [kob#1](https://github.com/RossKU/kob/issues/1) remains open.
+- 31 commits since [`dc91c8c3`](https://github.com/RossKU/kob/commit/dc91c8c3c9fafad3cc17560d957bac6ce1cf7dc5) (5 Nov 16:43:11Z). Among them: kobd role-flag starts (`kobd`, `kobd --executor`, `kobd --indexer`); Activity page; landing/web header and palette; CI/Pages Node 24; Android kobd index schema migrate 5→9; docs. Not exhaustively itemised.
+- Tag remains v0.1.0, Testnet-10 only, pre-audit.

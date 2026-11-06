@@ -178,3 +178,13 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 - [#420](https://github.com/forbole/kastle/pull/420) remains open at head `98683bbfa302737210938179e154b6b4a12d48dc`, 73 files. CodeRabbit reviewed on 5 Nov; bot findings are not maintainer review. #421 remains open on its branch.
 - Release pull #407 remains open at `6e5481e1e4c455862a5a867c269cc2ee56fa8f59`; latest release remains v2.61.4.
 - Separate wallet repo: kas-builder/KasSigner-iOS main [`074e8a00`](https://github.com/kas-builder/KasSigner-iOS/commit/074e8a00f7a60d1abd89a27881999fd50a7c894f), including a fee-estimate refresh when Send Max is disabled and transaction-entry fixes. Not desk-tested.
+
+## 5 to 6 Nov 2026: Kastle #420/#426 merged; Kaspire 0.11.93–0.11.94 (GitHub read 6 Nov ~07:45 CET; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-tested.**
+
+- [#420](https://github.com/forbole/kastle/pull/420) "feat(kcc20): full KCC-20 parity with mobile in one branch" merged 6 Nov 06:32:39Z by leobragaz as [`3105c5b5`](https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d) (head `d00ea5d2`). Reviews were CodeRabbit/Copilot only.
+- [#426](https://github.com/forbole/kastle/pull/426) "fix(kcc20): resume stored Braid deposits without waiting for a Braid pair" merged 06:43:36Z as [`95cd39f4`](https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062) (the CodeRabbit finding from #420 that missed the merge). Current main is `95cd39f4`.
+- [#421](https://github.com/forbole/kastle/pull/421) remains open at head `142300cc`, base `fix/kcc20-parity-all`, mergeable dirty.
+- Release pull #407 remains open; latest release remains v2.61.4.
+- Kaspire Android [v0.11.93](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93) (5 Nov 18:50:12Z): KForge Mainnet swaps; Mainnet Swap venue order KaspaRocket, Kasseal, Braid, KForge, KRON; pinned v6 bonding-curve and pool paths on Mainnet and Testnet 10. [v0.11.94](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94) (19:09:23Z): KForge independent-lookup hotfix (serialise node reads to avoid HTTP 503 treated as permanent failure). Main tip [`a1b70930`](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/a1b70930bcc85206ad700bfde7151886aba298e5). Release notes only; not desk-checked.
