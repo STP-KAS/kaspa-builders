@@ -126,6 +126,8 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 
 ## 6 to 7 Nov 2026: master tip `3e7f867f` (GitHub read 7 Nov ~07:50 CET; not desk-checked)
 
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
 - Current master [`3e7f867f`](https://github.com/RossKU/kob/commit/3e7f867fcb1bbf65dd3ec2fb44801caeb5cf0a61) (7 Nov 06:33:02Z); 41 commits ahead of prior tip `29c09092`.
 - Themes in the window (author commit messages): kobd `db` subcommands replace `kobd index`; cancel-only table for retired order templates; activity log and market list pagination/favourites/pair picker; contracts path cleanup (`orders/` vs prototypes); docs/registry/soak/repository-root moves; bell live status; token naming on ticket/pair pages.
 - [kob#1](https://github.com/RossKU/kob/issues/1) remains open. Tag remains v0.1.0. Third-party; not desk-checked.

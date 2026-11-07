@@ -494,7 +494,7 @@
       "url": "https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6",
       "page": "entries/node-tools-third-party.md",
       "chip": "catalog",
-      "note": "supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept alive by gossip alone; not kaspanet/dnsseeder (https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6). getumbrel/umbrel-apps#6120 (elldeeone, 26 Sep 09:35Z) updates the Umbrel rusty-kaspad app to v2.1.0, open (https://github.com/getumbrel/umbrel-apps/pull/6120). 5 Oct: elldeeone https://x.com/elldeeone/status/2106703706003808697 (4 Oct 11:11Z): \"https://t.co/XrEyPp2T17 is back\" (link resolves to kasnodes.com); KasNodes is a public-node crawler and map; the site's counts are not recounted. 6 Oct: Magma-Devs/lava-specs#181 merged 5 Oct 18:15Z (90bad925): Lava chain spec kaspa.json, KASPA mainnet and KASPAT Testnet 10, over the kaspa-rest-server REST API (PR: kaspad gRPC is one bidirectional stream, wRPC is not JSON-RPC 2.0). Ticket named 'Add Kaspa spec (Kraken)'; vertex says that is only the ticket's name (https://x.com/KaspaScopio/status/2107226972396917109). Not tested by the desk.",
+      "note": "supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept alive by gossip alone; not kaspanet/dnsseeder (https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6). getumbrel/umbrel-apps#6120 (elldeeone, 26 Sep 09:35Z) updates the Umbrel rusty-kaspad app to v2.1.0; merged 2 Oct 01:43:11Z as 06b2b988 (https://github.com/getumbrel/umbrel-apps/pull/6120; https://github.com/getumbrel/umbrel-apps/commit/06b2b9883f0c05574d34d7efd4ef9205f1a33208). 5 Oct: elldeeone https://x.com/elldeeone/status/2106703706003808697 (4 Oct 11:11Z): \"https://t.co/XrEyPp2T17 is back\" (link resolves to kasnodes.com); KasNodes is a public-node crawler and map; the site's counts are not recounted. 6 Oct: Magma-Devs/lava-specs#181 merged 5 Oct 18:15Z (90bad925): Lava chain spec kaspa.json, KASPA mainnet and KASPAT Testnet 10, over the kaspa-rest-server REST API (PR: kaspad gRPC is one bidirectional stream, wRPC is not JSON-RPC 2.0). Ticket named 'Add Kaspa spec (Kraken)'; vertex says that is only the ticket's name (https://x.com/KaspaScopio/status/2107226972396917109). Not tested by the desk.",
       "sources": [
         "https://github.com/supertypo/simply-kaspa-dnsseeder/releases/tag/v0.9.6",
         "https://github.com/getumbrel/umbrel-apps/pull/6120",
@@ -503,7 +503,7 @@
         "https://x.com/KaspaScopio/status/2107194999163027711",
         "https://x.com/KaspaScopio/status/2107226972396917109"
       ],
-      "checked": "2026-10-08"
+      "checked": "2026-11-07"
     },
     {
       "name": "Kas-Smiths product and idea threads",
