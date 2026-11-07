@@ -48,6 +48,30 @@ One row per change, newest first. Times are Europe/Brussels (CEST).
 | 2026-10-04 19:05 | seed (first commit on `main`) | Repo created on stp's OK (4 Oct 19:03 CEST). The seed went straight to `main` because the repo was new. Two entries moved here from [STP-KAS/kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file) on stp's instruction (19:01 CEST): **Privacy initiative (KPI)** (row from [`25c96e4`](https://github.com/STP-KAS/kaspa-master-file/commit/25c96e40f989cee2bbe5c4f97f32a15a838f7793), challenger pass [`43a3c64`](https://github.com/STP-KAS/kaspa-master-file/blob/43a3c64f5a72580cf54ab552699245b7a1481076/challenges/wellerolaf-2026-10-04-challenge.md); removed from the master in [`220fa36`](https://github.com/STP-KAS/kaspa-master-file/commit/220fa36b1fad7143ebd8ee28a4858b26ad60e7c1)) and **KasperoLabs: SilverScript Studio** (text from the master's *Third-party 26 Sep* row, removed in [`b567a48`](https://github.com/STP-KAS/kaspa-master-file/commit/b567a4898dfd485bd91cb5204d864465c806384b); the master keeps rusty-kaspa #1140). The KasperoLabs page adds the 3 Oct X backfill items. The KPI page uses the challenger's KIP-10/16/17/20 wording. Repo pins, PR #22 and rusty-kaspa #1140 were re-read via the GitHub API at ~19:05 CEST and are unchanged. Left out: PhantomPool, the KASperiencexyz shielded-pool claim, the teoscure simnet numbers, and the X spend figure. No public reaction on any source repo. |
 
 
+## Moved from README on 7 Nov 2026
+
+### Prior cell: Wallets and KCC-20 (to 7 Nov 2026)
+
+| [Wallets and KCC-20 (Kastle, Kaspire)](entries/wallets-kcc20.md) | Third-party wallet work. Kastle [#420](https://github.com/forbole/kastle/pull/420) merged 6 Nov 06:32:39Z as [`3105c5b5`](https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d) (full KCC-20 parity with mobile; head `d00ea5d2`; bot reviews only). [#426](https://github.com/forbole/kastle/pull/426) merged 06:43:36Z as [`95cd39f4`](https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062) (resume stored Braid deposits). Current main `95cd39f4`. [#421](https://github.com/forbole/kastle/pull/421) remains open, base `fix/kcc20-parity-all`, mergeable dirty. Release pull #407 remains open; latest release remains v2.61.4. Kaspire Android [v0.11.93](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93) (KForge Mainnet swaps; venue order KaspaRocket, Kasseal, Braid, KForge, KRON) and [v0.11.94](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94) (KForge verification hotfix); main `a1b70930`. Not desk-tested. Prior cell (to 6 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-6-nov-2026). | `catalog` | [kastle#420](https://github.com/forbole/kastle/pull/420); [kastle#426](https://github.com/forbole/kastle/pull/426); [main `95cd39f4`](https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062); [Kaspire v0.11.94](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94) | 2026-11-06 |
+
+### Prior cell: Ross Ku / kob (to 7 Nov 2026)
+
+| [Ross Ku (RossKU/kob): Argent port notes](entries/rossku-kob.md) | Third-party KOB/Argent work; not audited, not desk-tested. Current master [`29c09092`](https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f) (6 Nov 06:36:07Z); [kob#1](https://github.com/RossKU/kob/issues/1) remains open. 31 commits since `dc91c8c3` (5 Nov): kobd role-flag starts (`kobd`, `--executor`, `--indexer`), Activity page, landing/web header layout, docs/CI/Pages, Android schema migrate 5→9. Tag remains v0.1.0, Testnet-10 only, pre-audit. Prior cell (to 6 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-6-nov-2026). | `catalog` | [RossKU/kob `29c09092`](https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f); [kob#1](https://github.com/RossKU/kob/issues/1); [v0.1.0](https://github.com/RossKU/kob/releases/tag/v0.1.0) | 2026-11-06 |
+
+### Prior JSON notes (to 7 Nov 2026)
+
+#### Wallets and KCC-20
+
+```
+Kastle #420 https://github.com/forbole/kastle/pull/420 merged 2026-11-06T06:32:39Z as 3105c5b5 https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d (full KCC-20 parity with mobile; head d00ea5d2; bot reviews only). #426 https://github.com/forbole/kastle/pull/426 merged 2026-11-06T06:43:36Z as 95cd39f4 https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062 (resume stored Braid deposits). Current main 95cd39f4. #421 open base fix/kcc20-parity-all, mergeable dirty. Release PR #407 open; latest release v2.61.4. Kaspire Android v0.11.93 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93 (KForge Mainnet swaps) and v0.11.94 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94 (KForge verification hotfix); main a1b70930. Not desk-tested. Prior cell (to 6 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-6-nov-2026).
+```
+
+#### Ross Ku / kob
+
+```
+Third-party KOB/Argent work; not audited, not desk-tested. Current master 29c09092 https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f (2026-11-06T06:36:07Z); kob#1 https://github.com/RossKU/kob/issues/1 open. 31 commits since dc91c8c3: kobd role-flag starts, Activity page, landing/web header, docs/CI/Pages, Android schema migrate 5→9. Tag v0.1.0, TN10 only, pre-audit. Prior cell (to 6 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-6-nov-2026).
+```
+
 ## Moved from README on 6 Nov 2026
 
 ### Prior cell: Wallets and KCC-20 (to 6 Nov 2026)

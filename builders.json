@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -289,7 +289,7 @@
       "url": "https://github.com/forbole/kastle/pull/420",
       "page": "entries/wallets-kcc20.md",
       "chip": "catalog",
-      "note": "Kastle #420 https://github.com/forbole/kastle/pull/420 merged 2026-11-06T06:32:39Z as 3105c5b5 https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d (full KCC-20 parity with mobile; head d00ea5d2; bot reviews only). #426 https://github.com/forbole/kastle/pull/426 merged 2026-11-06T06:43:36Z as 95cd39f4 https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062 (resume stored Braid deposits). Current main 95cd39f4. #421 open base fix/kcc20-parity-all, mergeable dirty. Release PR #407 open; latest release v2.61.4. Kaspire Android v0.11.93 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93 (KForge Mainnet swaps) and v0.11.94 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94 (KForge verification hotfix); main a1b70930. Not desk-tested. Prior cell (to 6 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-6-nov-2026).",
+      "note": "Third-party wallet work. Kastle #420 https://github.com/forbole/kastle/pull/420 merged 6 Nov 06:32:39Z as 3105c5b5 https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d (full KCC-20 parity with mobile). #426 https://github.com/forbole/kastle/pull/426 merged 06:43:36Z as 95cd39f4 https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062 (resume stored Braid deposits). Current main 95cd39f4. #421 https://github.com/forbole/kastle/pull/421 was closed unmerged 6 Nov 07:00:52Z (head 142300cc, base fix/kcc20-parity-all; no merge commit). Release pull #407 remains open; latest release remains v2.61.4. Kaspire Android v0.11.93 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93 and v0.11.94 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94 unchanged. Not desk-tested. Prior cell (to 7 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-7-nov-2026.",
       "sources": [
         "https://github.com/forbole/kastle",
         "https://github.com/forbole/kastle/pull/369",
@@ -524,7 +524,7 @@
       "url": "https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f",
       "page": "entries/rossku-kob.md",
       "chip": "catalog",
-      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 29c09092 https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f (2026-11-06T06:36:07Z); kob#1 https://github.com/RossKU/kob/issues/1 open. 31 commits since dc91c8c3: kobd role-flag starts, Activity page, landing/web header, docs/CI/Pages, Android schema migrate 5→9. Tag v0.1.0, TN10 only, pre-audit. Prior cell (to 6 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-6-nov-2026).",
+      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 3e7f867f https://github.com/RossKU/kob/commit/3e7f867fcb1bbf65dd3ec2fb44801caeb5cf0a61 (7 Nov 06:33:02Z); kob#1 https://github.com/RossKU/kob/issues/1 remains open. 41 commits since 29c09092 (6 Nov): kobd db tool rename, cancel-only retired order templates, activity/market pagination and favourites, contract path cleanup (orders/ vs prototypes), docs/registry/soak moves, bell status, pair naming. Tag remains v0.1.0, Testnet-10 only, pre-audit. Prior cell (to 7 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-7-nov-2026.",
       "sources": [
         "https://github.com/RossKU/kob/commit/9d8030c9b1aca370af2315230c15920c021e39a2",
         "https://github.com/RossKU/kob/blob/9d8030c9b1aca370af2315230c15920c021e39a2/docs/argent-port-compare.md",

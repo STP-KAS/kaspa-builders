@@ -188,3 +188,7 @@ forbole/kastle #369 KCC-20 UI surface merged 2026-10-01T13:48:30Z into feature b
 - [#421](https://github.com/forbole/kastle/pull/421) remains open at head `142300cc`, base `fix/kcc20-parity-all`, mergeable dirty.
 - Release pull #407 remains open; latest release remains v2.61.4.
 - Kaspire Android [v0.11.93](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93) (5 Nov 18:50:12Z): KForge Mainnet swaps; Mainnet Swap venue order KaspaRocket, Kasseal, Braid, KForge, KRON; pinned v6 bonding-curve and pool paths on Mainnet and Testnet 10. [v0.11.94](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94) (19:09:23Z): KForge independent-lookup hotfix (serialise node reads to avoid HTTP 503 treated as permanent failure). Main tip [`a1b70930`](https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/a1b70930bcc85206ad700bfde7151886aba298e5). Release notes only; not desk-checked.
+
+## 6 to 7 Nov 2026: Kastle #421 closed unmerged (GitHub read 7 Nov ~07:50 CET; not desk-checked)
+
+- [#421](https://github.com/forbole/kastle/pull/421) "feat(swap): Kasseal trades run through the existing swap screen" was **closed unmerged** 6 Nov 07:00:52Z (head [`142300cc`](https://github.com/forbole/kastle/commit/142300cc), base `fix/kcc20-parity-all`; `merged_at` null, no merge commit). Main remains [`95cd39f4`](https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062). Kaspire releases unchanged (latest v0.11.94).

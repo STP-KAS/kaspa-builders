@@ -123,3 +123,9 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 - Current master [`29c09092`](https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f) (6 Nov 06:36:07Z); [kob#1](https://github.com/RossKU/kob/issues/1) remains open.
 - 31 commits since [`dc91c8c3`](https://github.com/RossKU/kob/commit/dc91c8c3c9fafad3cc17560d957bac6ce1cf7dc5) (5 Nov 16:43:11Z). Among them: kobd role-flag starts (`kobd`, `kobd --executor`, `kobd --indexer`); Activity page; landing/web header and palette; CI/Pages Node 24; Android kobd index schema migrate 5→9; docs. Not exhaustively itemised.
 - Tag remains v0.1.0, Testnet-10 only, pre-audit.
+
+## 6 to 7 Nov 2026: master tip `3e7f867f` (GitHub read 7 Nov ~07:50 CET; not desk-checked)
+
+- Current master [`3e7f867f`](https://github.com/RossKU/kob/commit/3e7f867fcb1bbf65dd3ec2fb44801caeb5cf0a61) (7 Nov 06:33:02Z); 41 commits ahead of prior tip `29c09092`.
+- Themes in the window (author commit messages): kobd `db` subcommands replace `kobd index`; cancel-only table for retired order templates; activity log and market list pagination/favourites/pair picker; contracts path cleanup (`orders/` vs prototypes); docs/registry/soak/repository-root moves; bell live status; token naming on ticket/pair pages.
+- [kob#1](https://github.com/RossKU/kob/issues/1) remains open. Tag remains v0.1.0. Third-party; not desk-checked.
