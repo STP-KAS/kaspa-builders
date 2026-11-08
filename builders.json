@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -15,7 +15,7 @@
       "url": "https://github.com/olafweller/kaspa-privacy-initiative",
       "page": "entries/olafweller-kpi.md",
       "chip": "experiment",
-      "note": "@WellerOlaf community research on optional privacy for native KAS; upstream main 7ffe8353, RFC-0001 Open, A0.5 and scoped TN10 trials remain research, not production privacy. 30 Oct X 2116101290774126759: development will take a back seat for a while, no fixed schedule. elldeeone/kaspa-privacy-initiative default branch research/native-kas-withdrawal-privacy tip 00018b9898ae2f09c9bca59ede632aee54c940ec https://github.com/elldeeone/kaspa-privacy-initiative/commit/00018b9898ae2f09c9bca59ede632aee54c940ec; current research focuses shared KPI contributions unless an alternative demonstrates better privacy. Earlier commits compare native-KAS privacy designs under unchanged consensus. Third-party research; not desk-checked. Prior cell (to 5 Nov): [SNAPSHOT-HISTORY](https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-5-nov-2026).",
+      "note": "@WellerOlaf community research on optional privacy for native KAS; upstream main 7ffe8353, RFC-0001 Open, A0.5 and scoped TN10 trials remain research, not production privacy. 30 Oct X 2116101290774126759: development will take a back seat for a while, no fixed schedule. elldeeone/kaspa-privacy-initiative default branch research/native-kas-withdrawal-privacy tip 78a6494d76a0479f02d06fa952d4e2236b28e460 https://github.com/elldeeone/kaspa-privacy-initiative/commit/78a6494d76a0479f02d06fa952d4e2236b28e460 (8 Nov 02:32:07Z); 10 commits since 00018b98 (7–8 Nov). Author commit titles include validating an atomic withdrawal bundle on Testnet-10, measuring known-owner and Olaf-trial payment leakage, a four-wallet privacy comparison, and P13 service-timing notes. elldeeone commented on upstream #13 https://github.com/olafweller/kaspa-privacy-initiative/issues/13#issuecomment-6706287130 (7 Nov 11:32:00Z) that a service controlling when each wallet could finish a withdrawal linked all three wallets in a prototype by watching which address appeared next; publishing the approvals together in a TN10 transaction stopped that specific link (payout amounts remained public). Author records; not desk-checked. Prior cell (to 8 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-8-nov-2026.",
       "sources": [
         "https://github.com/olafweller/kaspa-privacy-initiative/commit/98aa99fa8230f5eb490e0af4e3da0291260581d6",
         "https://github.com/olafweller/kaspa-privacy-initiative/commit/3a1efa8db9672025f5282970703cb7256428c1be",
@@ -60,9 +60,12 @@
         "https://github.com/olafweller/kaspa-privacy-initiative/pull/61",
         "https://github.com/olafweller/kaspa-privacy-initiative/commit/7ffe8353437604322f8bdd6e8d0c4f5b15a55ee1",
         "https://x.com/WellerOlaf/status/2112660896136994874",
-        "https://x.com/WellerOlaf/status/2116101290774126759"
+        "https://x.com/WellerOlaf/status/2116101290774126759",
+        "https://github.com/elldeeone/kaspa-privacy-initiative/commit/78a6494d76a0479f02d06fa952d4e2236b28e460",
+        "https://github.com/olafweller/kaspa-privacy-initiative/issues/13",
+        "https://github.com/olafweller/kaspa-privacy-initiative/issues/13#issuecomment-6706287130"
       ],
-      "checked": "2026-11-05"
+      "checked": "2026-11-08"
     },
     {
       "name": "KaspaKii: Impulse",
@@ -289,7 +292,7 @@
       "url": "https://github.com/forbole/kastle/pull/420",
       "page": "entries/wallets-kcc20.md",
       "chip": "catalog",
-      "note": "Third-party wallet work. Kastle #420 https://github.com/forbole/kastle/pull/420 merged 6 Nov 06:32:39Z as 3105c5b5 https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d (full KCC-20 parity with mobile). #426 https://github.com/forbole/kastle/pull/426 merged 06:43:36Z as 95cd39f4 https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062 (resume stored Braid deposits). Current main 95cd39f4. #421 https://github.com/forbole/kastle/pull/421 was closed unmerged 6 Nov 07:00:52Z (head 142300cc, base fix/kcc20-parity-all; no merge commit). Release pull #407 remains open; latest release remains v2.61.4. Kaspire Android v0.11.93 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.93 and v0.11.94 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.94 unchanged. Not desk-tested. Prior cell (to 7 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-7-nov-2026.",
+      "note": "Third-party wallet work. Kastle #420 https://github.com/forbole/kastle/pull/420 merged 6 Nov 06:32:39Z as 3105c5b5 https://github.com/forbole/kastle/commit/3105c5b5f6bd318574b83f3ba54ec18f215e4f5d (full KCC-20 parity with mobile). #426 https://github.com/forbole/kastle/pull/426 merged 06:43:36Z as 95cd39f4 https://github.com/forbole/kastle/commit/95cd39f4083ea8abf9999dc7e553ebc8abfc1062 (resume stored Braid deposits). Current main 95cd39f4. #421 https://github.com/forbole/kastle/pull/421 was closed unmerged 6 Nov 07:00:52Z (head 142300cc, base fix/kcc20-parity-all; no merge commit). Release pull #407 remains open; latest release remains v2.61.4. Kaspire Android v0.11.97 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.97 (7 Nov 18:27:49Z): KasForge Mainnet swaps (venue order KaspaRocket, Kasseal, Braid, KForge, KRON, then KasForge) and browser dApps; notes say 0.11.95 and 0.11.96 were separate KasForge builds included since 0.11.94. v0.11.98 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.98 (7 Nov 18:53:08Z): KCC20 discovery notice hotfix (Kasvio as the primary standard-KCC20 source; removes the blanket Kascov top-100 holders warning; no signing, key or backup changes). Main 5f34cff6 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/5f34cff6616e714f42776e15bf9e5de4280ba9b8. Release notes only; not desk-tested. Prior cell (to 8 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-8-nov-2026.",
       "sources": [
         "https://github.com/forbole/kastle",
         "https://github.com/forbole/kastle/pull/369",
@@ -320,9 +323,12 @@
         "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.79",
         "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.83",
         "https://github.com/forbole/kastle/pull/420",
-        "https://github.com/forbole/kastle/pull/421"
+        "https://github.com/forbole/kastle/pull/421",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.97",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.98",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/5f34cff6616e714f42776e15bf9e5de4280ba9b8"
       ],
-      "checked": "2026-11-05"
+      "checked": "2026-11-08"
     },
     {
       "name": "OpenMiner reference (elldeeone)",
@@ -521,10 +527,10 @@
     },
     {
       "name": "Ross Ku (RossKU/kob): Argent port notes",
-      "url": "https://github.com/RossKU/kob/commit/29c090922877813e783d16e98b2c9514fff65c3f",
+      "url": "https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e",
       "page": "entries/rossku-kob.md",
       "chip": "catalog",
-      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 3e7f867f https://github.com/RossKU/kob/commit/3e7f867fcb1bbf65dd3ec2fb44801caeb5cf0a61 (7 Nov 06:33:02Z); kob#1 https://github.com/RossKU/kob/issues/1 remains open. 41 commits since 29c09092 (6 Nov): kobd db tool rename, cancel-only retired order templates, activity/market pagination and favourites, contract path cleanup (orders/ vs prototypes), docs/registry/soak moves, bell status, pair naming. Tag remains v0.1.0, Testnet-10 only, pre-audit. Prior cell (to 7 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-7-nov-2026.",
+      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 3a5f082b https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e (8 Nov 06:39:01Z); kob#1 https://github.com/RossKU/kob/issues/1 remains open. 44 commits since 3e7f867f (7 Nov): Activity log scoping, two-line rows, owner lookup, and a 1D/7D/1M/1Y summary with volume chart; custom dropdowns, header/tab spacing, two-column settings, two-ended IDs, zero-subscript, ticker from the token list; pair-chart empty candles / one-token-not-traded; a disclaimer page and pre-audit wording replaced by open review (specification is not final; no review can show the code is free of bugs); Support page and feedback section (no bug bounty); landing trust rows (Closed source / Trust us: None; SilverScript and Argent named); SVG token logos hash-checked then drawn to WEBP (an unreadable or unhashed SVG is never shown). Tag remains v0.1.0, Testnet-10 only. Prior cell (to 8 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-8-nov-2026.",
       "sources": [
         "https://github.com/RossKU/kob/commit/9d8030c9b1aca370af2315230c15920c021e39a2",
         "https://github.com/RossKU/kob/blob/9d8030c9b1aca370af2315230c15920c021e39a2/docs/argent-port-compare.md",
@@ -535,9 +541,10 @@
         "https://t.me/kasparnd/16118",
         "https://github.com/RossKU/kob/commit/910398e6c9ff23d13e37bd1a32d9df7512343a04",
         "https://github.com/RossKU/kob/commit/633c06a182241ffcca40b3afff1fd161147e27b3",
-        "https://github.com/RossKU/kob/issues/1"
+        "https://github.com/RossKU/kob/issues/1",
+        "https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e"
       ],
-      "checked": "2026-11-05"
+      "checked": "2026-11-08"
     },
     {
       "name": "Argent: desk results (8 Oct)",

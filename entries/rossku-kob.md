@@ -131,3 +131,11 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 - Current master [`3e7f867f`](https://github.com/RossKU/kob/commit/3e7f867fcb1bbf65dd3ec2fb44801caeb5cf0a61) (7 Nov 06:33:02Z); 41 commits ahead of prior tip `29c09092`.
 - Themes in the window (author commit messages): kobd `db` subcommands replace `kobd index`; cancel-only table for retired order templates; activity log and market list pagination/favourites/pair picker; contracts path cleanup (`orders/` vs prototypes); docs/registry/soak/repository-root moves; bell live status; token naming on ticket/pair pages.
 - [kob#1](https://github.com/RossKU/kob/issues/1) remains open. Tag remains v0.1.0. Third-party; not desk-checked.
+
+## 7 to 8 Nov 2026: master tip `3a5f082b` (GitHub read 8 Nov ~07:50 CET; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Current master [`3a5f082b`](https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e) (8 Nov 06:39:01Z); 44 commits ahead of prior tip `3e7f867f`.
+- Themes in the window (author commit messages): Activity log scoping, two-line rows, owner lookup, and a 1D/7D/1M/1Y summary with volume chart; custom dropdowns, header/tab spacing, two-column settings, two-ended IDs, zero-subscript, ticker from the token list; pair-chart empty candles / one-token-not-traded; a disclaimer page and pre-audit wording replaced by "open review" (specification is not final; no review can show the code is free of bugs; later notices drop "no third party has checked"); Support page and a feedback section that says there is no bug bounty; landing trust rows (Closed source / Trust us: None; SilverScript and Argent named); SVG token logos hash-checked then drawn to a canvas and shown as WEBP (an unreadable or unhashed SVG is never shown); e2e and tagline matching the static title.
+- [kob#1](https://github.com/RossKU/kob/issues/1) remains open. Tag remains v0.1.0, Testnet-10 only.
