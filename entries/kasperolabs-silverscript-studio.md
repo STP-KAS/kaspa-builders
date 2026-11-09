@@ -95,3 +95,12 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 - v0.17.0 [`0eb8c4fd`](https://github.com/kasperolabs/kaspa-redteam/commit/0eb8c4fde4399cd4d62971df1f3ed6aa5620bff3): recognizes KCC-20 cells in real transactions and adds multi-file `--baseline` support.
 - Current main [`a0ef2802`](https://github.com/kasperolabs/kaspa-redteam/commit/a0ef28022fa0d840854b65230eea89cdffa055ac) (5 Nov 13:41:55Z) adds `kcc20-analyzer 0.1.0`: mutates real spends of on-chain programs and judges them through the script engine. It has its own workspace and pins rusty-kaspa `a41a333b`.
 - No GitHub releases or tags were found.
+
+## 6 to 8 Nov 2026: kaspa-redteam v0.17.1 and v0.17.2 (GitHub/site read 9 Nov ~07:45 CET; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [`78de5587`](https://github.com/kasperolabs/kaspa-redteam/commit/78de5587) (6 Nov 10:51:24Z) "queue-complete: pace REST calls, retry on 429, call budget, never stop the run on one failure".
+- [`ade5fc9c`](https://github.com/kasperolabs/kaspa-redteam/commit/ade5fc9c) (8 Nov 20:11:49Z) "v0.17.1: silverc constructor files, template links by abbreviated name, baselines checked as given".
+- Current main [`c4ec1ba5`](https://github.com/kasperolabs/kaspa-redteam/commit/c4ec1ba5ad074187f22a0007e0220067a434a0e1) (8 Nov 20:11:49Z) "v0.17.2: the signer's own money, own token cells, designed leftovers". Commit message: a new KCC-20 cell a listed key owns is the signer's own; OUT-01/02/03 and FEE-01 report an output paid from the signer's own coins as a note; OUT-04 names a leftover within a tip, fee or budget the covenant's state names (refundTip, keeperTip, max_extra) as a note, above them it stays a finding; `--baseline-only` .sil files only name the programs in real transactions.
+- No GitHub releases or tags were found. Not run here.

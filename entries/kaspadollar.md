@@ -1,7 +1,7 @@
 # KaspaDollar (announced stablecoin initiative)
 
 **Chip:** `claim`. Third-party initiative. **Not Kaspa core. Not a KIP. Not a KCC. Not an endorsement.**
-**Last checked:** 2026-11-05 (X and public site reads).
+**Last checked:** 2026-11-09 (X and public site reads).
 
 **The master keeps:** the KaspaDollar current-state row because stp classified it as core on 25 Oct. This entry holds the third-party project detail.
 
@@ -36,6 +36,16 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 - [2118285824022503531](https://x.com/asaefstroem/status/2118285824022503531): acknowledges insufficient backing if liquidators do not act; stress tests planned.
 - [2118291388249096310](https://x.com/asaefstroem/status/2118291388249096310): a liquidator can mint KSD against its own KAS, liquidate and close the loan.
 - [2117609455743627318](https://x.com/asaefstroem/status/2117609455743627318): proposed hashrate gate before covenant activation; percentage unspecified.
+
+## 8 Nov 2026: whitepaper published (site read 9 Nov ~07:41 CET; not desk-checked)
+
+**Caveat: third-party design; project statements, not desk tests.**
+
+- @KaspaDollar [2119399540528726296](https://x.com/KaspaDollar/status/2119399540528726296) (8 Nov 12:00:01Z): "KaspaDollar whitepaper is now live! ... a working document that is subject to both internal and external review"; the post says there is no planned revenue or developer fee and that deployed contracts will have no admin key.
+- [Whitepaper](https://kaspadollar.com/whitepaper) (HTTP 200): "KSD: A Dollar Token on Kaspa L1 Backed by KAS and Its Miners", author Alexander Säfström; "a working document that awaits peer review", "updated in place". Two components: covenant contracts and a decentralized miner oracle (DMO). Votes are 13 bytes in the coinbase payload, committed by KIP-21, read with `OpChainblockSeqCommit`, aggregated in a ZK proof checked with KIP-16 `OpZkPrecompile`. Parameter table: open ratio 250%, liquidation threshold 200%, penalty 5%, window 6,000 blocks, vote threshold 50%, launch gate 90% for 30 days, freeze 30 min, settlement 30 days, unbacked-issuance limit 50,000/day, reward tolerance 2%, oracle fee 0.1% (floor 1 KAS), 8 replicas, min debt 10 KSD. `/whitepaper.pdf` HTTP 404.
+- [Design page](https://kaspadollar.com/how-it-works) changes since 8 Nov: window "the last 6,000 blocks, about ten minutes"; every priced action pays 0.1% of its dollar value in KAS (floor 1 KAS) to miners within 2% of the median, update posters and keepers; launch needs 90% of blocks carrying a vote, without a gap, for 30 days; all parameters still preliminary.
+- Home page funding counter 569,040 of 5,000,000 KAS (11.3%) at the 9 Nov read (552,684, 11%, on 8 Nov).
+- No public code repository or deployed KSD covenant was found. Kaspire 0.11.99 notes name a separate KaspaRocket "KDOLLAR" pool whose treasury leg uses the KaspaDollar donation recipient (see [wallets-kcc20](wallets-kcc20.md)); that is Kaspire's statement, not a KSD deployment.
 
 ## Limits and sources
 
