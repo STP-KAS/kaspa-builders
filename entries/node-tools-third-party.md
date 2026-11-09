@@ -45,5 +45,5 @@ supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept al
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - Kaspa Core R&D Telegram ([15610](https://t.me/kasparnd/15610), 6 Aug 2026 02:52Z): "automatic TCP hole punching between private/NATed nodes is now working (on devnet)"; the post calls branch `rk-with-tcp` of [elldeeone/rusty-kaspa](https://github.com/elldeeone/rusty-kaspa) "my public branch" and asks for mainnet testers. That branch tip is [`09fc0ba5`](https://github.com/elldeeone/rusty-kaspa/commit/09fc0ba5c03f5c4a1c3b981be50f1e10606024c8) (25 Aug 02:44:45Z, "fix(libp2p): allow DCUtR after private probe"; GitHub read 9 Nov). Fork branch, no pull on kaspanet/rusty-kaspa.
-- Ori Newman ([16463](https://t.me/kasparnd/16463), 9 Nov 18:02Z) says his [rusty-kaspa#1165](https://github.com/kaspanet/rusty-kaspa/pull/1165) "Support hole punching via LibP2p" is "Inspired by @elldeeone 's implementation" and uses UDP hole punching instead.
+- Ori Newman ([16463](https://t.me/kasparnd/16463), 9 Nov 18:02Z) says his [rusty-kaspa#1165](https://github.com/kaspanet/rusty-kaspa/pull/1165) "Support hole punching via LibP2p" is "Inspired by @elldeeone's implementation" and uses UDP hole punching instead.
 - The master keeps: #1165 (kaspanet pull) in its "P2P hole punching" row.
