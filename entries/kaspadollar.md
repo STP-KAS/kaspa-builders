@@ -39,7 +39,7 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 
 ## 8 Nov 2026: whitepaper published (site read 9 Nov ~07:41 CET; not desk-checked)
 
-**Caveat: third-party design; project statements, not desk tests.**
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - @KaspaDollar [2119399540528726296](https://x.com/KaspaDollar/status/2119399540528726296) (8 Nov 12:00:01Z): "KaspaDollar whitepaper is now live! ... a working document that is subject to both internal and external review"; the post says there is no planned revenue or developer fee and that deployed contracts will have no admin key.
 - [Whitepaper](https://kaspadollar.com/whitepaper) (HTTP 200): "KSD: A Dollar Token on Kaspa L1 Backed by KAS and Its Miners", author Alexander Säfström; "a working document that awaits peer review", "updated in place". Two components: covenant contracts and a decentralized miner oracle (DMO). Votes are 13 bytes in the coinbase payload, committed by KIP-21, read with `OpChainblockSeqCommit`, aggregated in a ZK proof checked with KIP-16 `OpZkPrecompile`. Parameter table: open ratio 250%, liquidation threshold 200%, penalty 5%, window 6,000 blocks, vote threshold 50%, launch gate 90% for 30 days, freeze 30 min, settlement 30 days, unbacked-issuance limit 50,000/day, reward tolerance 2%, oracle fee 0.1% (floor 1 KAS), 8 replicas, min debt 10 KSD. `/whitepaper.pdf` HTTP 404.
