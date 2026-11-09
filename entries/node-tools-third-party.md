@@ -39,3 +39,11 @@ supertypo/simply-kaspa-dnsseeder v0.9.6 (25 Sep 07:03Z): dead nodes were kept al
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - IzioDev opened [aspectron/khost#5](https://github.com/aspectron/khost/pull/5) "feat(p2p): add covenant index arg to systemd" (2 Nov 15:34Z, head `4a373bb9`, 1 file, +1/−0, open). Body: "to be merged after RK is released with the covenant index feature (https://github.com/kaspanet/rusty-kaspa/pull/1152)"; "it will enable the covenant index on the freshly created systemd services"; existing operators then update khost, rebuild configuration and restart all services.
+
+## 9 Nov 2026: elldeeone's hole-punching branch, named by rusty-kaspa #1165 (Core R&D Telegram export read 9 Nov ~21:30 CET)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Kaspa Core R&D Telegram ([15610](https://t.me/kasparnd/15610), 6 Aug 2026 02:52Z): "automatic TCP hole punching between private/NATed nodes is now working (on devnet)"; the post calls branch `rk-with-tcp` of [elldeeone/rusty-kaspa](https://github.com/elldeeone/rusty-kaspa) "my public branch" and asks for mainnet testers. That branch tip is [`09fc0ba5`](https://github.com/elldeeone/rusty-kaspa/commit/09fc0ba5c03f5c4a1c3b981be50f1e10606024c8) (25 Aug 02:44:45Z, "fix(libp2p): allow DCUtR after private probe"; GitHub read 9 Nov). Fork branch, no pull on kaspanet/rusty-kaspa.
+- Ori Newman ([16463](https://t.me/kasparnd/16463), 9 Nov 18:02Z) says his [rusty-kaspa#1165](https://github.com/kaspanet/rusty-kaspa/pull/1165) "Support hole punching via LibP2p" is "Inspired by @elldeeone 's implementation" and uses UDP hole punching instead.
+- The master keeps: #1165 (kaspanet pull) in its "P2P hole punching" row.
