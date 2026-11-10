@@ -104,3 +104,10 @@ Both are the author's own posts. Each ends with a media link (`t.co`) that was n
 - [`ade5fc9c`](https://github.com/kasperolabs/kaspa-redteam/commit/ade5fc9c) (8 Nov 20:11:49Z) "v0.17.1: silverc constructor files, template links by abbreviated name, baselines checked as given".
 - Current main [`c4ec1ba5`](https://github.com/kasperolabs/kaspa-redteam/commit/c4ec1ba5ad074187f22a0007e0220067a434a0e1) (8 Nov 20:11:49Z) "v0.17.2: the signer's own money, own token cells, designed leftovers". Commit message: a new KCC-20 cell a listed key owns is the signer's own; OUT-01/02/03 and FEE-01 report an output paid from the signer's own coins as a note; OUT-04 names a leftover within a tip, fee or budget the covenant's state names (refundTip, keeperTip, max_extra) as a note, above them it stays a finding; `--baseline-only` .sil files only name the programs in real transactions.
 - No GitHub releases or tags were found. Not run here.
+
+## 9 Nov 2026: SilverScript Studio Scan badge docs (GitHub/site read 10 Nov ~07:45 CET; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- kasperolabs/silverscript-studio main [`01d85f0b`](https://github.com/kasperolabs/silverscript-studio/commit/01d85f0b0615607cb0e9027290c13b68ae9f4428) (9 Nov 22:36:32Z) "Add Scan badge API docs": `docs/scan-badges/README.md` with NACHO and TreeHouse examples and badge PNGs (official, standard, can-mint, can-burn, can-freeze, issuer-controlled, not-indexed, does-not-apply).
+- kaspa-redteam unchanged at `c4ec1ba5`.

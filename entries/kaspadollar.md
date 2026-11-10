@@ -1,7 +1,7 @@
 # KaspaDollar (announced stablecoin initiative)
 
 **Chip:** `claim`. Third-party initiative. **Not Kaspa core. Not a KIP. Not a KCC. Not an endorsement.**
-**Last checked:** 2026-11-09 (X and public site reads).
+**Last checked:** 2026-11-10 (X and public site reads).
 
 **The master keeps:** the KaspaDollar current-state row because stp classified it as core on 25 Oct. This entry holds the third-party project detail.
 
@@ -46,6 +46,14 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 - [Design page](https://kaspadollar.com/how-it-works) changes since 8 Nov: window "the last 6,000 blocks, about ten minutes"; every priced action pays 0.1% of its dollar value in KAS (floor 1 KAS) to miners within 2% of the median, update posters and keepers; launch needs 90% of blocks carrying a vote, without a gap, for 30 days; all parameters still preliminary.
 - Home page funding counter 569,040 of 5,000,000 KAS (11.3%) at the 9 Nov read (552,684, 11%, on 8 Nov).
 - No public code repository or deployed KSD covenant was found. Kaspire 0.11.99 notes name a separate KaspaRocket "KDOLLAR" pool whose treasury leg uses the KaspaDollar donation recipient (see [wallets-kcc20](wallets-kcc20.md)); that is Kaspire's statement, not a KSD deployment.
+
+## 9 to 10 Nov 2026: whitepaper unchanged; funding counter; oracle replies (site read 10 Nov ~07:47 CET; not desk-checked)
+
+**Caveat: third-party design; project statements, not desk tests.**
+
+- [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 9 Nov read. `/whitepaper.pdf` still HTTP 404.
+- Home page funding counter 585,005 of 5,000,000 KAS (11.7%) at the 10 Nov read (569,040, 11.3%, on 9 Nov).
+- asaefstroem [2119800173719429439](https://x.com/asaefstroem/status/2119800173719429439) (9 Nov 14:32:00Z): the SDK will include a small stratum proxy next to the ASIC (ASIC ↔ proxy ↔ pool); the pool builds a template variant per submitted price (extra data = base | KVOT | version | p) and recomputes the merkle root; the proxy alerts on a mismatch between expected vote, job id and the block on chain. Core-dev replies (Sutton on miner attestation oracles and a shared proving service) are in the master KaspaDollar cell.
 
 ## Limits and sources
 
