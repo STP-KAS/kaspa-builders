@@ -49,7 +49,7 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 
 ## 9 to 10 Nov 2026: whitepaper unchanged; funding counter; oracle replies (site read 10 Nov ~07:47 CET; not desk-checked)
 
-**Caveat: third-party design; project statements, not desk tests.**
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 9 Nov read. `/whitepaper.pdf` still HTTP 404.
 - Home page funding counter 585,005 of 5,000,000 KAS (11.7%) at the 10 Nov read (569,040, 11.3%, on 9 Nov).
