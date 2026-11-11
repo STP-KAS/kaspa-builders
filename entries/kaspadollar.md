@@ -55,7 +55,7 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 - Home page funding counter 585,005 of 5,000,000 KAS (11.7%) at the 10 Nov read (569,040, 11.3%, on 9 Nov).
 - asaefstroem [2119800173719429439](https://x.com/asaefstroem/status/2119800173719429439) (9 Nov 14:32:00Z): the SDK will include a small stratum proxy next to the ASIC (ASIC ↔ proxy ↔ pool); the pool builds a template variant per submitted price (extra data = base | KVOT | version | p) and recomputes the merkle root; the proxy alerts on a mismatch between expected vote, job id and the block on chain. Core-dev replies (Sutton on miner attestation oracles and a shared proving service) are in the master KaspaDollar cell.
 
-## 10 to 11 Nov 2026: funding counter; opening-ratio and prover replies (site read 11 Nov ~07:43 CET; not desk-checked)
+## 10 to 11 Nov 2026: funding counter; opening-ratio and prover replies (site read 11 Nov 07:41 CET, server Date 06:41:35Z; not desk-checked)
 
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
