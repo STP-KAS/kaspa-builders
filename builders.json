@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -297,7 +297,7 @@
       "url": "https://github.com/forbole/kastle/pull/420",
       "page": "entries/wallets-kcc20.md",
       "chip": "catalog",
-      "note": "Third-party wallet work. Kastle current main 9b2dbf78 https://github.com/forbole/kastle/commit/9b2dbf78 (10 Nov 06:32:52Z), 9 commits after 95cd39f4 (compare https://github.com/forbole/kastle/compare/95cd39f4...9b2dbf78), all fix(...) merges of 9–10 Nov: #427 https://github.com/forbole/kastle/pull/427 \"fix(qa): 2.61.5 — six QA defects on the KCC-20 parity line\", #429 https://github.com/forbole/kastle/pull/429 (replace the dead exchange-rates domain, cache rates 10 min), #430 https://github.com/forbole/kastle/pull/430 (received-leg USD, NACHO attribution, asset header search), #431, #432, #433, #435, #437 and #438 https://github.com/forbole/kastle/pull/438 (hidden-token filter landed on main after #436 merged into a dead base). Open: #434 https://github.com/forbole/kastle/pull/434 \"fix(sign-broadcast): keep covenant binding on rebuilt change output\" (its body: the P2SH fee adjustment rebuilt the change output with two arguments and dropped the covenant on a version-1 covenant transaction). Release pull #407 https://github.com/forbole/kastle/pull/407 \"chore(main): release 2.62.0\" remains open; latest release remains v2.61.4. #420/#426 (6 Nov) and #421 (closed unmerged) are in the prior cells. Kaspire Android latest release v0.11.99 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.99 (8 Nov 14:43:21Z, build 244): KDOLLAR KaspaRocket swap fee validation fix; the notes say KDOLLAR's deployed pool uses the KaspaDollar donation recipient for its treasury leg, and add a fixed recipient mapping restricted to that covenant and pool; other pools keep the existing treasury pin. Earlier v0.11.97 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.97 (KasForge Mainnet swaps and browser dApps) and v0.11.98 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.98 (Kasvio-first KCC20 discovery) changes are retained. Main 94d8d179 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/94d8d179b658c0075653f23e2fd09c296af9cd1b. Release notes only; not desk-tested. Prior cell (to 10 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-10-nov-2026.",
+      "note": "Third-party wallet work. Kastle current main 39b04ee8 https://github.com/forbole/kastle/commit/39b04ee8da9dbf48df85d0aca3ac61a2d26aa714 (11 Nov 02:18:23Z, \"chore(main): release 2.62.1 (#445)\"), 8 commits after 9b2dbf78 (compare https://github.com/forbole/kastle/compare/9b2dbf78...39b04ee8): #434 https://github.com/forbole/kastle/pull/434 \"fix(sign-broadcast): keep covenant binding on rebuilt change output\" merged 10 Nov 07:07:54Z, then #439, #440 https://github.com/forbole/kastle/pull/440 (in-app EVM and ERC-20 token history), #441, #442 and #444. Releases v2.62.0 https://github.com/forbole/kastle/releases/tag/v2.62.0 (10 Nov 10:42:14Z; notes list KCC-20 standard read path and transfer builder #406, full KCC-20 parity #420, KCC-20 on testnet-10 in the extension #413, Kasseal launchpad #411, UTXO consolidation #424) and v2.62.1 https://github.com/forbole/kastle/releases/tag/v2.62.1 (11 Nov 02:18:40Z; one asset-detail fix, #444). Open issue #446 https://github.com/forbole/kastle/issues/446 (RUSTWIRE, 11 Nov 05:34:47Z): since 2.62.0 dApp signTx and signAndBroadcastTx refuse every transaction whose version is not 0 (COVENANT_TX_UNSUPPORTED, from #406), so Kaspet's version-1 covenant actions no longer work with Kastle; it asks for a template allowlist or a decoded confirm screen. Open #447 https://github.com/forbole/kastle/pull/447 (leobragaz, 11 Nov 05:55:53Z) \"fix(kaspa): decode covenant dApp requests instead of refusing them\" (its body names KRON as a live regression). Kaspire Android v0.11.101 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.101 (10 Nov 21:04:43Z, build 246; includes the test-only 0.11.100 L2 QR fix): Standard-KCC20 discovery moves to Kasvio's /api/kcc20/v4 API with Kascov as per-read fallback; the notes say native signing support is not broadened. Browser extension extension-v0.5.28 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.28 (10 Nov 23:32:05Z): Kasvio V4 primary, Kascov fallback, KCC20.info no longer used, DEX swap parity. Android v0.11.102 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.102 (10 Nov 23:47:28Z, build 247) and iOS PWA 0.1.0-ios.24: removes the wallet-wide stale-indexer and unverifiable-holdings notices; the notes say transfer preparation, live-cell checks and signing are unchanged. The v0.11.99 KDOLLAR KaspaRocket fee-recipient mapping and earlier v0.11.97/v0.11.98 changes are in the prior cells. Main 17d06cfe https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/17d06cfe717346c1b66600e5baee672a5b670227. Release notes only; not desk-tested. Prior cell (to 11 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-11-nov-2026.",
       "sources": [
         "https://github.com/forbole/kastle",
         "https://github.com/forbole/kastle/pull/369",
@@ -336,9 +336,14 @@
         "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/94d8d179b658c0075653f23e2fd09c296af9cd1b",
         "https://github.com/kas-builder/KasSigner-iOS/commit/997a49a837d30686c8a4d7a73fe7d905d7c4929d",
         "https://github.com/forbole/kastle/commit/9b2dbf78",
-        "https://github.com/forbole/kastle/pull/434"
+        "https://github.com/forbole/kastle/pull/434",
+        "https://github.com/forbole/kastle/commit/39b04ee8da9dbf48df85d0aca3ac61a2d26aa714",
+        "https://github.com/forbole/kastle/issues/446",
+        "https://github.com/forbole/kastle/pull/447",
+        "https://github.com/forbole/kastle/releases/tag/v2.62.1",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.102"
       ],
-      "checked": "2026-11-10"
+      "checked": "2026-11-11"
     },
     {
       "name": "OpenMiner reference (elldeeone)",
@@ -540,7 +545,7 @@
       "url": "https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e",
       "page": "entries/rossku-kob.md",
       "chip": "catalog",
-      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 73ce3d90 https://github.com/RossKU/kob/commit/73ce3d90 (10 Nov 06:53:20Z), 84 commits after 74c449c4 (compare https://github.com/RossKU/kob/compare/74c449c4...73ce3d90); kob#1 https://github.com/RossKU/kob/issues/1 remains open. Author commit messages in the window: kobd GET /v1/stats (activity totals) and GET /v1/price/kas-usd for an optional USD display (opt-in, off by default); gzip and Cache-Control on read answers; rusqlite 0.41 (bundled SQLite 3.54.1) for RUSTSEC-2026-0459; x402: the default max_extra of a KasToToken intent is what the shape's execution needs; a CLI pair order with no --tip carries the pair's keeper tip; no GitHub Pages mirror; domains: kob-tn10.kaspa.ag / kob-api-tn10.kaspa.ag for Testnet-10, kob.kaspa.ag and kob-api.kaspa.ag named as production, with the mainnet site a landing-only build (\"mainnet in preparation\"); a Portfolio page and many web UI changes, including dollar figures when the web app's display currency is USD. Tag remains v0.1.0. Prior cell (to 10 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-10-nov-2026.",
+      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 1e5f3890 https://github.com/RossKU/kob/commit/1e5f38902264da6b12a23b3d709b0e0dd6867339 (11 Nov 06:06:15Z), 73 commits after 73ce3d90 (compare https://github.com/RossKU/kob/compare/73ce3d90...1e5f3890); kob#1 https://github.com/RossKU/kob/issues/1 remains open. Author commit messages since 73ce3d90: kobd uses a public resolver pair as the default node with Indexer failover, judges both nodes by their answers and cuts off an abnormal one; kobd --executor keeps a pending transaction while a mempool holds it and its in-flight state survives a restart; on Windows a key file another account may read is refused by default; release builds get provenance attestations for every archive, the APK and SHA256SUMS; comments and docs drop the word DEX (\"KOB is not one\"); price-chart drawing tools and other web UI changes. Earlier author commit messages (to 73ce3d90): kobd GET /v1/stats (activity totals) and GET /v1/price/kas-usd for an optional USD display (opt-in, off by default); gzip and Cache-Control on read answers; rusqlite 0.41 (bundled SQLite 3.54.1) for RUSTSEC-2026-0459; x402: the default max_extra of a KasToToken intent is what the shape's execution needs; a CLI pair order with no --tip carries the pair's keeper tip; no GitHub Pages mirror; domains: kob-tn10.kaspa.ag / kob-api-tn10.kaspa.ag for Testnet-10, kob.kaspa.ag and kob-api.kaspa.ag named as production, with the mainnet site a landing-only build (\"mainnet in preparation\"); a Portfolio page and many web UI changes, including dollar figures when the web app's display currency is USD. Tag remains v0.1.0. Prior cell (to 11 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-11-nov-2026.",
       "sources": [
         "https://github.com/RossKU/kob/commit/9d8030c9b1aca370af2315230c15920c021e39a2",
         "https://github.com/RossKU/kob/blob/9d8030c9b1aca370af2315230c15920c021e39a2/docs/argent-port-compare.md",
@@ -555,9 +560,10 @@
         "https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e",
         "https://github.com/RossKU/kob/commit/74c449c4ef14",
         "https://github.com/RossKU/kob/commit/1fa1a95b",
-        "https://github.com/RossKU/kob/commit/73ce3d90"
+        "https://github.com/RossKU/kob/commit/73ce3d90",
+        "https://github.com/RossKU/kob/commit/1e5f38902264da6b12a23b3d709b0e0dd6867339"
       ],
-      "checked": "2026-11-10"
+      "checked": "2026-11-11"
     },
     {
       "name": "Argent: desk results (8 Oct)",

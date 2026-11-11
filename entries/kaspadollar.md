@@ -1,7 +1,7 @@
 # KaspaDollar (announced stablecoin initiative)
 
 **Chip:** `claim`. Third-party initiative. **Not Kaspa core. Not a KIP. Not a KCC. Not an endorsement.**
-**Last checked:** 2026-11-10 (X and public site reads).
+**Last checked:** 2026-11-11 (X and public site reads).
 
 **The master keeps:** the KaspaDollar current-state row because stp classified it as core on 25 Oct. This entry holds the third-party project detail.
 
@@ -54,6 +54,14 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 - [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 9 Nov read. `/whitepaper.pdf` still HTTP 404.
 - Home page funding counter 585,005 of 5,000,000 KAS (11.7%) at the 10 Nov read (569,040, 11.3%, on 9 Nov).
 - asaefstroem [2119800173719429439](https://x.com/asaefstroem/status/2119800173719429439) (9 Nov 14:32:00Z): the SDK will include a small stratum proxy next to the ASIC (ASIC ↔ proxy ↔ pool); the pool builds a template variant per submitted price (extra data = base | KVOT | version | p) and recomputes the merkle root; the proxy alerts on a mismatch between expected vote, job id and the block on chain. Core-dev replies (Sutton on miner attestation oracles and a shared proving service) are in the master KaspaDollar cell.
+
+## 10 to 11 Nov 2026: funding counter; opening-ratio and prover replies (site read 11 Nov ~07:43 CET; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 10 Nov read. `/whitepaper.pdf` still HTTP 404.
+- Home page funding counter 592,963 of 5,000,000 KAS (11.8%) at the 11 Nov read (585,005, 11.7%, on 10 Nov).
+- asaefstroem [2120198588538200413](https://x.com/asaefstroem/status/2120198588538200413) (10 Nov 16:55:09Z): "the 250% ratio is the opening ratio, i.e. the minimum ratio required to open a position. Nothing prevents you from keeping it at 900% by depositing extra collateral." [2120132962075148459](https://x.com/asaefstroem/status/2120132962075148459): "The GPU here is for solving zk proofs which gives you reward in KAS."; [2120142312688730129](https://x.com/asaefstroem/status/2120142312688730129): 6600 XT cards "wont run on cuda backend since theyre amd"; he would write an AMD port "only if there is sufficient interest". Sutton's 10 Nov aggregation reply is in the master KaspaDollar cell.
 
 ## Limits and sources
 
