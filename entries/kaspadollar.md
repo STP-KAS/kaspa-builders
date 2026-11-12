@@ -68,7 +68,7 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 **Caveat: third-party, not audited, not desk-checked; the authors' own words.**
 
 - [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 11 Nov read. `/whitepaper.pdf` still HTTP 404.
-- Home page funding counter 593,357 of 5,000,000 KAS (11.9%) at the 12 Nov read (592,963, 11.8%, on 11 Nov).
+- Home page funding counter 593,357 of 5,000,000 KAS (11.8% as shown on the page) at the 12 Nov read (592,963, 11.8%, on 11 Nov).
 - asaefstroem [2120545083984584789](https://x.com/asaefstroem/status/2120545083984584789) (11 Nov 15:52:00Z), a reply that cites the GENIUS Act (Pub. L. 119-27 §2(22)(A), §3(a), §3(b), §14), 18 U.S.C. §§471–474 and §§485–486, FinCEN FIN-2013-G001 and FIN-2019-G001, and a DOJ memo of 7 April 2025, and concludes: "KaspaDollar is no issuer, nobody is obligated to redeem anything and it is not a custodian either thereby the aforementioned laws do not apply." His reading; not legal advice and not checked here.
 
 ## Limits and sources
