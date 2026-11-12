@@ -1,7 +1,7 @@
 # KaspaDollar (announced stablecoin initiative)
 
 **Chip:** `claim`. Third-party initiative. **Not Kaspa core. Not a KIP. Not a KCC. Not an endorsement.**
-**Last checked:** 2026-11-11 (X and public site reads).
+**Last checked:** 2026-11-12 (X and public site reads).
 
 **The master keeps:** the KaspaDollar current-state row because stp classified it as core on 25 Oct. This entry holds the third-party project detail.
 
@@ -62,6 +62,14 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 - [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 10 Nov read. `/whitepaper.pdf` still HTTP 404.
 - Home page funding counter 592,963 of 5,000,000 KAS (11.8%) at the 11 Nov read (585,005, 11.7%, on 10 Nov).
 - asaefstroem [2120198588538200413](https://x.com/asaefstroem/status/2120198588538200413) (10 Nov 16:55:09Z): "the 250% ratio is the opening ratio, i.e. the minimum ratio required to open a position. Nothing prevents you from keeping it at 900% by depositing extra collateral." [2120132962075148459](https://x.com/asaefstroem/status/2120132962075148459): "The GPU here is for solving zk proofs which gives you reward in KAS."; [2120142312688730129](https://x.com/asaefstroem/status/2120142312688730129): 6600 XT cards "wont run on cuda backend since theyre amd"; he would write an AMD port "only if there is sufficient interest". Sutton's 10 Nov aggregation reply is in the master KaspaDollar cell.
+
+## 11 to 12 Nov 2026: funding counter; legal-status post (site read 12 Nov 07:40 CET, server Date 06:40:26Z; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 11 Nov read. `/whitepaper.pdf` still HTTP 404.
+- Home page funding counter 593,357 of 5,000,000 KAS (11.9%) at the 12 Nov read (592,963, 11.8%, on 11 Nov).
+- asaefstroem [2120545083984584789](https://x.com/asaefstroem/status/2120545083984584789) (11 Nov 15:52:00Z), a reply that cites the GENIUS Act (Pub. L. 119-27 §2(22)(A), §3(a), §3(b), §14), 18 U.S.C. §§471–474 and §§485–486, FinCEN FIN-2013-G001 and FIN-2019-G001, and a DOJ memo of 7 April 2025, and concludes: "KaspaDollar is no issuer, nobody is obligated to redeem anything and it is not a custodian either thereby the aforementioned laws do not apply." His reading; not legal advice and not checked here.
 
 ## Limits and sources
 
