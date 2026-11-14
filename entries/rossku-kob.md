@@ -180,3 +180,11 @@ Read 20 Oct ~07:55 CEST from the commit list (31 commits on `master` from 19 Oct
 - Current master [`9c0bd2fa`](https://github.com/RossKU/kob/commit/9c0bd2fa37030a5e5e49a4ca7169e30dd2b59231) (13 Nov 06:47:11Z, "web: follow the network in force; tighten server URLs"); 39 commits ahead of `803d6c08`.
 - Non-UI commit messages include: `ebc39ccf` "kobd: executor income and miner fees per KOB transaction (schema 11) …"; `389c4236` "kobd: schema 12 and archive pruning: a store that keeps its history deletes, once final, the spent UTXO rows of orders that are no longer live, …"; `a29c6c44` "kobd: schema 13 for recorded_outputs: kobd db migrate takes a store of schema 9 to 12 the short way to 13 …"; `fdcfa82c` "kobd: own trades are not paid to executors …"; `5bb4c3c0` "kobd: the 24 h change is measured against the price 24 h ago"; `a3f2b4b7` "kobd: kobd db replay and replay --onto-database stream the record log: the whole chain is verified first without decoding …"; `2c59571f` "repo: GitHub highlights SilverScript (.sil) as JavaScript and Argent (.ag) as Rust"; `3e0d3e97` "docs: the Kaspero Labs red team report of 2026-11-09 (kaspa-redteam, published with their permission) …"; `d8a4bdaa` "docs: add the code style rules and a comment-only checker".
 - Tag remains v0.1.0.
+
+## 13 to 14 Nov 2026: master tip `694868de` (GitHub read 14 Nov ~07:50 CET; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- Current master [`694868de`](https://github.com/RossKU/kob/commit/694868deae2af919253986c85b90914349ac2933) (14 Nov 06:16:07Z, "web: no new toast on screen while a flow card shows"); 322 commits ahead of `9c0bd2fa`, most of them "plain docs" passes and web UI changes.
+- Other commit messages include: "Correct the docs: one testnet-10 deployment on both hosts"; "x402: refuse a swap whose lock time equals the virtual DAA score"; "x402: credit a foreign intent spend only on the router-pinned output"; "kobd: bound the Borsh vector pre-allocation (vendor workflow-serializer)"; "api: tighten the KAS/USD sanity ceiling from 1000 to 10"; "wallet: ask the wallet's own node before a fresh input is signed"; "wallet: record what Kaspire 0.5.31 checks before it signs"; "e2e-real: KasWare 0.11.5 and the Portfolio tabs; TN10 run of 2026-11-14".
+- Tag remains v0.1.0.

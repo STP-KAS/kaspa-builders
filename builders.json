@@ -1,7 +1,7 @@
 {
   "repo": "STP-KAS/kaspa-builders",
   "companion": "https://github.com/STP-KAS/kaspa-master-file",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "scope": "Third-party Kaspa builders, products, community accounts and research, and stp's own apps, under the master/builders split rule of 4 Oct 2026. Not Kaspa core, not KIPs, not endorsements.",
   "chips": {
     "experiment": "Code exists and part of it was checked (on chain or by a build); research, not a product.",
@@ -297,7 +297,7 @@
       "url": "https://github.com/forbole/kastle/pull/420",
       "page": "entries/wallets-kcc20.md",
       "chip": "catalog",
-      "note": "Third-party wallet work. Kastle current main 2755e096 https://github.com/forbole/kastle/commit/2755e096 (13 Nov 02:53:42Z, \"feat: KRC-20 to KCC-20 migration guide before KAT Bridge (#459)\"), 5 commits after c6d5afa7 (compare https://github.com/forbole/kastle/compare/c6d5afa7...2755e096): UI fixes #455 https://github.com/forbole/kastle/pull/455, #456 https://github.com/forbole/kastle/pull/456, #457 https://github.com/forbole/kastle/pull/457 (extension UAT v2 board items) and #458 https://github.com/forbole/kastle/pull/458, then #459 https://github.com/forbole/kastle/pull/459, which per its body adds a 2-step guide before KAT Bridge that says the move happens on a separate website, is one-way, and estimates a ~10 KAS fee. Latest release still v2.62.2 https://github.com/forbole/kastle/releases/tag/v2.62.2 (11 Nov 09:31:11Z; #447 covenant dApp request decoding and #449). Release PR #454 https://github.com/forbole/kastle/pull/454 is now \"chore(main): release 2.63.0\" and open. Open: #460 https://github.com/forbole/kastle/pull/460 \"fix: KRC-20 badge, Migrate to KCC-20 button, KCC-20 Price and Value rows\" (13 Nov 06:21:30Z). Issue #446 https://github.com/forbole/kastle/issues/446 (dApp signing of version-1 covenant transactions since 2.62.0; Kaspet) is still open. Kaspire Android v0.11.105 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.105 (13 Nov 03:08:54Z, build 252; Kaspa News mobile connection in the dApp browser, Kaspa Vision and KasPass entries) and v0.11.106 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.106 (04:04:30Z, build 254): per its notes the KCC20 dApp payment handler now \"Resolves only the requested, pinned reference KCC20 covenant, verifies its token units and current spendable cells, and prepares the complete native transfer plan\", with a cancellable preparation dialog before the transaction review. Browser extension latest extension-v0.5.29 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.29 (12 Nov). Kastle #453 and earlier releases, and Kaspire v0.11.104 and earlier, are in the prior cells. Kaspire main 27dade9f https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/27dade9f51b6bd9b7c35a177c1a070ea3c756aa1. Release notes only; not desk-tested. Prior cell (to 13 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-13-nov-2026.",
+      "note": "Third-party wallet work. Kastle current main e291ee79 https://github.com/forbole/kastle/commit/e291ee7915056552329623a2d4fbf22964581233 (13 Nov 08:21:04Z), the squash merge of #460 https://github.com/forbole/kastle/pull/460 \"fix: KRC-20 badge, Migrate to KCC-20 button, KCC-20 Price and Value rows\" (nicoletting; merged by leobragaz), 1 commit after 2755e096 (compare https://github.com/forbole/kastle/compare/2755e096...e291ee79). #461 https://github.com/forbole/kastle/pull/461 (leobragaz) was merged into #460's branch at 07:44:22Z first; per its body it makes the #460 KRC-20 pill, \"Migrate to KCC-20\" button and KCC-20 Value row reachable in the live extension pages. Latest release still v2.62.2 https://github.com/forbole/kastle/releases/tag/v2.62.2 (11 Nov). Release PR #454 https://github.com/forbole/kastle/pull/454 \"chore(main): release 2.63.0\" is open. Open: #462 https://github.com/forbole/kastle/pull/462 \"fix: migration guide copy covers ERC-20\". Issue #446 https://github.com/forbole/kastle/issues/446 is still open. Kaspire Android v0.11.107 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.107 (13 Nov 17:37:02Z, build 255) with browser extension extension-v0.5.31 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.31 (16:13:35Z): per the notes the rebuilt native core \"accepts redeem scripts up to **64 KiB**, including the reported **56,899-byte** fee-holder unwrap size\" (Toccata PSKT), and \"signPskt is sign-only: it never submits a transaction for the dApp\"; v0.11.108 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.108 (23:22:52Z, build 256, unified biometric lockscreen) and v0.11.109 https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.109 (23:42:59Z, build 257, responsive fold-cover lockscreen). Kastle #459 and earlier, and Kaspire v0.11.106 and earlier, are in the prior cells. Kaspire main 9f77f9fa https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/commit/9f77f9fa77042fa1d9352a23011310b5fbc255c7. Release notes only; not desk-tested. Prior cell (to 14 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-14-nov-2026.",
       "sources": [
         "https://github.com/forbole/kastle",
         "https://github.com/forbole/kastle/pull/369",
@@ -350,9 +350,16 @@
         "https://github.com/forbole/kastle/commit/2755e096",
         "https://github.com/forbole/kastle/pull/459",
         "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.105",
-        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.106"
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.106",
+        "https://github.com/forbole/kastle/commit/e291ee7915056552329623a2d4fbf22964581233",
+        "https://github.com/forbole/kastle/pull/460",
+        "https://github.com/forbole/kastle/pull/461",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.107",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/extension-v0.5.31",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.108",
+        "https://github.com/KaspaHUB21/Kaspire-Kaspa-Wallet/releases/tag/v0.11.109"
       ],
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     {
       "name": "OpenMiner reference (elldeeone)",
@@ -554,7 +561,7 @@
       "url": "https://github.com/RossKU/kob/commit/3a5f082b1e062a2ff432a0729ae5cca4d0d2319e",
       "page": "entries/rossku-kob.md",
       "chip": "catalog",
-      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 9c0bd2fa https://github.com/RossKU/kob/commit/9c0bd2fa37030a5e5e49a4ca7169e30dd2b59231 (13 Nov 06:47:11Z), 39 commits after 803d6c08 (compare https://github.com/RossKU/kob/compare/803d6c08...9c0bd2fa). Author commit messages since 803d6c08: kobd schema 11 records executor income and miner fees per KOB transaction, schema 12 adds archive pruning of spent UTXO rows of orders no longer live, and schema 13 adds recorded_outputs (kobd db migrate takes schema 9 to 12 stores to 13); an executor's transaction in which the sender trades for itself is not paid to executors; the 24 h change is measured against the price 24 h ago; kobd db replay verifies the record log chain before decoding; .sil and .ag files get GitHub syntax highlighting; docs add the Kaspero Labs red team report of 9 Nov (\"published with their permission\") and code style rules. Earlier author commit messages are in the prior cells. Tag remains v0.1.0. Prior cell (to 13 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-13-nov-2026.",
+      "note": "Third-party KOB/Argent work; not audited, not desk-tested. Current master 694868de https://github.com/RossKU/kob/commit/694868deae2af919253986c85b90914349ac2933 (14 Nov 06:16:07Z), 322 commits after 9c0bd2fa (compare https://github.com/RossKU/kob/compare/9c0bd2fa...694868de). Most author commit messages since 9c0bd2fa are \"plain docs\" passes over kobd, kob-cli and kob-x402 and web UI changes; others include \"Correct the docs: one testnet-10 deployment on both hosts\", \"x402: refuse a swap whose lock time equals the virtual DAA score\", \"kobd: bound the Borsh vector pre-allocation (vendor workflow-serializer)\", \"wallet: ask the wallet's own node before a fresh input is signed\" and \"e2e-real: KasWare 0.11.5 and the Portfolio tabs; TN10 run of 2026-11-14\". Earlier author commit messages are in the prior cells. Tag remains v0.1.0. Prior cell (to 14 Nov): SNAPSHOT-HISTORY https://github.com/STP-KAS/kaspa-builders/blob/main/SNAPSHOT-HISTORY.md#moved-from-readme-on-14-nov-2026.",
       "sources": [
         "https://github.com/RossKU/kob/commit/9d8030c9b1aca370af2315230c15920c021e39a2",
         "https://github.com/RossKU/kob/blob/9d8030c9b1aca370af2315230c15920c021e39a2/docs/argent-port-compare.md",
@@ -572,9 +579,10 @@
         "https://github.com/RossKU/kob/commit/73ce3d90",
         "https://github.com/RossKU/kob/commit/1e5f38902264da6b12a23b3d709b0e0dd6867339",
         "https://github.com/RossKU/kob/commit/803d6c08568f7d5469c235939c74c92a09847e2c",
-        "https://github.com/RossKU/kob/commit/9c0bd2fa37030a5e5e49a4ca7169e30dd2b59231"
+        "https://github.com/RossKU/kob/commit/9c0bd2fa37030a5e5e49a4ca7169e30dd2b59231",
+        "https://github.com/RossKU/kob/commit/694868deae2af919253986c85b90914349ac2933"
       ],
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     {
       "name": "Argent: desk results (8 Oct)",
@@ -621,7 +629,7 @@
         "https://kaspadollar.com/docs",
         "https://x.com/KaspaDollar/status/2119399540528726296"
       ],
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     {
       "name": "OPred prediction market (Manyfest, maxibitcat)",

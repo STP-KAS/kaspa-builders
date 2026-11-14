@@ -1,7 +1,7 @@
 # KaspaDollar (announced stablecoin initiative)
 
 **Chip:** `claim`. Third-party initiative. **Not Kaspa core. Not a KIP. Not a KCC. Not an endorsement.**
-**Last checked:** 2026-11-13 (X and public site reads).
+**Last checked:** 2026-11-14 (X and public site reads).
 
 **The master keeps:** the KaspaDollar current-state row because stp classified it as core on 25 Oct. This entry holds the third-party project detail.
 
@@ -77,6 +77,13 @@ The [roadmap/funding page](https://kaspadollar.com/docs) publishes fundraising a
 
 - [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) HTML bodies are byte-identical to the 12 Nov read. `/whitepaper.pdf` still HTTP 404.
 - Home page funding counter 596,380 of 5,000,000 KAS (11.9% as shown on the page) at the 13 Nov read (593,357, 11.8%, on 12 Nov).
+
+## 13 to 14 Nov 2026: funding counter (site read 14 Nov 07:48 CET, server Date 06:48:00Z; not desk-checked)
+
+**Caveat: third-party, not audited, not desk-checked; the authors' own words.**
+
+- [Whitepaper](https://kaspadollar.com/whitepaper), [design page](https://kaspadollar.com/how-it-works) and [roadmap/funding](https://kaspadollar.com/docs) pages show the same text as the 13 Nov read. `/whitepaper.pdf` still HTTP 404.
+- Home page funding counter 627,520 of 5,000,000 KAS (12.5% as shown on the page) at the 14 Nov read (596,380, 11.9%, on 13 Nov). The home page now shows "Recent donations" and "Leaderboard" sections; asaefstroem on X: "Leaderboard and QR code has been added ser!" ([2121268742177128722](https://x.com/asaefstroem/status/2121268742177128722), 13 Nov 15:47:34Z).
 
 ## Limits and sources
 
